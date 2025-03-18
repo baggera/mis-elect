@@ -1,0 +1,1183 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <title>Layout Horizontal | Light Able Admin & Dashboard Template</title>
+    <!-- [Meta] -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Light Able admin and dashboard template offer a variety of UI elements and pages, ensuring your admin panel is both fast and effective."
+    />
+    <meta name="author" content="phoenixcoded" />
+
+    <!-- [Favicon] icon -->
+    <link rel="icon" href="../assets/images/favicon.svg" type="image/x-icon" />
+
+  <link rel="stylesheet" href="../assets/css/plugins/dataTables.bootstrap5.min.css" />
+  <link rel="stylesheet" href="../assets/css/plugins/fixedColumns.bootstrap5.min.css" />
+
+ <!-- [Google Font : Public Sans] icon -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+
+  <!-- [phosphor Icons] https://phosphoricons.com/ -->
+<link rel="stylesheet" href="../assets/fonts/phosphor/duotone/style.css" />
+<!-- [Tabler Icons] https://tablericons.com -->
+<link rel="stylesheet" href="../assets/fonts/tabler-icons.min.css" />
+
+<!-- [Feather Icons] https://feathericons.com -->
+<link rel="stylesheet" href="../assets/fonts/feather.css" />
+<!-- [Font Awesome Icons] https://fontawesome.com/icons -->
+<link rel="stylesheet" href="../assets/fonts/fontawesome.css" />
+<!-- [Material Icons] https://fonts.google.com/icons -->
+<link rel="stylesheet" href="../assets/fonts/material.css" />
+<!-- [Template CSS Files] -->
+<link rel="stylesheet" href="../assets/css/style.css" id="main-style-link" />
+<link rel="stylesheet" href="../assets/css/style-preset.css" />
+
+  </head>
+  <!-- [Head] end -->
+  <!-- [Body] Start -->
+  <body >
+    <!-- [ Pre-loader ] start -->
+<div class="loader-bg">
+  <div class="loader-track">
+    <div class="loader-fill"></div>
+  </div>
+</div>
+<!-- [ Pre-loader ] End -->
+ <!-- [ Sidebar Menu ] start -->
+<nav class="pc-sidebar">
+  <div class="navbar-wrapper">
+    <div class="m-header">
+      <a href="../dashboard/index.html" class="b-brand text-primary">
+        <!-- ========   Change your logo from here   ============ -->
+        <img src="../assets/images/logo-dark.svg" alt="logo image" class="logo-lg" />
+        <span class="badge bg-primary rounded-pill ms-1 theme-version">2025</span>
+      </a>
+    </div>
+
+
+    <div class="navbar-content">
+      <ul class="pc-navbar">
+        <!-- 02 بطاقة ناخب -->
+        <li class="pc-item pc-caption">
+          <label>02 بطاقة ناخب</label>
+          <i class="ph-duotone ph-gauge"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-users"></i></span><span class="pc-mtext">الناخبون</span></a></li>
+        <li class="pc-item pc-hasmenu">
+          <a href="#" class="pc-link"><span class="pc-micon"><i class="ph-duotone ph-clipboard-text"></i></span><span class="pc-mtext">المسوحات الإحصائية</span><span class="pc-arrow"><i class="ph-duotone ph-caret-down"></i></span></a>
+          <ul class="pc-submenu">
+            <li class="pc-item"><a class="pc-link" href="#"><span class="pc-mtext">احتياجات انتخابية</span></a></li>
+            <li class="pc-item"><a class="pc-link" href="#"><span class="pc-mtext">روابط السجلات</span></a></li>
+            <li class="pc-item"><a class="pc-link" href="#"><span class="pc-mtext">روابط الاسر</span></a></li>
+            <li class="pc-item"><a class="pc-link" href="#"><span class="pc-mtext">المرتكزات الانتخابية</span></a></li>
+            <li class="pc-item"><a class="pc-link" href="#"><span class="pc-mtext">المراقبين الانتخابيين</span></a></li>
+            <li class="pc-item"><a class="pc-link" href="#"><span class="pc-mtext">التصنيف الانتخابي</span></a></li>
+            <li class="pc-item"><a class="pc-link" href="#"><span class="pc-mtext">استمارة احصائية (مرنة)</span></a></li>
+          </ul>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-upload"></i></span><span class="pc-mtext">استيراد الناخبين</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-map-pin"></i></span><span class="pc-mtext">خدمة مكان الاقتراع</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file-text"></i></span><span class="pc-mtext">التقارير</span></a></li>
+
+        <!-- 03 بطاقة محطة الاقتراع -->
+        <li class="pc-item pc-caption">
+          <label>03 بطاقة محطة الاقتراع</label>
+          <i class="ph-duotone ph-clipboard-text"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-gauge"></i></span><span class="pc-mtext">صفحة مؤشرات</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-map-pin"></i></span><span class="pc-mtext">مراكز الاقتراع والمحطات</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-users-three"></i></span><span class="pc-mtext">هيكلية المراقبين</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-check-circle"></i></span><span class="pc-mtext">عملية الاقتراع والتدقيق الالكتروني</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-sort-ascending"></i></span><span class="pc-mtext">فرز النتائج</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file-doc"></i></span><span class="pc-mtext">التقارير</span></a></li>
+
+        <!-- 04 الهيكلية الانتخابية -->
+        <li class="pc-item pc-caption">
+          <label>04 الهيكلية الانتخابية</label>
+          <i class="ph-duotone ph-tree-structure"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-map"></i></span><span class="pc-mtext">الخريطة التنظيمية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-target"></i></span><span class="pc-mtext">الاهداف والسياسات والضوابط</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-pencil-line"></i></span><span class="pc-mtext">رسم الهيكل التنظيمي والمهام</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file-text"></i></span><span class="pc-mtext">استمارة عديد الماكنة الانتخابية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-buildings"></i></span><span class="pc-mtext">تسكين عديد الماكنة الانتخابية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-gear"></i></span><span class="pc-mtext">اعدادات</span></a></li>
+
+        <!-- 05 الدورة الانتخابية والنتائج -->
+        <li class="pc-item pc-caption">
+          <label>05 الدورة الانتخابية والنتائج</label>
+          <i class="ph-duotone ph-calendar"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-calendar-check"></i></span><span class="pc-mtext">الدورات الانتخابية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-chart-bar"></i></span><span class="pc-mtext">النتائج والبيانات التفصيلية للدورة الأنتخابية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-download"></i></span><span class="pc-mtext">خدمة تصدير النتائج</span></a></li>
+
+        <!-- 06 الموازنات الانتخابية -->
+        <li class="pc-item pc-caption">
+          <label>06 الموازنات الانتخابية</label>
+          <i class="ph-duotone ph-currency-circle-dollar"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-gauge"></i></span><span class="pc-mtext">صفحة المؤشرات</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-money"></i></span><span class="pc-mtext">الرواتب والاجور</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file"></i></span><span class="pc-mtext">الموازنات التشغيلية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-heart"></i></span><span class="pc-mtext">موازنة الخدمات (الصحية، التربوية، الاجتماعية،...)</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-trend-up"></i></span><span class="pc-mtext">الموازنات الانمائية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-toolbox"></i></span><span class="pc-mtext">موازنة التجهيزات</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-wallet"></i></span><span class="pc-mtext">الصرف</span></a></li>
+
+        <!-- 07 اللوائح والمرشحين -->
+        <li class="pc-item pc-caption">
+          <label>07 اللوائح والمرشحين</label>
+          <i class="ph-duotone ph-user-circle"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file-text"></i></span><span class="pc-mtext">اللوائح الانتخابية الرسمية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-user-plus"></i></span><span class="pc-mtext">المرشحين الرسميين</span></a></li>
+        <li class="pc-item pc-hasmenu">
+          <a href="#" class="pc-link"><span class="pc-micon"><i class="ph-duotone ph-clipboard-text"></i></span><span class="pc-mtext">معايير اختيار مرشح </span><span class="pc-arrow"><i class="ph-duotone ph-caret-down"></i></span></a>
+          <ul class="pc-submenu">
+            <li class="pc-item"><a class="pc-link" href="#"><span class="pc-mtext">مرشحين محتملين </span></a></li>
+            <li class="pc-item"><a class="pc-link" href="#"><span class="pc-mtext">بطاقة مرشح </span></a></li>
+            <li class="pc-item"><a class="pc-link" href="#"><span class="pc-mtext">تقييم مرشح </span></a></li>
+          </ul>
+        </li>
+
+        <!-- 08 نقل الناخبين -->
+        <li class="pc-item pc-caption">
+          <label>08 نقل الناخبين</label>
+          <i class="ph-duotone ph-truck"></i>
+
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-ticket"></i></span><span class="pc-mtext">بطاقة نقل</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-credit-card"></i></span><span class="pc-mtext">دفع نقل</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-gas-pump"></i></span><span class="pc-mtext">محطات الوقود</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-truck"></i></span><span class="pc-mtext">الآليات</span></a></li>
+
+
+
+        <!-- 09 الانشطة والخدمات -->
+        <li class="pc-item pc-caption">
+          <label>09 الانشطة والخدمات</label>
+          <i class="ph-duotone ph-hand-heart"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-calendar"></i></span><span class="pc-mtext">الانشطة الانتخابية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-hand-heart"></i></span><span class="pc-mtext">الخدمات الانتخابية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-users"></i></span><span class="pc-mtext">الجلسات</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-gear"></i></span><span class="pc-mtext">اعدادات</span></a></li>
+
+        <!-- 10 النتائج -->
+        <li class="pc-item pc-caption">
+          <label>10 النتائج</label>
+          <i class="ph-duotone ph-chart-bar"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-user-plus"></i></span><span class="pc-mtext">ادخال المقترعين</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-chart-bar"></i></span><span class="pc-mtext">ادخال النتائج</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-check-circle"></i></span><span class="pc-mtext">تدقيق النتائج مع النتائج الرسمية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-flag"></i></span><span class="pc-mtext">النتيجة النهائية</span></a></li>
+
+        <!-- 11 الاعدادات -->
+
+        <!-- 12 خدمة الاشعارات والرسائل -->
+        <li class="pc-item pc-caption">
+
+        </li>
+      </ul>
+    </div>
+
+    <div class="card pc-user-card">
+      <div class="card-body">
+
+        <div class="d-flex align-items-center">
+          <div class="flex-shrink-0">
+            <img src="../assets/images/user/avatar-1.jpg" alt="user-image" class="user-avtar wid-45 rounded-circle" />
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <div class="dropdown">
+              <a href="#" class="arrow-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="0,20">
+                <div class="d-flex align-items-center">
+                  <div class="flex-grow-1 me-2">
+                    <h6 class="mb-0">Jonh Smith</h6>
+                    <small>Administrator</small>
+                  </div>
+                  <div class="flex-shrink-0">
+                    <div class="btn btn-icon btn-link-secondary avtar">
+                      <i class="ph-duotone ph-windows-logo"></i>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <div class="dropdown-menu">
+                <ul>
+                  <li>
+                    <a class="pc-user-links">
+                      <i class="ph-duotone ph-user"></i>
+                      <span>My Account</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="pc-user-links">
+                      <i class="ph-duotone ph-gear"></i>
+                      <span>Settings</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="pc-user-links">
+                      <i class="ph-duotone ph-lock-key"></i>
+                      <span>Lock Screen</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="pc-user-links">
+                      <i class="ph-duotone ph-power"></i>
+                      <span>Logout</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- [ Sidebar Menu ] end -->
+ <!-- [ Header Topbar ] start -->
+<header class="pc-header">
+  <div class="header-wrapper"> <!-- [Mobile Media Block] start -->
+<div class="me-auto pc-mob-drp">
+  <ul class="list-unstyled">
+    <!-- ======= Menu collapse Icon ===== -->
+    <li class="pc-h-item pc-sidebar-collapse">
+      <a href="#" class="pc-head-link ms-0" id="sidebar-hide">
+        <i class="ti ti-menu-2"></i>
+      </a>
+    </li>
+    <li class="pc-h-item pc-sidebar-popup">
+      <a href="#" class="pc-head-link ms-0" id="mobile-collapse">
+        <i class="ti ti-menu-2"></i>
+      </a>
+    </li>
+    <li class="dropdown pc-h-item d-inline-flex d-md-none">
+      <a
+        class="pc-head-link dropdown-toggle arrow-none m-0"
+        data-bs-toggle="dropdown"
+        href="#"
+        role="button"
+        aria-haspopup="false"
+        aria-expanded="false"
+      >
+        <i class="ph-duotone ph-magnifying-glass"></i>
+      </a>
+      <div class="dropdown-menu pc-h-dropdown drp-search">
+        <form class="px-3">
+          <div class="mb-0 d-flex align-items-center">
+            <input type="search" class="form-control border-0 shadow-none" placeholder="Search..." />
+            <button class="btn btn-light-secondary btn-search">Search</button>
+          </div>
+        </form>
+      </div>
+    </li>
+
+  </ul>
+</div>
+<!-- [Mobile Media Block end] -->
+<div class="ms-auto">
+  <ul class="list-unstyled">
+    <li class="dropdown pc-h-item d-none d-md-inline-flex">
+      <a
+        class="pc-head-link dropdown-toggle arrow-none me-0"
+        data-bs-toggle="dropdown"
+        href="#"
+        role="button"
+        aria-haspopup="false"
+        aria-expanded="false"
+      >
+        <i class="ph-duotone ph-circles-four"></i>
+      </a>
+      <div class="dropdown-menu dropdown-qta dropdown-menu-end pc-h-dropdown">
+        <div class="overflow-hidden">
+          <div class="qta-links m-n1">
+            <a href="#!" class="dropdown-item">
+              <i class="ph-duotone ph-shopping-cart"></i>
+              <span>E-commerce</span>
+            </a>
+            <a href="#!" class="dropdown-item">
+              <i class="ph-duotone ph-lifebuoy"></i>
+              <span>Helpdesk</span>
+            </a>
+            <a href="#!" class="dropdown-item">
+              <i class="ph-duotone ph-scroll"></i>
+              <span>Invoice</span>
+            </a>
+            <a href="#!" class="dropdown-item">
+              <i class="ph-duotone ph-books"></i>
+              <span>Online Courses</span>
+            </a>
+            <a href="#!" class="dropdown-item">
+              <i class="ph-duotone ph-envelope-open"></i>
+              <span>Mail</span>
+            </a>
+            <a href="#!" class="dropdown-item">
+              <i class="ph-duotone ph-identification-badge"></i>
+              <span>Membership</span>
+            </a>
+            <a href="#!" class="dropdown-item">
+              <i class="ph-duotone ph-chats-circle"></i>
+              <span>Chat</span>
+            </a>
+            <a href="#!" class="dropdown-item">
+              <i class="ph-duotone ph-currency-circle-dollar"></i>
+              <span>Plans</span>
+            </a>
+            <a href="#!" class="dropdown-item">
+              <i class="ph-duotone ph-user-circle"></i>
+              <span>Users</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="dropdown pc-h-item d-none d-md-inline-flex">
+      <a
+        class="pc-head-link dropdown-toggle arrow-none me-0"
+        data-bs-toggle="dropdown"
+        href="#"
+        role="button"
+        aria-haspopup="false"
+        aria-expanded="false"
+      >
+        <i class="ph-duotone ph-sun-dim"></i>
+      </a>
+      <div class="dropdown-menu dropdown-menu-end pc-h-dropdown">
+        <a href="#!" class="dropdown-item" onclick="layout_change('dark')">
+          <i class="ph-duotone ph-moon"></i>
+          <span>Dark</span>
+        </a>
+        <a href="#!" class="dropdown-item" onclick="layout_change('light')">
+          <i class="ph-duotone ph-sun-dim"></i>
+          <span>Light</span>
+        </a>
+        <a href="#!" class="dropdown-item" onclick="layout_change_default()">
+          <i class="ph-duotone ph-cpu"></i>
+          <span>Default</span>
+        </a>
+      </div>
+    </li>
+
+
+    <li class="dropdown pc-h-item">
+      <a
+        class="pc-head-link dropdown-toggle arrow-none me-0"
+        data-bs-toggle="dropdown"
+        href="#"
+        role="button"
+        aria-haspopup="false"
+        aria-expanded="false"
+      >
+        <i class="ph-duotone ph-bell"></i>
+        <span class="badge bg-primary pc-h-badge">3</span>
+      </a>
+      <div class="dropdown-menu dropdown-notification dropdown-menu-end pc-h-dropdown">
+        <div class="dropdown-header d-flex align-items-center justify-content-between">
+          <h5 class="m-0">Notifications</h5>
+          <ul class="list-inline ms-auto mb-0">
+            <li class="list-inline-item">
+              <a href="../application/mail.html" class="avtar avtar-s btn-link-hover-primary">
+                <i class="ti ti-link f-18"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="dropdown-body text-wrap header-notification-scroll position-relative" style="max-height: calc(100vh - 235px)">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <p class="text-span">Today</p>
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img src="../assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar avtar avtar-s" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <div class="d-flex">
+                    <div class="flex-grow-1 me-3 position-relative">
+                      <h6 class="mb-0 text-truncate">Keefe Bond added new tags to 💪 Design system</h6>
+                    </div>
+                    <div class="flex-shrink-0">
+                      <span class="text-sm">2 min ago</span>
+                    </div>
+                  </div>
+                  <p class="position-relative mt-1 mb-2"
+                    ><br /><span class="text-truncate"
+                      >Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span
+                    ></p
+                  >
+                  <span class="badge bg-light-primary border border-primary me-1 mt-1">web design</span>
+                  <span class="badge bg-light-warning border border-warning me-1 mt-1">Dashobard</span>
+                  <span class="badge bg-light-success border border-success me-1 mt-1">Design System</span>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <div class="avtar avtar-s bg-light-primary">
+                    <i class="ph-duotone ph-chats-teardrop f-18"></i>
+                  </div>
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <div class="d-flex">
+                    <div class="flex-grow-1 me-3 position-relative">
+                      <h6 class="mb-0 text-truncate">Message</h6>
+                    </div>
+                    <div class="flex-shrink-0">
+                      <span class="text-sm">1 hour ago</span>
+                    </div>
+                  </div>
+                  <p class="position-relative mt-1 mb-2"
+                    ><br /><span class="text-truncate"
+                      >Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span
+                    ></p
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <p class="text-span">Yesterday</p>
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <div class="avtar avtar-s bg-light-danger">
+                    <i class="ph-duotone ph-user f-18"></i>
+                  </div>
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <div class="d-flex">
+                    <div class="flex-grow-1 me-3 position-relative">
+                      <h6 class="mb-0 text-truncate">Challenge invitation</h6>
+                    </div>
+                    <div class="flex-shrink-0">
+                      <span class="text-sm">12 hour ago</span>
+                    </div>
+                  </div>
+                  <p class="position-relative mt-1 mb-2"
+                    ><br /><span class="text-truncate"><strong> Jonny aber </strong> invites to join the challenge</span></p
+                  >
+                  <button class="btn btn-sm rounded-pill btn-outline-secondary me-2">Decline</button>
+                  <button class="btn btn-sm rounded-pill btn-primary">Accept</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <div class="avtar avtar-s bg-light-info">
+                    <i class="ph-duotone ph-notebook f-18"></i>
+                  </div>
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <div class="d-flex">
+                    <div class="flex-grow-1 me-3 position-relative">
+                      <h6 class="mb-0 text-truncate">Forms</h6>
+                    </div>
+                    <div class="flex-shrink-0">
+                      <span class="text-sm">2 hour ago</span>
+                    </div>
+                  </div>
+                  <p class="position-relative mt-1 mb-2"
+                    >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                    dummy text ever since the 1500s.</p
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img src="../assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar avtar avtar-s" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <div class="d-flex">
+                    <div class="flex-grow-1 me-3 position-relative">
+                      <h6 class="mb-0 text-truncate">Keefe Bond added new tags to 💪 Design system</h6>
+                    </div>
+                    <div class="flex-shrink-0">
+                      <span class="text-sm">2 min ago</span>
+                    </div>
+                  </div>
+                  <p class="position-relative mt-1 mb-2"
+                    ><br /><span class="text-truncate"
+                      >Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span
+                    ></p
+                  >
+                  <button class="btn btn-sm rounded-pill btn-outline-secondary me-2">Decline</button>
+                  <button class="btn btn-sm rounded-pill btn-primary">Accept</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <div class="avtar avtar-s bg-light-success">
+                    <i class="ph-duotone ph-shield-checkered f-18"></i>
+                  </div>
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <div class="d-flex">
+                    <div class="flex-grow-1 me-3 position-relative">
+                      <h6 class="mb-0 text-truncate">Security</h6>
+                    </div>
+                    <div class="flex-shrink-0">
+                      <span class="text-sm">5 hour ago</span>
+                    </div>
+                  </div>
+                  <p class="position-relative mt-1 mb-2"
+                    >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                    dummy text ever since the 1500s.</p
+                  >
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="dropdown-footer">
+          <div class="row g-3">
+            <div class="col-6">
+              <div class="d-grid"><button class="btn btn-primary">Archive all</button></div>
+            </div>
+            <div class="col-6">
+              <div class="d-grid"><button class="btn btn-outline-secondary">Mark all as read</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="dropdown pc-h-item header-user-profile">
+      <a
+        class="pc-head-link dropdown-toggle arrow-none me-0"
+        data-bs-toggle="dropdown"
+        href="#"
+        role="button"
+        aria-haspopup="false"
+        data-bs-auto-close="outside"
+        aria-expanded="false"
+      >
+        <img src="../assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar" />
+      </a>
+      <div class="dropdown-menu dropdown-user-profile dropdown-menu-end pc-h-dropdown">
+        <div class="dropdown-header d-flex align-items-center justify-content-between">
+          <h5 class="m-0">Profile</h5>
+        </div>
+        <div class="dropdown-body">
+          <div class="profile-notification-scroll position-relative" style="max-height: calc(100vh - 225px)">
+            <ul class="list-group list-group-flush w-100">
+              <li class="list-group-item">
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0">
+                    <img src="../assets/images/user/avatar-2.jpg" alt="user-image" class="wid-50 rounded-circle" />
+                  </div>
+                  <div class="flex-grow-1 mx-3">
+                    <h5 class="mb-0">Carson Darrin</h5>
+                    <a class="link-primary" href="mailto:carson.darrin@company.io">carson.darrin@company.io</a>
+                  </div>
+                  <span class="badge bg-primary">PRO</span>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-key"></i>
+                    <span>Change password</span>
+                  </span>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-envelope-simple"></i>
+                    <span>Recently mail</span>
+                  </span>
+                  <div class="user-group">
+                    <img src="../assets/images/user/avatar-1.jpg" alt="user-image" class="avtar" />
+                    <img src="../assets/images/user/avatar-2.jpg" alt="user-image" class="avtar" />
+                    <img src="../assets/images/user/avatar-3.jpg" alt="user-image" class="avtar" />
+                  </div>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-calendar-blank"></i>
+                    <span>Schedule meetings</span>
+                  </span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-heart"></i>
+                    <span>Favorite</span>
+                  </span>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-arrow-circle-down"></i>
+                    <span>Download</span>
+                  </span>
+                  <span class="avtar avtar-xs rounded-circle bg-danger text-white">10</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <div class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-globe-hemisphere-west"></i>
+                    <span>Languages</span>
+                  </span>
+                  <span class="flex-shrink-0">
+                    <select class="form-select bg-transparent form-select-sm border-0 shadow-none">
+                      <option value="1">English</option>
+                      <option value="2">Spain</option>
+                      <option value="3">Arbic</option>
+                    </select>
+                  </span>
+                </div>
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-flag"></i>
+                    <span>Country</span>
+                  </span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-user-circle"></i>
+                    <span>Edit profile</span>
+                  </span>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-star text-warning"></i>
+                    <span>Upgrade account</span>
+                    <span class="badge bg-light-success border border-success ms-2">NEW</span>
+                  </span>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-bell"></i>
+                    <span>Notifications</span>
+                  </span>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-gear-six"></i>
+                    <span>Settings</span>
+                  </span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-plus-circle"></i>
+                    <span>Add account</span>
+                  </span>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-power"></i>
+                    <span>Logout</span>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+ </div>
+</header>
+<!-- [ Header ] end -->
+
+
+
+    <!-- [ Main Content ] start -->
+    <div class="pc-container">
+      <div class="pc-content pt-0">
+        <!-- [ breadcrumb ] start -->
+        <div class="page-header">
+          <div class="page-block">
+            <div class="row align-items-center">
+
+
+
+
+              <div class="col-sm-12">
+                <div class="card-header">
+                  <div class="d-sm-flex align-items-center justify-content-between">
+                    <div>
+                      <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="../dashboard/index.html">الرئيسية</a></li>
+                        <li class="breadcrumb-item"><a href="javascript: void(0)">بطاقة ناخب</a></li>
+                        <li class="breadcrumb-item" aria-current="page"> المسوحات الاحصائية</li>
+                      </ul>
+                      <h4 class="mb-3 mb-sm-3">
+                        الخدمات الانتخابية
+                      </h4>
+
+                    </div>
+                    <div>
+
+                      <a href="course-teacher-apply.html" class="btn active btn-tab ">
+                       الخدمات الانتخابية
+
+                      </a>
+
+
+
+                      <a href="course-teacher-add.html" class="btn  btn-tab">
++   خدمة انتخابية
+
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                    <div class="card border-0 table-card">
+
+
+
+
+                      <div class="card-body scroll-block">
+                        <div class="col-xxl-12 col-md-12 p-2">
+
+
+
+
+                          <table id="left-right-fix" class="table hover stripe row-border order-column">
+                            <thead>
+                            <tr>
+                              <th>الرقم</th>
+                              <th>رقم الناخب</th>
+                              <th>رقم الدورة الانتخابية</th>
+                              <th>تصنيف المساعدة</th>
+                              <th>نوع المساعدة</th>
+                              <th>الكمية</th>
+                              <th>المبلغ بالدولار</th>
+                              <th>المبلغ بالدينار العراقي</th>
+                              <th>الشرح</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+
+
+                            <tr>
+                              <td>1255</td>
+                              <td>علي</td>
+                              <td>1515151</td>
+                              <td>تصنيف 1</td>
+                              <td>نوع 1</td>
+                              <td>10</td>
+                              <td class="usd-amount">100</td>
+                              <td class="iqd-amount">120000</td>
+                              <td>شرح المساعدة 1</td>
+                            </tr>
+                            <tr>
+                              <td>1256</td>
+                              <td>أحمد</td>
+                              <td>1515152</td>
+                              <td>تصنيف 2</td>
+                              <td>نوع 2</td>
+                              <td>5</td>
+                              <td class="usd-amount">50</td>
+                              <td class="iqd-amount">60000</td>
+                              <td>شرح المساعدة 2</td>
+                            </tr>
+                            </tbody>
+                            <tfoot>
+                            <tr>
+                              <th>الرقم</th>
+                              <th>رقم الناخب</th>
+                              <th>رقم الدورة الانتخابية</th>
+                              <th>تصنيف المساعدة</th>
+                              <th>نوع المساعدة</th>
+                              <th>الكمية</th>
+                              <th>المبلغ بالدولار</th>
+                              <th>المبلغ بالدينار العراقي</th>
+                              <th>الشرح</th>
+                            </tr>
+                            <tr>
+                              <td colspan="6"><strong>المجموع</strong></td>
+                              <td id="total-usd">0</td>
+                              <td id="total-iqd">0</td>
+                              <td></td>
+                            </tr>
+
+
+                            </tfoot>
+                          </table>
+
+
+                          <script>
+                            document.addEventListener("DOMContentLoaded", function () {
+                              // جمع المبالغ بالدولار
+                              const usdAmounts = document.querySelectorAll(".usd-amount");
+                              let totalUSD = 0;
+                              usdAmounts.forEach((cell) => {
+                                totalUSD += parseFloat(cell.textContent) || 0;
+                              });
+                              document.getElementById("total-usd").textContent = totalUSD.toFixed(2);
+
+                              // جمع المبالغ بالدينار العراقي
+                              const iqdAmounts = document.querySelectorAll(".iqd-amount");
+                              let totalIQD = 0;
+                              iqdAmounts.forEach((cell) => {
+                                totalIQD += parseFloat(cell.textContent) || 0;
+                              });
+                              document.getElementById("total-iqd").textContent = totalIQD.toFixed(2);
+                            });
+
+                          </script>
+                        </div>
+
+
+                      </div>
+                    </div>
+
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- [ breadcrumb ] end -->
+
+
+        <!-- [ Main Content ] start -->
+
+        <!-- [ Main Content ] end -->
+      </div>
+    </div>
+    <!-- [ Main Content ] end -->
+ <!-- Required Js -->
+<script src="../assets/js/plugins/popper.min.js"></script>
+<script src="../assets/js/plugins/simplebar.min.js"></script>
+<script src="../assets/js/plugins/bootstrap.min.js"></script>
+<script src="../assets/js/plugins/i18next.min.js"></script>
+<script src="../assets/js/plugins/i18nextHttpBackend.min.js"></script>
+<script src="../assets/js/icon/custom-font.js"></script>
+<script src="../assets/js/script.js"></script>
+<script src="../assets/js/theme.js"></script>
+<script src="../assets/js/multi-lang.js"></script>
+<script src="../assets/js/plugins/feather.min.js"></script>
+
+   
+<script>
+  layout_change('light');
+</script>
+   
+<script>
+  layout_sidebar_change('light');
+</script>
+  
+<script>
+  change_box_container('false');
+</script>
+ 
+<script>
+  layout_caption_change('true');
+</script>
+   
+<script>
+  layout_rtl_change('true');
+</script>
+ 
+<script>
+  preset_change('preset-1');
+</script>
+
+ <div class="offcanvas border-0 pct-offcanvas offcanvas-end" tabindex="-1" id="offcanvas_pc_layout">
+  <div class="offcanvas-header justify-content-between">
+    <h5 class="offcanvas-title">Settings</h5>
+    <button type="button" class="btn btn-icon btn-link-danger" data-bs-dismiss="offcanvas" aria-label="Close"
+      ><i class="ti ti-x"></i
+    ></button>
+  </div>
+  <div class="pct-body customizer-body">
+    <div class="offcanvas-body py-0">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <div class="pc-dark">
+            <h6 class="mb-1">Theme Mode</h6>
+            <p class="text-muted text-sm">Choose light or dark mode or Auto</p>
+            <div class="row theme-color theme-layout">
+              <div class="col-4">
+                <div class="d-grid">
+                  <button class="preset-btn btn active" data-value="true" onclick="layout_change('light');">
+                    <span class="btn-label">Light</span>
+                    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
+                  </button>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-grid">
+                  <button class="preset-btn btn" data-value="false" onclick="layout_change('dark');">
+                    <span class="btn-label">Dark</span>
+                    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
+                  </button>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-grid">
+                  <button
+                    class="preset-btn btn"
+                    data-value="default"
+                    onclick="layout_change_default();"
+                    data-bs-toggle="tooltip"
+                    title="Automatically sets the theme based on user's operating system's color scheme."
+                  >
+                    <span class="btn-label">Default</span>
+                    <span class="pc-lay-icon d-flex align-items-center justify-content-center">
+                      <i class="ph-duotone ph-cpu"></i>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item pc-sidebar-color">
+          <h6 class="mb-1">Sidebar Theme</h6>
+          <p class="text-muted text-sm">Choose Sidebar Theme</p>
+          <div class="row theme-color theme-sidebar-color">
+            <div class="col-6">
+              <div class="d-grid">
+                <button class="preset-btn btn" data-value="true" onclick="layout_sidebar_change('dark');">
+                  <span class="btn-label">Dark</span>
+                  <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
+                </button>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="d-grid">
+                <button class="preset-btn btn active" data-value="false" onclick="layout_sidebar_change('light');">
+                  <span class="btn-label">Light</span>
+                  <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <h6 class="mb-1">Accent color</h6>
+          <p class="text-muted text-sm">Choose your primary theme color</p>
+          <div class="theme-color preset-color">
+            <a href="#!" class="active" data-value="preset-1"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-2"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-3"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-4"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-5"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-6"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-7"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-8"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-9"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-10"><i class="ti ti-check"></i></a>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <h6 class="mb-1">Sidebar Caption</h6>
+          <p class="text-muted text-sm">Sidebar Caption Hide/Show</p>
+          <div class="row theme-color theme-nav-caption">
+            <div class="col-6">
+              <div class="d-grid">
+                <button class="preset-btn btn active" data-value="true" onclick="layout_caption_change('true');">
+                  <span class="btn-label">Caption Show</span>
+                  <span class="pc-lay-icon"
+                    ><span></span><span></span><span><span></span><span></span></span><span></span
+                  ></span>
+                </button>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="d-grid">
+                <button class="preset-btn btn" data-value="false" onclick="layout_caption_change('false');">
+                  <span class="btn-label">Caption Hide</span>
+                  <span class="pc-lay-icon"
+                    ><span></span><span></span><span><span></span><span></span></span><span></span
+                  ></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="pc-rtl">
+            <h6 class="mb-1">Theme Layout</h6>
+            <p class="text-muted text-sm">LTR/RTL</p>
+            <div class="row theme-color theme-direction">
+              <div class="col-6">
+                <div class="d-grid">
+                  <button class="preset-btn btn active" data-value="false" onclick="layout_rtl_change('false');">
+                    <span class="btn-label">LTR</span>
+                    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
+                  </button>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="d-grid">
+                  <button class="preset-btn btn" data-value="true" onclick="layout_rtl_change('true');">
+                    <span class="btn-label">RTL</span>
+                    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item pc-box-width">
+          <div class="pc-container-width">
+            <h6 class="mb-1">Layout Width</h6>
+            <p class="text-muted text-sm">Choose Full or Container Layout</p>
+            <div class="row theme-color theme-container">
+              <div class="col-6">
+                <div class="d-grid">
+                  <button class="preset-btn btn active" data-value="false" onclick="change_box_container('false')">
+                    <span class="btn-label">Full Width</span>
+                    <span class="pc-lay-icon"
+                      ><span></span><span></span><span></span><span><span></span></span
+                    ></span>
+                  </button>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="d-grid">
+                  <button class="preset-btn btn" data-value="true" onclick="change_box_container('true')">
+                    <span class="btn-label">Fixed Width</span>
+                    <span class="pc-lay-icon"
+                      ><span></span><span></span><span></span><span><span></span></span
+                    ></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="d-grid">
+            <button class="btn btn-light-danger" id="layoutreset">Reset Layout</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../assets/js/plugins/dataTables.min.js"></script>
+    <script src="../assets/js/layout-horizontal.js"></script>
+
+    <script src="../assets/js/plugins/dataTables.fixedColumns.min.js"></script>
+
+
+    <script>
+      // [ left-right-fix
+
+
+      var table = $('#left-right-fix').DataTable({
+        "searchable": false,
+        "language": {
+          "info": "عرض _START_ إلى _END_ من _TOTAL_ مدخلات",
+          "infoEmpty": "عرض 0 إلى 0 من 0 مدخلات",
+          "lengthMenu": "عرض _MENU_ مدخلات",
+          "search": "بحث:",
+          "paginate": {
+            "first": "الأول",
+            "last": "الأخير",
+            "next": "التالي",
+            "previous": "السابق"
+          }
+        },
+        scrollY: '55vh',
+        scrollX: true,
+        scrollCollapse: true,
+        paging: false,
+        fixedColumns: {
+          leftColumns: 1,
+          rightColumns: 1
+        },
+        initComplete: function () {
+          this.api()
+                  .columns()
+                  .every(function () {
+                    let column = this;
+                    let title = column.footer().textContent;
+
+                    // Create input element
+                    let input = document.createElement('input');
+                    input.placeholder = title;
+                    column.footer().replaceChildren(input);
+
+                    // Event listener for user input
+                    input.addEventListener('keyup', () => {
+                      if (column.search() !== this.value) {
+                        column.search(input.value).draw();
+                      }
+                    });
+                  });
+        }
+      });
+      var table = $('#right-fix').DataTable({
+        scrollY: '300px',
+        scrollX: true,
+        scrollCollapse: true,
+        paging: false,
+        fixedColumns: {
+          leftColumns: 0,
+          rightColumns: 1
+
+        }
+
+
+      });
+
+
+
+    </script>
+
+    <style>
+      tfoot input {
+        width: 100%;
+        padding: 3px;
+        box-sizing: border-box;
+        border: 1px solid #e8e8e8;
+        display: table-header-group;
+        border-radius:4px ;
+      }
+      /* تنسيق Striped Rows */
+      #left-right-fix tbody tr:nth-child(odd) {
+        background-color: #f5f5f5;
+      }
+
+      #left-right-fix tbody tr:nth-child(even) {
+
+      }
+
+      /* تأثير Hover على الصفوف */
+      #left-right-fix tbody tr:hover {
+        background-color: #e3e3e3;
+
+      }
+
+      left-right-fix th {
+        background-color: #9f1f1f;
+
+      }
+
+
+    </style>
+  </body>
+  <!-- [Body] end -->
+
+</html>
