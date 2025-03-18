@@ -78,8 +78,8 @@ Description:  this file will contains defining code for build horizontal layouts
         flag_hit = false;
         flag_item_extra = item;
 
-        if (pc_menu_list[list_index + 1].classList.contains('pc-caption')) {
-          flag_item_extra.remove();
+        if (pc_menu_list[list_index + 1] && pc_menu_list[list_index + 1].classList.contains('pc-caption')) {
+          flag_item_extra?.remove(); // استخدم ? لإزالة العنصر فقط إذا كان موجودًا
           pc_new_list = '';
           pc_sing_link = '';
           flag_item = '';
@@ -89,6 +89,7 @@ Description:  this file will contains defining code for build horizontal layouts
           flag_hit = false;
           flag_hit_extra = false;
         }
+
       } else {
         if (flag_hit === false) {
           pc_sing_link = flag_item;
@@ -136,7 +137,7 @@ Description:  this file will contains defining code for build horizontal layouts
     var pc_menu_list_new = document.querySelectorAll('.pc-navbar > li.pc-item');
 
     pc_menu_list_new.forEach(function (item, list_index) {
-      flag_w += get_w(item) + 49;
+      flag_w += get_w(item) + 35;
       if (flag_w > window.innerWidth) {
         if (flag_hit === false) {
           pc_sing_link = flag_item;
@@ -156,7 +157,7 @@ Description:  this file will contains defining code for build horizontal layouts
             '<li class="pc-item pc-hasmenu">\
                           <a href="#!" class="pc-link ">\
                               <span class="pc-micon"><svg class="pc-icon"><use xlink:href="#custom-clipboard"></use></svg></span>\
-                              <span class="pc-mtext">Other</span>\
+                              <span class="pc-mtext">المزيد</span>\
                               <span class="pc-arrow"><i data-feather="chevron-right"></i></span>\
                           </a>\
                           <ul class="pc-submenu">' +

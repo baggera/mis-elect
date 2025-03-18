@@ -20068,6 +20068,7 @@ pre[class*=language-] > code {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
+  margin-left: 5px !important;
 }
 .pc-sidebar .pc-micon i {
   font-size: 20px;
@@ -22857,7 +22858,7 @@ pre[class*=language-] > code {
 .table-card .card-body .table tr th:first-child,
 .table-body.card-body .table tr td:first-child,
 .table-body.card-body .table tr th:first-child {
-  padding-left: 25px;
+  padding-left: 5px;
 }
 @media (max-width: 575.98px) {
   .table-card .card-body .table tr td:first-child,
@@ -31291,4 +31292,40 @@ table.dataTable tbody tr > .dtfc-fixed-start, table.dataTable tbody tr > .dtfc-f
   height: 50vh!important;
   overflow-y: auto;
 
+}
+
+
+
+tfoot input {
+  width: 100%;
+  padding: 3px;
+  box-sizing: border-box;
+  border: 1px solid #e8e8e8;
+  display: table-header-group;
+  border-radius:4px ;
+}
+/* تنسيق Striped Rows */
+#left-right-fix tbody tr:nth-child(odd) {
+  background-color: #f5f5f5;
+}
+
+#left-right-fix tbody tr:nth-child(even) {
+
+}
+
+/* تأثير Hover على الصفوف */
+#left-right-fix tbody tr:hover {
+  background-color: #e3e3e3;
+
+}
+
+left-right-fix th {
+  background-color: #9f1f1f;
+
+}
+
+
+[data-pc-direction=rtl] div.dt-container div.dt-search
+{
+  display: none;
 }
