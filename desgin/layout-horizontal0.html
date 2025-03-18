@@ -1,0 +1,1306 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <title>Layout Horizontal | Light Able Admin & Dashboard Template</title>
+    <!-- [Meta] -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Light Able admin and dashboard template offer a variety of UI elements and pages, ensuring your admin panel is both fast and effective."
+    />
+    <meta name="author" content="phoenixcoded" />
+
+    <!-- [Favicon] icon -->
+    <link rel="icon" href="../assets/images/favicon.svg" type="image/x-icon" />
+
+  <link rel="stylesheet" href="../assets/css/plugins/dataTables.bootstrap5.min.css" />
+  <link rel="stylesheet" href="../assets/css/plugins/fixedColumns.bootstrap5.min.css" />
+
+ <!-- [Google Font : Public Sans] icon -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+
+  <!-- [phosphor Icons] https://phosphoricons.com/ -->
+<link rel="stylesheet" href="../assets/fonts/phosphor/duotone/style.css" />
+<!-- [Tabler Icons] https://tablericons.com -->
+<link rel="stylesheet" href="../assets/fonts/tabler-icons.min.css" />
+
+<!-- [Feather Icons] https://feathericons.com -->
+<link rel="stylesheet" href="../assets/fonts/feather.css" />
+<!-- [Font Awesome Icons] https://fontawesome.com/icons -->
+<link rel="stylesheet" href="../assets/fonts/fontawesome.css" />
+<!-- [Material Icons] https://fonts.google.com/icons -->
+<link rel="stylesheet" href="../assets/fonts/material.css" />
+<!-- [Template CSS Files] -->
+<link rel="stylesheet" href="../assets/css/style.css" id="main-style-link" />
+<link rel="stylesheet" href="../assets/css/style-preset.css" />
+
+  </head>
+  <!-- [Head] end -->
+  <!-- [Body] Start -->
+  <body >
+    <!-- [ Pre-loader ] start -->
+<div class="loader-bg">
+  <div class="loader-track">
+    <div class="loader-fill"></div>
+  </div>
+</div>
+<!-- [ Pre-loader ] End -->
+ <!-- [ Sidebar Menu ] start -->
+<nav class="pc-sidebar">
+  <div class="navbar-wrapper">
+    <div class="m-header">
+      <a href="../dashboard/index.html" class="b-brand text-primary">
+        <!-- ========   Change your logo from here   ============ -->
+        <img src="../assets/images/logo-dark.svg" alt="logo image" class="logo-lg" />
+        <span class="badge bg-brand-color-2 rounded-pill ms-1 theme-version">v1.0</span>
+      </a>
+    </div>
+
+
+    <div class="navbar-content">
+      <ul class="pc-navbar">
+        <!-- 01 بطاقة ناخب -->
+        <li class="pc-item pc-caption">
+          <label>01 بطاقة ناخب</label>
+          <i class="ph-duotone ph-gauge"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-users"></i></span><span class="pc-mtext">الناخبون</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-clipboard-text"></i></span><span class="pc-mtext">المسوحات الإحصائية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-hand-heart"></i></span><span class="pc-mtext">خدمات الناخبين</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-list-checks"></i></span><span class="pc-mtext">الاحتياجات</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-upload"></i></span><span class="pc-mtext">استيراد</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file-text"></i></span><span class="pc-mtext">تقارير</span></a></li>
+
+        <!-- 02 بطاقة قلم الاقتراع والفرز -->
+        <li class="pc-item pc-caption">
+          <label>02 بطاقة قلم الاقتراع والفرز</label>
+          <i class="ph-duotone ph-clipboard-text"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-map-pin"></i></span><span class="pc-mtext">الأقلام/المراكز/المواقع</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-users-three"></i></span><span class="pc-mtext">المندوبون</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-check-circle"></i></span><span class="pc-mtext">الاقتراع</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-sort-ascending"></i></span><span class="pc-mtext">الفرز</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-chart-bar"></i></span><span class="pc-mtext">النتائج</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file-doc"></i></span><span class="pc-mtext">النتائج الرسمية</span></a></li>
+
+        <!-- 03 الهيكلية الانتخابية -->
+        <li class="pc-item pc-caption">
+          <label>03 الهيكلية الانتخابية</label>
+          <i class="ph-duotone ph-tree-structure"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-pencil-line"></i></span><span class="pc-mtext">رسم الهيكلية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-briefcase"></i></span><span class="pc-mtext">الوظائف والمهام</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-buildings"></i></span><span class="pc-mtext">تسكين الهيكلية</span></a></li>
+
+        <!-- 04 الأمور المالية -->
+        <li class="pc-item pc-caption">
+          <label>04 الأمور المالية</label>
+          <i class="ph-duotone ph-currency-circle-dollar"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-coins"></i></span><span class="pc-mtext">إعداد الموازنات الانتخابية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file"></i></span><span class="pc-mtext">إقرار الموازنات</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-wallet"></i></span><span class="pc-mtext">الصرف</span></a></li>
+
+        <!-- 05 اللوائح والمرشحين -->
+        <li class="pc-item pc-caption">
+          <label>05 اللوائح والمرشحين</label>
+          <i class="ph-duotone ph-user-circle"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-user-plus"></i></span><span class="pc-mtext">إضافة بطاقة مرشح</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-activity"></i></span><span class="pc-mtext">نشاط المرشح</span></a></li>
+
+        <!-- 06 النقل -->
+        <li class="pc-item pc-caption">
+          <label>06 النقل</label>
+          <i class="ph-duotone ph-truck"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-ticket"></i></span><span class="pc-mtext">بطاقة نقل</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-credit-card"></i></span><span class="pc-mtext">دفع نقل</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-gas-pump"></i></span><span class="pc-mtext">محطات الوقود</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-truck"></i></span><span class="pc-mtext">الآليات</span></a></li>
+
+        <!-- 07 تقييم النتائج -->
+        <li class="pc-item pc-caption">
+          <label>07 تقييم النتائج</label>
+          <i class="ph-duotone ph-chart-bar"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-chart-bar"></i></span><span class="pc-mtext">تقييم النتائج</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-clipboard-text"></i></span><span class="pc-mtext">استمارة تقييم النتائج</span></a></li>
+        <li class="pc-item pc-caption">
+
+        </li>
+      </ul>
+    </div>
+
+    <div class="card pc-user-card">
+      <div class="card-body">
+
+        <div class="d-flex align-items-center">
+          <div class="flex-shrink-0">
+            <img src="../assets/images/user/avatar-1.jpg" alt="user-image" class="user-avtar wid-45 rounded-circle" />
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <div class="dropdown">
+              <a href="#" class="arrow-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="0,20">
+                <div class="d-flex align-items-center">
+                  <div class="flex-grow-1 me-2">
+                    <h6 class="mb-0">Jonh Smith</h6>
+                    <small>Administrator</small>
+                  </div>
+                  <div class="flex-shrink-0">
+                    <div class="btn btn-icon btn-link-secondary avtar">
+                      <i class="ph-duotone ph-windows-logo"></i>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <div class="dropdown-menu">
+                <ul>
+                  <li>
+                    <a class="pc-user-links">
+                      <i class="ph-duotone ph-user"></i>
+                      <span>My Account</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="pc-user-links">
+                      <i class="ph-duotone ph-gear"></i>
+                      <span>Settings</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="pc-user-links">
+                      <i class="ph-duotone ph-lock-key"></i>
+                      <span>Lock Screen</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="pc-user-links">
+                      <i class="ph-duotone ph-power"></i>
+                      <span>Logout</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- [ Sidebar Menu ] end -->
+ <!-- [ Header Topbar ] start -->
+<header class="pc-header">
+  <div class="header-wrapper"> <!-- [Mobile Media Block] start -->
+<div class="me-auto pc-mob-drp">
+  <ul class="list-unstyled">
+    <!-- ======= Menu collapse Icon ===== -->
+    <li class="pc-h-item pc-sidebar-collapse">
+      <a href="#" class="pc-head-link ms-0" id="sidebar-hide">
+        <i class="ti ti-menu-2"></i>
+      </a>
+    </li>
+    <li class="pc-h-item pc-sidebar-popup">
+      <a href="#" class="pc-head-link ms-0" id="mobile-collapse">
+        <i class="ti ti-menu-2"></i>
+      </a>
+    </li>
+    <li class="dropdown pc-h-item d-inline-flex d-md-none">
+      <a
+        class="pc-head-link dropdown-toggle arrow-none m-0"
+        data-bs-toggle="dropdown"
+        href="#"
+        role="button"
+        aria-haspopup="false"
+        aria-expanded="false"
+      >
+        <i class="ph-duotone ph-magnifying-glass"></i>
+      </a>
+      <div class="dropdown-menu pc-h-dropdown drp-search">
+        <form class="px-3">
+          <div class="mb-0 d-flex align-items-center">
+            <input type="search" class="form-control border-0 shadow-none" placeholder="Search..." />
+            <button class="btn btn-light-secondary btn-search">Search</button>
+          </div>
+        </form>
+      </div>
+    </li>
+
+  </ul>
+</div>
+<!-- [Mobile Media Block end] -->
+<div class="ms-auto">
+  <ul class="list-unstyled">
+    <li class="dropdown pc-h-item d-none d-md-inline-flex">
+      <a
+        class="pc-head-link dropdown-toggle arrow-none me-0"
+        data-bs-toggle="dropdown"
+        href="#"
+        role="button"
+        aria-haspopup="false"
+        aria-expanded="false"
+      >
+        <i class="ph-duotone ph-circles-four"></i>
+      </a>
+      <div class="dropdown-menu dropdown-qta dropdown-menu-end pc-h-dropdown">
+        <div class="overflow-hidden">
+          <div class="qta-links m-n1">
+            <a href="#!" class="dropdown-item">
+              <i class="ph-duotone ph-shopping-cart"></i>
+              <span>E-commerce</span>
+            </a>
+            <a href="#!" class="dropdown-item">
+              <i class="ph-duotone ph-lifebuoy"></i>
+              <span>Helpdesk</span>
+            </a>
+            <a href="#!" class="dropdown-item">
+              <i class="ph-duotone ph-scroll"></i>
+              <span>Invoice</span>
+            </a>
+            <a href="#!" class="dropdown-item">
+              <i class="ph-duotone ph-books"></i>
+              <span>Online Courses</span>
+            </a>
+            <a href="#!" class="dropdown-item">
+              <i class="ph-duotone ph-envelope-open"></i>
+              <span>Mail</span>
+            </a>
+            <a href="#!" class="dropdown-item">
+              <i class="ph-duotone ph-identification-badge"></i>
+              <span>Membership</span>
+            </a>
+            <a href="#!" class="dropdown-item">
+              <i class="ph-duotone ph-chats-circle"></i>
+              <span>Chat</span>
+            </a>
+            <a href="#!" class="dropdown-item">
+              <i class="ph-duotone ph-currency-circle-dollar"></i>
+              <span>Plans</span>
+            </a>
+            <a href="#!" class="dropdown-item">
+              <i class="ph-duotone ph-user-circle"></i>
+              <span>Users</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="dropdown pc-h-item d-none d-md-inline-flex">
+      <a
+        class="pc-head-link dropdown-toggle arrow-none me-0"
+        data-bs-toggle="dropdown"
+        href="#"
+        role="button"
+        aria-haspopup="false"
+        aria-expanded="false"
+      >
+        <i class="ph-duotone ph-sun-dim"></i>
+      </a>
+      <div class="dropdown-menu dropdown-menu-end pc-h-dropdown">
+        <a href="#!" class="dropdown-item" onclick="layout_change('dark')">
+          <i class="ph-duotone ph-moon"></i>
+          <span>Dark</span>
+        </a>
+        <a href="#!" class="dropdown-item" onclick="layout_change('light')">
+          <i class="ph-duotone ph-sun-dim"></i>
+          <span>Light</span>
+        </a>
+        <a href="#!" class="dropdown-item" onclick="layout_change_default()">
+          <i class="ph-duotone ph-cpu"></i>
+          <span>Default</span>
+        </a>
+      </div>
+    </li>
+
+
+    <li class="dropdown pc-h-item">
+      <a
+        class="pc-head-link dropdown-toggle arrow-none me-0"
+        data-bs-toggle="dropdown"
+        href="#"
+        role="button"
+        aria-haspopup="false"
+        aria-expanded="false"
+      >
+        <i class="ph-duotone ph-bell"></i>
+        <span class="badge bg-success pc-h-badge">3</span>
+      </a>
+      <div class="dropdown-menu dropdown-notification dropdown-menu-end pc-h-dropdown">
+        <div class="dropdown-header d-flex align-items-center justify-content-between">
+          <h5 class="m-0">Notifications</h5>
+          <ul class="list-inline ms-auto mb-0">
+            <li class="list-inline-item">
+              <a href="../application/mail.html" class="avtar avtar-s btn-link-hover-primary">
+                <i class="ti ti-link f-18"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="dropdown-body text-wrap header-notification-scroll position-relative" style="max-height: calc(100vh - 235px)">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <p class="text-span">Today</p>
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img src="../assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar avtar avtar-s" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <div class="d-flex">
+                    <div class="flex-grow-1 me-3 position-relative">
+                      <h6 class="mb-0 text-truncate">Keefe Bond added new tags to 💪 Design system</h6>
+                    </div>
+                    <div class="flex-shrink-0">
+                      <span class="text-sm">2 min ago</span>
+                    </div>
+                  </div>
+                  <p class="position-relative mt-1 mb-2"
+                    ><br /><span class="text-truncate"
+                      >Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span
+                    ></p
+                  >
+                  <span class="badge bg-light-primary border border-primary me-1 mt-1">web design</span>
+                  <span class="badge bg-light-warning border border-warning me-1 mt-1">Dashobard</span>
+                  <span class="badge bg-light-success border border-success me-1 mt-1">Design System</span>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <div class="avtar avtar-s bg-light-primary">
+                    <i class="ph-duotone ph-chats-teardrop f-18"></i>
+                  </div>
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <div class="d-flex">
+                    <div class="flex-grow-1 me-3 position-relative">
+                      <h6 class="mb-0 text-truncate">Message</h6>
+                    </div>
+                    <div class="flex-shrink-0">
+                      <span class="text-sm">1 hour ago</span>
+                    </div>
+                  </div>
+                  <p class="position-relative mt-1 mb-2"
+                    ><br /><span class="text-truncate"
+                      >Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span
+                    ></p
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <p class="text-span">Yesterday</p>
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <div class="avtar avtar-s bg-light-danger">
+                    <i class="ph-duotone ph-user f-18"></i>
+                  </div>
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <div class="d-flex">
+                    <div class="flex-grow-1 me-3 position-relative">
+                      <h6 class="mb-0 text-truncate">Challenge invitation</h6>
+                    </div>
+                    <div class="flex-shrink-0">
+                      <span class="text-sm">12 hour ago</span>
+                    </div>
+                  </div>
+                  <p class="position-relative mt-1 mb-2"
+                    ><br /><span class="text-truncate"><strong> Jonny aber </strong> invites to join the challenge</span></p
+                  >
+                  <button class="btn btn-sm rounded-pill btn-outline-secondary me-2">Decline</button>
+                  <button class="btn btn-sm rounded-pill btn-primary">Accept</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <div class="avtar avtar-s bg-light-info">
+                    <i class="ph-duotone ph-notebook f-18"></i>
+                  </div>
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <div class="d-flex">
+                    <div class="flex-grow-1 me-3 position-relative">
+                      <h6 class="mb-0 text-truncate">Forms</h6>
+                    </div>
+                    <div class="flex-shrink-0">
+                      <span class="text-sm">2 hour ago</span>
+                    </div>
+                  </div>
+                  <p class="position-relative mt-1 mb-2"
+                    >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                    dummy text ever since the 1500s.</p
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img src="../assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar avtar avtar-s" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <div class="d-flex">
+                    <div class="flex-grow-1 me-3 position-relative">
+                      <h6 class="mb-0 text-truncate">Keefe Bond added new tags to 💪 Design system</h6>
+                    </div>
+                    <div class="flex-shrink-0">
+                      <span class="text-sm">2 min ago</span>
+                    </div>
+                  </div>
+                  <p class="position-relative mt-1 mb-2"
+                    ><br /><span class="text-truncate"
+                      >Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span
+                    ></p
+                  >
+                  <button class="btn btn-sm rounded-pill btn-outline-secondary me-2">Decline</button>
+                  <button class="btn btn-sm rounded-pill btn-primary">Accept</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <div class="avtar avtar-s bg-light-success">
+                    <i class="ph-duotone ph-shield-checkered f-18"></i>
+                  </div>
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <div class="d-flex">
+                    <div class="flex-grow-1 me-3 position-relative">
+                      <h6 class="mb-0 text-truncate">Security</h6>
+                    </div>
+                    <div class="flex-shrink-0">
+                      <span class="text-sm">5 hour ago</span>
+                    </div>
+                  </div>
+                  <p class="position-relative mt-1 mb-2"
+                    >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                    dummy text ever since the 1500s.</p
+                  >
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="dropdown-footer">
+          <div class="row g-3">
+            <div class="col-6">
+              <div class="d-grid"><button class="btn btn-primary">Archive all</button></div>
+            </div>
+            <div class="col-6">
+              <div class="d-grid"><button class="btn btn-outline-secondary">Mark all as read</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="dropdown pc-h-item header-user-profile">
+      <a
+        class="pc-head-link dropdown-toggle arrow-none me-0"
+        data-bs-toggle="dropdown"
+        href="#"
+        role="button"
+        aria-haspopup="false"
+        data-bs-auto-close="outside"
+        aria-expanded="false"
+      >
+        <img src="../assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar" />
+      </a>
+      <div class="dropdown-menu dropdown-user-profile dropdown-menu-end pc-h-dropdown">
+        <div class="dropdown-header d-flex align-items-center justify-content-between">
+          <h5 class="m-0">Profile</h5>
+        </div>
+        <div class="dropdown-body">
+          <div class="profile-notification-scroll position-relative" style="max-height: calc(100vh - 225px)">
+            <ul class="list-group list-group-flush w-100">
+              <li class="list-group-item">
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0">
+                    <img src="../assets/images/user/avatar-2.jpg" alt="user-image" class="wid-50 rounded-circle" />
+                  </div>
+                  <div class="flex-grow-1 mx-3">
+                    <h5 class="mb-0">Carson Darrin</h5>
+                    <a class="link-primary" href="mailto:carson.darrin@company.io">carson.darrin@company.io</a>
+                  </div>
+                  <span class="badge bg-primary">PRO</span>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-key"></i>
+                    <span>Change password</span>
+                  </span>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-envelope-simple"></i>
+                    <span>Recently mail</span>
+                  </span>
+                  <div class="user-group">
+                    <img src="../assets/images/user/avatar-1.jpg" alt="user-image" class="avtar" />
+                    <img src="../assets/images/user/avatar-2.jpg" alt="user-image" class="avtar" />
+                    <img src="../assets/images/user/avatar-3.jpg" alt="user-image" class="avtar" />
+                  </div>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-calendar-blank"></i>
+                    <span>Schedule meetings</span>
+                  </span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-heart"></i>
+                    <span>Favorite</span>
+                  </span>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-arrow-circle-down"></i>
+                    <span>Download</span>
+                  </span>
+                  <span class="avtar avtar-xs rounded-circle bg-danger text-white">10</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <div class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-globe-hemisphere-west"></i>
+                    <span>Languages</span>
+                  </span>
+                  <span class="flex-shrink-0">
+                    <select class="form-select bg-transparent form-select-sm border-0 shadow-none">
+                      <option value="1">English</option>
+                      <option value="2">Spain</option>
+                      <option value="3">Arbic</option>
+                    </select>
+                  </span>
+                </div>
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-flag"></i>
+                    <span>Country</span>
+                  </span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-user-circle"></i>
+                    <span>Edit profile</span>
+                  </span>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-star text-warning"></i>
+                    <span>Upgrade account</span>
+                    <span class="badge bg-light-success border border-success ms-2">NEW</span>
+                  </span>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-bell"></i>
+                    <span>Notifications</span>
+                  </span>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-gear-six"></i>
+                    <span>Settings</span>
+                  </span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-plus-circle"></i>
+                    <span>Add account</span>
+                  </span>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <span class="d-flex align-items-center">
+                    <i class="ph-duotone ph-power"></i>
+                    <span>Logout</span>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+ </div>
+</header>
+<!-- [ Header ] end -->
+
+
+
+    <!-- [ Main Content ] start -->
+    <div class="pc-container">
+      <div class="pc-content">
+        <!-- [ breadcrumb ] start -->
+        <div class="page-header">
+          <div class="page-block">
+            <div class="row align-items-center">
+              <div class="col-md-12">
+                <ul class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html">الرئيسية</a></li>
+                  <li class="breadcrumb-item"><a href="javascript: void(0)">لوحة التحكم</a></li>
+                  <li class="breadcrumb-item" aria-current="page">لوحة الانتخابات</li>
+                </ul>
+              </div>
+              <div class="col-md-12">
+                <div class="page-header-title">
+                  <h2 class="mb-0">لوحة الانتخابات العراقية</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- [ breadcrumb ] end -->
+
+        <!-- [ Main Content ] start -->
+        <div class="row">
+          <!-- [ Row 1 ] start -->
+          <div class="col-md-12 col-xxl-4">
+            <div class="card statistics-card-1">
+              <div class="card-body">
+                <img src="../assets/images/widget/img-status-2.svg" alt="img" class="img-fluid img-bg" />
+                <div class="d-flex align-items-center">
+                  <div class="avtar bg-brand-color-1 text-white me-3">
+                    <i class="ph-duotone ph-users f-26"></i>
+                  </div>
+                  <div>
+                    <p class="text-muted mb-0">إجمالي الناخبين</p>
+                    <div class="d-flex align-items-end">
+                      <h2 class="mb-0 f-w-500">2.3M</h2>
+                      <span class="badge bg-light-success ms-2"><i class="ti ti-chevrons-up"></i> 12%</span>
+                    </div>
+
+
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xxl-4">
+            <div class="card statistics-card-1">
+              <div class="card-body">
+                <img src="../assets/images/widget/img-status-1.svg" alt="img" class="img-fluid img-bg" />
+                <div class="d-flex align-items-center">
+                  <div class="avtar bg-brand-color-2 text-white me-3">
+                    <i class="ph-duotone ph-check-circle f-26"></i>
+                  </div>
+                  <div>
+                    <p class="text-muted mb-0">الناخبون الذين أدلوا بأصواتهم</p>
+                    <div class="d-flex align-items-end">
+                      <h2 class="mb-0 f-w-500">1.8M</h2>
+                      <span class="badge bg-light-danger ms-2"><i class="ti ti-chevrons-down"></i> 5%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xxl-4">
+            <div class="card statistics-card-1">
+              <div class="card-body">
+                <img src="../assets/images/widget/img-status-3.svg" alt="img" class="img-fluid img-bg" />
+                <div class="d-flex align-items-center">
+                  <div class="avtar bg-brand-color-3 text-white me-3">
+                    <i class="ph-duotone ph-users-four f-26"></i>
+                  </div>
+                  <div>
+                    <p class="text-muted mb-0">عدد المرشحين</p>
+                    <div class="d-flex align-items-end">
+                      <h2 class="mb-0 f-w-500">5,678</h2>
+                      <span class="badge bg-light-success ms-2"><i class="ti ti-chevrons-up"></i> 8%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- [ Row 1 ] end -->
+
+          <!-- [ Row 2 ] start -->
+          <div class="col-md-6">
+            <div class="card table-card">
+              <div class="card-header">
+                <h3>أعلى المرشحين</h3>
+              </div>
+              <div class="card-body py-3 px-0">
+                <div class="table-responsive affiliate-table">
+                  <table class="table table-hover table-borderless mb-0">
+                    <tbody>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img src="../assets/images/user/avatar-2.jpg" alt="" class="img-fluid wid-30 rounded-1" />
+                          <h6 class="mb-0 ms-2">أحمد حسن</h6>
+                        </div>
+                      </td>
+                      <td>بغداد</td>
+                      <td class="text-end f-w-600">12,345 صوت</td>
+                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 15%</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img src="../assets/images/user/avatar-1.jpg" alt="" class="img-fluid wid-30 rounded-1" />
+                          <h6 class="mb-0 ms-2">فاطمة علي</h6>
+                        </div>
+                      </td>
+                      <td>البصرة</td>
+                      <td class="text-end f-w-600">10,987 صوت</td>
+                      <td><i class="ti ti-arrow-down text-danger f-18 align-text-bottom"></i> 3%</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img src="../assets/images/user/avatar-3.jpg" alt="" class="img-fluid wid-30 rounded-1" />
+                          <h6 class="mb-0 ms-2">محمد كاظم</h6>
+                        </div>
+                      </td>
+                      <td>النجف</td>
+                      <td class="text-end f-w-600">9,876 صوت</td>
+                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 10%</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img src="../assets/images/user/avatar-4.html" alt="" class="img-fluid wid-30 rounded-1" />
+                          <h6 class="mb-0 ms-2">زينب عبدالله</h6>
+                        </div>
+                      </td>
+                      <td>كربلاء</td>
+                      <td class="text-end f-w-600">8,765 صوت</td>
+                      <td><i class="ti ti-arrow-down text-danger f-18 align-text-bottom"></i> 2%</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img src="../assets/images/user/avatar-5.html" alt="" class="img-fluid wid-30 rounded-1" />
+                          <h6 class="mb-0 ms-2">حسين محمود</h6>
+                        </div>
+                      </td>
+                      <td>الموصل</td>
+                      <td class="text-end f-w-600">7,654 صوت</td>
+                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 7%</td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card table-card">
+              <div class="card-header">
+                <h3>أعلى المحافظات مشاركة</h3>
+              </div>
+              <div class="card-body py-3 px-0">
+                <div class="table-responsive">
+                  <table class="table table-hover table-borderless mb-0">
+                    <tbody>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img src="../assets/images/map/baghdad.png" alt="" class="img-fluid wid-30 rounded-1" />
+                          <h6 class="mb-0 ms-2">بغداد</h6>
+                        </div>
+                      </td>
+                      <td class="text-end f-w-600">85%</td>
+                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 12%</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img src="../assets/images/map/basra.png" alt="" class="img-fluid wid-30 rounded-1" />
+                          <h6 class="mb-0 ms-2">البصرة</h6>
+                        </div>
+                      </td>
+                      <td class="text-end f-w-600">78%</td>
+                      <td><i class="ti ti-arrow-down text-danger f-18 align-text-bottom"></i> 5%</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img src="../assets/images/map/najaf.png" alt="" class="img-fluid wid-30 rounded-1" />
+                          <h6 class="mb-0 ms-2">النجف</h6>
+                        </div>
+                      </td>
+                      <td class="text-end f-w-600">72%</td>
+                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 8%</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img src="../assets/images/map/kerbala.png" alt="" class="img-fluid wid-30 rounded-1" />
+                          <h6 class="mb-0 ms-2">كربلاء</h6>
+                        </div>
+                      </td>
+                      <td class="text-end f-w-600">68%</td>
+                      <td><i class="ti ti-arrow-down text-danger f-18 align-text-bottom"></i> 3%</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img src="../assets/images/map/mosul.png" alt="" class="img-fluid wid-30 rounded-1" />
+                          <h6 class="mb-0 ms-2">الموصل</h6>
+                        </div>
+                      </td>
+                      <td class="text-end f-w-600">65%</td>
+                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 6%</td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- [ Row 2 ] end -->
+
+          <!-- [ Row 3 ] start -->
+          <div class="col-md-4">
+            <div class="card table-card">
+              <div class="card-header">
+                <h3>الوائح المتنافسة</h3>
+              </div>
+              <div class="card-body py-3 px-0">
+                <div class="table-responsive">
+                  <table class="table table-hover table-borderless mb-0">
+                    <tbody>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img src="../assets/images/parties/party1.png" alt="" class="img-fluid wid-30 rounded-1" />
+                          <h6 class="mb-0 ms-2">ائتلاف النصر</h6>
+                        </div>
+                      </td>
+                      <td class="text-end f-w-600">45%</td>
+                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 10%</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img src="../assets/images/parties/party2.png" alt="" class="img-fluid wid-30 rounded-1" />
+                          <h6 class="mb-0 ms-2">تحالف الفتح</h6>
+                        </div>
+                      </td>
+                      <td class="text-end f-w-600">35%</td>
+                      <td><i class="ti ti-arrow-down text-danger f-18 align-text-bottom"></i> 5%</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img src="../assets/images/parties/party3.png" alt="" class="img-fluid wid-30 rounded-1" />
+                          <h6 class="mb-0 ms-2">ائتلاف دولة القانون</h6>
+                        </div>
+                      </td>
+                      <td class="text-end f-w-600">30%</td>
+                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 7%</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img src="../assets/images/parties/party4.png" alt="" class="img-fluid wid-30 rounded-1" />
+                          <h6 class="mb-0 ms-2">تحالف سائرون</h6>
+                        </div>
+                      </td>
+                      <td class="text-end f-w-600">25%</td>
+                      <td><i class="ti ti-arrow-down text-danger f-18 align-text-bottom"></i> 3%</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img src="../assets/images/parties/party5.png" alt="" class="img-fluid wid-30 rounded-1" />
+                          <h6 class="mb-0 ms-2">التحالف الكردستاني</h6>
+                        </div>
+                      </td>
+                      <td class="text-end f-w-600">20%</td>
+                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 4%</td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card table-card">
+              <div class="card-header">
+                <h3>التوزيع الطائفي</h3>
+              </div>
+              <div class="card-body py-3 px-0">
+                <div class="table-responsive">
+                  <table class="table table-hover table-borderless mb-0">
+                    <tbody>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img src="../assets/images/sects/shia.png" alt="" class="img-fluid wid-30 rounded-1" />
+                          <h6 class="mb-0 ms-2">الشيعة</h6>
+                        </div>
+                      </td>
+                      <td class="text-end f-w-600">60%</td>
+                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 12%</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img src="../assets/images/sects/sunni.png" alt="" class="img-fluid wid-30 rounded-1" />
+                          <h6 class="mb-0 ms-2">السنة</h6>
+                        </div>
+                      </td>
+                      <td class="text-end f-w-600">30%</td>
+                      <td><i class="ti ti-arrow-down text-danger f-18 align-text-bottom"></i> 5%</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img src="../assets/images/sects/christian.png" alt="" class="img-fluid wid-30 rounded-1" />
+                          <h6 class="mb-0 ms-2">المسيحيون</h6>
+                        </div>
+                      </td>
+                      <td class="text-end f-w-600">5%</td>
+                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 2%</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img src="../assets/images/sects/yazidi.png" alt="" class="img-fluid wid-30 rounded-1" />
+                          <h6 class="mb-0 ms-2">الإيزيديون</h6>
+                        </div>
+                      </td>
+                      <td class="text-end f-w-600">3%</td>
+                      <td><i class="ti ti-arrow-down text-danger f-18 align-text-bottom"></i> 1%</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <img src="../assets/images/sects/sabian.png" alt="" class="img-fluid wid-30 rounded-1" />
+                          <h6 class="mb-0 ms-2">الصابئة</h6>
+                        </div>
+                      </td>
+                      <td class="text-end f-w-600">2%</td>
+                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 0.5%</td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <div class="d-flex align-items-center justify-content-between">
+                  <h5 class="mb-0"> النسب</h5>
+                  <select class="form-select form-select-sm w-auto border-0 shadow-none">
+                    <option>اليوم</option>
+                    <option selected="">24 ساعة</option>
+                    <option>يومين</option>
+                  </select>
+                </div>
+              </div>
+              <div class="card-body">
+                <p class="mb-0">الاصوات</p>
+                <h4>555.1255.4 صوت</h4>
+                <div id="monthly-report-graph" class="">
+                  <div id="apexcharts0vwb5vyug" class="apexcharts-canvas apexcharts0vwb5vyug apexcharts-theme-" style="width: 100%; height: auto;"><svg id="SvgjsSvg1110" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" class="apexcharts-svg" xmlns:data="ApexChartsNS" transform="translate(0, 0)"><foreignObject x="0" y="0" width="709" height="250"><div xmlns="http://www.w3.org/1999/xhtml" style="position: relative; height: 100%; width: 100%;"><div class="apexcharts-legend" style="max-height: 125px;"></div></div></foreignObject><g id="SvgjsG1123" class="apexcharts-datalabels-group" transform="translate(0, 0) scale(1)"></g><g id="SvgjsG1124" class="apexcharts-datalabels-group" transform="translate(0, 0) scale(1)"></g><g id="SvgjsG1241" class="apexcharts-yaxis" rel="0" transform="translate(15.359375, 0)"><g id="SvgjsG1242" class="apexcharts-yaxis-texts-g"><text id="SvgjsText1244" font-family="Helvetica, Arial, sans-serif" x="20" y="33.666666666666664" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1245">120</tspan><title>120</title></text><text id="SvgjsText1247" font-family="Helvetica, Arial, sans-serif" x="20" y="64.05799999999999" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1248">100</tspan><title>100</title></text><text id="SvgjsText1250" font-family="Helvetica, Arial, sans-serif" x="20" y="94.44933333333333" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1251">80</tspan><title>80</title></text><text id="SvgjsText1253" font-family="Helvetica, Arial, sans-serif" x="20" y="124.84066666666666" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1254">60</tspan><title>60</title></text><text id="SvgjsText1256" font-family="Helvetica, Arial, sans-serif" x="20" y="155.232" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1257">40</tspan><title>40</title></text><text id="SvgjsText1259" font-family="Helvetica, Arial, sans-serif" x="20" y="185.62333333333333" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1260">20</tspan><title>20</title></text><text id="SvgjsText1262" font-family="Helvetica, Arial, sans-serif" x="20" y="216.01466666666667" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1263">0</tspan><title>0</title></text></g></g><g id="SvgjsG1112" class="apexcharts-inner apexcharts-graphical" transform="translate(45.359375, 30)"><defs id="SvgjsDefs1111"><linearGradient id="SvgjsLinearGradient1115" x1="0" y1="0" x2="0" y2="1"><stop id="SvgjsStop1116" stop-opacity="0.4" stop-color="rgba(216,227,240,0.4)" offset="0"></stop><stop id="SvgjsStop1117" stop-opacity="0.5" stop-color="rgba(190,209,230,0.5)" offset="1"></stop><stop id="SvgjsStop1118" stop-opacity="0.5" stop-color="rgba(190,209,230,0.5)" offset="1"></stop></linearGradient><clipPath id="gridRectMask0vwb5vyug"><rect id="SvgjsRect1120" width="641.8017578125" height="182.348" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath><clipPath id="gridRectBarMask0vwb5vyug"><rect id="SvgjsRect1121" width="645.8017578125" height="186.348" x="-2" y="-2" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath><clipPath id="gridRectMarkerMask0vwb5vyug"><rect id="SvgjsRect1122" width="641.8017578125" height="182.348" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath><clipPath id="forecastMask0vwb5vyug"></clipPath><clipPath id="nonForecastMask0vwb5vyug"></clipPath></defs><rect id="SvgjsRect1119" width="64.18017578124999" height="182.348" x="563.3140345982143" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke-dasharray="3" fill="url(#SvgjsLinearGradient1115)" class="apexcharts-xcrosshairs" y2="182.348" filter="none" fill-opacity="0.9" x1="563.3140345982143" x2="563.3140345982143"></rect><line id="SvgjsLine1198" x1="0" y1="182.348" x2="0" y2="188.348" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line><line id="SvgjsLine1199" x1="91.68596540178571" y1="182.348" x2="91.68596540178571" y2="188.348" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line><line id="SvgjsLine1200" x1="183.37193080357142" y1="182.348" x2="183.37193080357142" y2="188.348" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line><line id="SvgjsLine1201" x1="275.0578962053571" y1="182.348" x2="275.0578962053571" y2="188.348" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line><line id="SvgjsLine1202" x1="366.74386160714283" y1="182.348" x2="366.74386160714283" y2="188.348" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line><line id="SvgjsLine1203" x1="458.42982700892856" y1="182.348" x2="458.42982700892856" y2="188.348" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line><line id="SvgjsLine1204" x1="550.1157924107142" y1="182.348" x2="550.1157924107142" y2="188.348" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line><line id="SvgjsLine1205" x1="641.8017578124999" y1="182.348" x2="641.8017578124999" y2="188.348" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-xaxis-tick"></line><g id="SvgjsG1194" class="apexcharts-grid"><g id="SvgjsG1195" class="apexcharts-gridlines-horizontal"><line id="SvgjsLine1207" x1="0" y1="30.391333333333336" x2="641.8017578125" y2="30.391333333333336" stroke="#e0e0e0" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1208" x1="0" y1="60.78266666666667" x2="641.8017578125" y2="60.78266666666667" stroke="#e0e0e0" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1209" x1="0" y1="91.174" x2="641.8017578125" y2="91.174" stroke="#e0e0e0" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1210" x1="0" y1="121.56533333333334" x2="641.8017578125" y2="121.56533333333334" stroke="#e0e0e0" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1211" x1="0" y1="151.95666666666668" x2="641.8017578125" y2="151.95666666666668" stroke="#e0e0e0" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line></g><g id="SvgjsG1196" class="apexcharts-gridlines-vertical"></g><line id="SvgjsLine1214" x1="0" y1="182.348" x2="641.8017578125" y2="182.348" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"></line><line id="SvgjsLine1213" x1="0" y1="1" x2="0" y2="182.348" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"></line></g><g id="SvgjsG1197" class="apexcharts-grid-borders"><line id="SvgjsLine1206" x1="0" y1="0" x2="641.8017578125" y2="0" stroke="#e0e0e0" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1212" x1="0" y1="182.348" x2="641.8017578125" y2="182.348" stroke="#e0e0e0" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1240" x1="0" y1="182.348" x2="641.8017578125" y2="182.348" stroke="#e0e0e0" stroke-dasharray="0" stroke-width="1" stroke-linecap="butt"></line></g><g id="SvgjsG1125" class="apexcharts-bar-series apexcharts-plot-series"><g id="SvgjsG1126" class="apexcharts-series" seriesName="Deals" rel="1" data:realIndex="0"><path id="SvgjsPath1130" d="M13.752894810267861 182.34900000000002L13.752894810267861 115.48806666666668L77.93307059151785 115.48806666666668L77.93307059151785 182.34900000000002L13.752894810267861 182.34900000000002C13.752894810267861 182.34900000000002 13.752894810267861 182.34900000000002 13.752894810267861 182.34900000000002C13.752894810267861 182.34900000000002 13.752894810267861 182.34900000000002 13.752894810267861 182.34900000000002C13.752894810267861 182.34900000000002 13.752894810267861 182.34900000000002 13.752894810267861 182.34900000000002C13.752894810267861 182.34900000000002 13.752894810267861 182.34900000000002 13.752894810267861 182.34900000000002 " fill="rgba(4,169,245,0.6)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 13.752894810267861 182.34900000000002 L 13.752894810267861 115.48806666666668 L 77.93307059151785 115.48806666666668 L 77.93307059151785 182.34900000000002 z" pathFrom="M 13.752894810267861 182.34900000000002 L 13.752894810267861 182.34900000000002 L 77.93307059151785 182.34900000000002 L 77.93307059151785 182.34900000000002 L 77.93307059151785 182.34900000000002 L 77.93307059151785 182.34900000000002 L 77.93307059151785 182.34900000000002 L 13.752894810267861 182.34900000000002 z" cy="115.48706666666668" cx="105.43886021205357" j="0" val="44" barHeight="66.86093333333334" barWidth="64.18017578124999"></path><path id="SvgjsPath1132" d="M105.43886021205357 182.34900000000002L105.43886021205357 98.77283333333334L169.61903599330356 98.77283333333334L169.61903599330356 182.34900000000002L105.43886021205357 182.34900000000002C105.43886021205357 182.34900000000002 105.43886021205357 182.34900000000002 105.43886021205357 182.34900000000002C105.43886021205357 182.34900000000002 105.43886021205357 182.34900000000002 105.43886021205357 182.34900000000002C105.43886021205357 182.34900000000002 105.43886021205357 182.34900000000002 105.43886021205357 182.34900000000002C105.43886021205357 182.34900000000002 105.43886021205357 182.34900000000002 105.43886021205357 182.34900000000002 " fill="rgba(4,169,245,0.6)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 105.43886021205357 182.34900000000002 L 105.43886021205357 98.77283333333334 L 169.61903599330356 98.77283333333334 L 169.61903599330356 182.34900000000002 z" pathFrom="M 105.43886021205357 182.34900000000002 L 105.43886021205357 182.34900000000002 L 169.61903599330356 182.34900000000002 L 169.61903599330356 182.34900000000002 L 169.61903599330356 182.34900000000002 L 169.61903599330356 182.34900000000002 L 169.61903599330356 182.34900000000002 L 105.43886021205357 182.34900000000002 z" cy="98.77183333333333" cx="197.12482561383928" j="1" val="55" barHeight="83.57616666666668" barWidth="64.18017578124999"></path><path id="SvgjsPath1134" d="M197.12482561383928 182.34900000000002L197.12482561383928 120.04676666666668L261.3050013950893 120.04676666666668L261.3050013950893 182.34900000000002L197.12482561383928 182.34900000000002C197.12482561383928 182.34900000000002 197.12482561383928 182.34900000000002 197.12482561383928 182.34900000000002C197.12482561383928 182.34900000000002 197.12482561383928 182.34900000000002 197.12482561383928 182.34900000000002C197.12482561383928 182.34900000000002 197.12482561383928 182.34900000000002 197.12482561383928 182.34900000000002C197.12482561383928 182.34900000000002 197.12482561383928 182.34900000000002 197.12482561383928 182.34900000000002 " fill="rgba(4,169,245,0.6)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 197.12482561383928 182.34900000000002 L 197.12482561383928 120.04676666666668 L 261.3050013950893 120.04676666666668 L 261.3050013950893 182.34900000000002 z" pathFrom="M 197.12482561383928 182.34900000000002 L 197.12482561383928 182.34900000000002 L 261.3050013950893 182.34900000000002 L 261.3050013950893 182.34900000000002 L 261.3050013950893 182.34900000000002 L 261.3050013950893 182.34900000000002 L 261.3050013950893 182.34900000000002 L 197.12482561383928 182.34900000000002 z" cy="120.04576666666668" cx="288.810791015625" j="2" val="41" barHeight="62.30223333333334" barWidth="64.18017578124999"></path><path id="SvgjsPath1136" d="M288.810791015625 182.34900000000002L288.810791015625 80.53803333333335L352.990966796875 80.53803333333335L352.990966796875 182.34900000000002L288.810791015625 182.34900000000002C288.810791015625 182.34900000000002 288.810791015625 182.34900000000002 288.810791015625 182.34900000000002C288.810791015625 182.34900000000002 288.810791015625 182.34900000000002 288.810791015625 182.34900000000002C288.810791015625 182.34900000000002 288.810791015625 182.34900000000002 288.810791015625 182.34900000000002C288.810791015625 182.34900000000002 288.810791015625 182.34900000000002 288.810791015625 182.34900000000002 " fill="rgba(4,169,245,0.6)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 288.810791015625 182.34900000000002 L 288.810791015625 80.53803333333335 L 352.990966796875 80.53803333333335 L 352.990966796875 182.34900000000002 z" pathFrom="M 288.810791015625 182.34900000000002 L 288.810791015625 182.34900000000002 L 352.990966796875 182.34900000000002 L 352.990966796875 182.34900000000002 L 352.990966796875 182.34900000000002 L 352.990966796875 182.34900000000002 L 352.990966796875 182.34900000000002 L 288.810791015625 182.34900000000002 z" cy="80.53703333333334" cx="380.4967564174107" j="3" val="67" barHeight="101.81096666666667" barWidth="64.18017578124999"></path><path id="SvgjsPath1138" d="M380.4967564174107 182.34900000000002L380.4967564174107 103.33153333333334L444.6769321986607 103.33153333333334L444.6769321986607 182.34900000000002L380.4967564174107 182.34900000000002C380.4967564174107 182.34900000000002 380.4967564174107 182.34900000000002 380.4967564174107 182.34900000000002C380.4967564174107 182.34900000000002 380.4967564174107 182.34900000000002 380.4967564174107 182.34900000000002C380.4967564174107 182.34900000000002 380.4967564174107 182.34900000000002 380.4967564174107 182.34900000000002C380.4967564174107 182.34900000000002 380.4967564174107 182.34900000000002 380.4967564174107 182.34900000000002 " fill="rgba(4,169,245,0.6)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 380.4967564174107 182.34900000000002 L 380.4967564174107 103.33153333333334 L 444.6769321986607 103.33153333333334 L 444.6769321986607 182.34900000000002 z" pathFrom="M 380.4967564174107 182.34900000000002 L 380.4967564174107 182.34900000000002 L 444.6769321986607 182.34900000000002 L 444.6769321986607 182.34900000000002 L 444.6769321986607 182.34900000000002 L 444.6769321986607 182.34900000000002 L 444.6769321986607 182.34900000000002 L 380.4967564174107 182.34900000000002 z" cy="103.33053333333334" cx="472.18272181919644" j="4" val="52" barHeight="79.01746666666668" barWidth="64.18017578124999"></path><path id="SvgjsPath1140" d="M472.18272181919644 182.34900000000002L472.18272181919644 101.81196666666668L536.3628976004464 101.81196666666668L536.3628976004464 182.34900000000002L472.18272181919644 182.34900000000002C472.18272181919644 182.34900000000002 472.18272181919644 182.34900000000002 472.18272181919644 182.34900000000002C472.18272181919644 182.34900000000002 472.18272181919644 182.34900000000002 472.18272181919644 182.34900000000002C472.18272181919644 182.34900000000002 472.18272181919644 182.34900000000002 472.18272181919644 182.34900000000002C472.18272181919644 182.34900000000002 472.18272181919644 182.34900000000002 472.18272181919644 182.34900000000002 " fill="rgba(4,169,245,0.6)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 472.18272181919644 182.34900000000002 L 472.18272181919644 101.81196666666668 L 536.3628976004464 101.81196666666668 L 536.3628976004464 182.34900000000002 z" pathFrom="M 472.18272181919644 182.34900000000002 L 472.18272181919644 182.34900000000002 L 536.3628976004464 182.34900000000002 L 536.3628976004464 182.34900000000002 L 536.3628976004464 182.34900000000002 L 536.3628976004464 182.34900000000002 L 536.3628976004464 182.34900000000002 L 472.18272181919644 182.34900000000002 z" cy="101.81096666666667" cx="563.8686872209821" j="5" val="53" barHeight="80.53703333333334" barWidth="64.18017578124999"></path><path id="SvgjsPath1142" d="M563.8686872209821 182.34900000000002L563.8686872209821 162.59463333333335L628.0488630022321 162.59463333333335L628.0488630022321 182.34900000000002L563.8686872209821 182.34900000000002C563.8686872209821 182.34900000000002 563.8686872209821 182.34900000000002 563.8686872209821 182.34900000000002C563.8686872209821 182.34900000000002 563.8686872209821 182.34900000000002 563.8686872209821 182.34900000000002C563.8686872209821 182.34900000000002 563.8686872209821 182.34900000000002 563.8686872209821 182.34900000000002C563.8686872209821 182.34900000000002 563.8686872209821 182.34900000000002 563.8686872209821 182.34900000000002 " fill="rgba(4,169,245,0.6)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 563.8686872209821 182.34900000000002 L 563.8686872209821 162.59463333333335 L 628.0488630022321 162.59463333333335 L 628.0488630022321 182.34900000000002 z" pathFrom="M 563.8686872209821 182.34900000000002 L 563.8686872209821 182.34900000000002 L 628.0488630022321 182.34900000000002 L 628.0488630022321 182.34900000000002 L 628.0488630022321 182.34900000000002 L 628.0488630022321 182.34900000000002 L 628.0488630022321 182.34900000000002 L 563.8686872209821 182.34900000000002 z" cy="162.59363333333334" cx="655.5546526227678" j="6" val="13" barHeight="19.75436666666667" barWidth="64.18017578124999"></path><g id="SvgjsG1128" class="apexcharts-bar-goals-markers"><g id="SvgjsG1129" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1131" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1133" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1135" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1137" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1139" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1141" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g></g></g><g id="SvgjsG1143" class="apexcharts-series" seriesName="IncomexReport" rel="2" data:realIndex="1"><path id="SvgjsPath1147" d="M13.752894810267861 115.48906666666669L13.752894810267861 95.73470000000002L77.93307059151785 95.73470000000002L77.93307059151785 115.48906666666669L13.752894810267861 115.48906666666669C13.752894810267861 115.48906666666669 13.752894810267861 115.48906666666669 13.752894810267861 115.48906666666669C13.752894810267861 115.48906666666669 13.752894810267861 115.48906666666669 13.752894810267861 115.48906666666669C13.752894810267861 115.48906666666669 13.752894810267861 115.48906666666669 13.752894810267861 115.48906666666669C13.752894810267861 115.48906666666669 13.752894810267861 115.48906666666669 13.752894810267861 115.48906666666669 " fill="rgba(4,169,245,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="1" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 13.752894810267861 115.48906666666669 L 13.752894810267861 95.73470000000002 L 77.93307059151785 95.73470000000002 L 77.93307059151785 115.48906666666669 z" pathFrom="M 13.752894810267861 115.48906666666669 L 13.752894810267861 115.48906666666669 L 77.93307059151785 115.48906666666669 L 77.93307059151785 115.48906666666669 L 77.93307059151785 115.48906666666669 L 77.93307059151785 115.48906666666669 L 77.93307059151785 115.48906666666669 L 13.752894810267861 115.48906666666669 z" cy="95.73370000000001" cx="105.43886021205357" j="0" val="13" barHeight="19.75436666666667" barWidth="64.18017578124999"></path><path id="SvgjsPath1149" d="M105.43886021205357 98.77383333333334L105.43886021205357 94.21513333333334L169.61903599330356 94.21513333333334L169.61903599330356 98.77383333333334L105.43886021205357 98.77383333333334C105.43886021205357 98.77383333333334 105.43886021205357 98.77383333333334 105.43886021205357 98.77383333333334C105.43886021205357 98.77383333333334 105.43886021205357 98.77383333333334 105.43886021205357 98.77383333333334C105.43886021205357 98.77383333333334 105.43886021205357 98.77383333333334 105.43886021205357 98.77383333333334C105.43886021205357 98.77383333333334 105.43886021205357 98.77383333333334 105.43886021205357 98.77383333333334 " fill="rgba(4,169,245,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="1" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 105.43886021205357 98.77383333333334 L 105.43886021205357 94.21513333333334 L 169.61903599330356 94.21513333333334 L 169.61903599330356 98.77383333333334 z" pathFrom="M 105.43886021205357 98.77383333333334 L 105.43886021205357 98.77383333333334 L 169.61903599330356 98.77383333333334 L 169.61903599330356 98.77383333333334 L 169.61903599330356 98.77383333333334 L 169.61903599330356 98.77383333333334 L 169.61903599330356 98.77383333333334 L 105.43886021205357 98.77383333333334 z" cy="94.21413333333334" cx="197.12482561383928" j="1" val="3" barHeight="4.558700000000001" barWidth="64.18017578124999"></path><path id="SvgjsPath1151" d="M197.12482561383928 120.04776666666669L197.12482561383928 89.65643333333335L261.3050013950893 89.65643333333335L261.3050013950893 120.04776666666669L197.12482561383928 120.04776666666669C197.12482561383928 120.04776666666669 197.12482561383928 120.04776666666669 197.12482561383928 120.04776666666669C197.12482561383928 120.04776666666669 197.12482561383928 120.04776666666669 197.12482561383928 120.04776666666669C197.12482561383928 120.04776666666669 197.12482561383928 120.04776666666669 197.12482561383928 120.04776666666669C197.12482561383928 120.04776666666669 197.12482561383928 120.04776666666669 197.12482561383928 120.04776666666669 " fill="rgba(4,169,245,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="1" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 197.12482561383928 120.04776666666669 L 197.12482561383928 89.65643333333335 L 261.3050013950893 89.65643333333335 L 261.3050013950893 120.04776666666669 z" pathFrom="M 197.12482561383928 120.04776666666669 L 197.12482561383928 120.04776666666669 L 261.3050013950893 120.04776666666669 L 261.3050013950893 120.04776666666669 L 261.3050013950893 120.04776666666669 L 261.3050013950893 120.04776666666669 L 261.3050013950893 120.04776666666669 L 197.12482561383928 120.04776666666669 z" cy="89.65543333333335" cx="288.810791015625" j="2" val="20" barHeight="30.391333333333336" barWidth="64.18017578124999"></path><path id="SvgjsPath1153" d="M288.810791015625 80.53903333333335L288.810791015625 68.38250000000002L352.990966796875 68.38250000000002L352.990966796875 80.53903333333335L288.810791015625 80.53903333333335C288.810791015625 80.53903333333335 288.810791015625 80.53903333333335 288.810791015625 80.53903333333335C288.810791015625 80.53903333333335 288.810791015625 80.53903333333335 288.810791015625 80.53903333333335C288.810791015625 80.53903333333335 288.810791015625 80.53903333333335 288.810791015625 80.53903333333335C288.810791015625 80.53903333333335 288.810791015625 80.53903333333335 288.810791015625 80.53903333333335 " fill="rgba(4,169,245,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="1" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 288.810791015625 80.53903333333335 L 288.810791015625 68.38250000000002 L 352.990966796875 68.38250000000002 L 352.990966796875 80.53903333333335 z" pathFrom="M 288.810791015625 80.53903333333335 L 288.810791015625 80.53903333333335 L 352.990966796875 80.53903333333335 L 352.990966796875 80.53903333333335 L 352.990966796875 80.53903333333335 L 352.990966796875 80.53903333333335 L 352.990966796875 80.53903333333335 L 288.810791015625 80.53903333333335 z" cy="68.38150000000002" cx="380.4967564174107" j="3" val="8" barHeight="12.156533333333334" barWidth="64.18017578124999"></path><path id="SvgjsPath1155" d="M380.4967564174107 103.33253333333334L380.4967564174107 83.57816666666668L444.6769321986607 83.57816666666668L444.6769321986607 103.33253333333334L380.4967564174107 103.33253333333334C380.4967564174107 103.33253333333334 380.4967564174107 103.33253333333334 380.4967564174107 103.33253333333334C380.4967564174107 103.33253333333334 380.4967564174107 103.33253333333334 380.4967564174107 103.33253333333334C380.4967564174107 103.33253333333334 380.4967564174107 103.33253333333334 380.4967564174107 103.33253333333334C380.4967564174107 103.33253333333334 380.4967564174107 103.33253333333334 380.4967564174107 103.33253333333334 " fill="rgba(4,169,245,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="1" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 380.4967564174107 103.33253333333334 L 380.4967564174107 83.57816666666668 L 444.6769321986607 83.57816666666668 L 444.6769321986607 103.33253333333334 z" pathFrom="M 380.4967564174107 103.33253333333334 L 380.4967564174107 103.33253333333334 L 444.6769321986607 103.33253333333334 L 444.6769321986607 103.33253333333334 L 444.6769321986607 103.33253333333334 L 444.6769321986607 103.33253333333334 L 444.6769321986607 103.33253333333334 L 380.4967564174107 103.33253333333334 z" cy="83.57716666666667" cx="472.18272181919644" j="4" val="13" barHeight="19.75436666666667" barWidth="64.18017578124999"></path><path id="SvgjsPath1157" d="M472.18272181919644 101.81296666666668L472.18272181919644 60.78466666666667L536.3628976004464 60.78466666666667L536.3628976004464 101.81296666666668L472.18272181919644 101.81296666666668C472.18272181919644 101.81296666666668 472.18272181919644 101.81296666666668 472.18272181919644 101.81296666666668C472.18272181919644 101.81296666666668 472.18272181919644 101.81296666666668 472.18272181919644 101.81296666666668C472.18272181919644 101.81296666666668 472.18272181919644 101.81296666666668 472.18272181919644 101.81296666666668C472.18272181919644 101.81296666666668 472.18272181919644 101.81296666666668 472.18272181919644 101.81296666666668 " fill="rgba(4,169,245,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="1" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 472.18272181919644 101.81296666666668 L 472.18272181919644 60.78466666666667 L 536.3628976004464 60.78466666666667 L 536.3628976004464 101.81296666666668 z" pathFrom="M 472.18272181919644 101.81296666666668 L 472.18272181919644 101.81296666666668 L 536.3628976004464 101.81296666666668 L 536.3628976004464 101.81296666666668 L 536.3628976004464 101.81296666666668 L 536.3628976004464 101.81296666666668 L 536.3628976004464 101.81296666666668 L 472.18272181919644 101.81296666666668 z" cy="60.783666666666676" cx="563.8686872209821" j="5" val="27" barHeight="41.0283" barWidth="64.18017578124999"></path><path id="SvgjsPath1159" d="M563.8686872209821 162.59563333333335L563.8686872209821 130.68473333333336L628.0488630022321 130.68473333333336L628.0488630022321 162.59563333333335L563.8686872209821 162.59563333333335C563.8686872209821 162.59563333333335 563.8686872209821 162.59563333333335 563.8686872209821 162.59563333333335C563.8686872209821 162.59563333333335 563.8686872209821 162.59563333333335 563.8686872209821 162.59563333333335C563.8686872209821 162.59563333333335 563.8686872209821 162.59563333333335 563.8686872209821 162.59563333333335C563.8686872209821 162.59563333333335 563.8686872209821 162.59563333333335 563.8686872209821 162.59563333333335 " fill="rgba(4,169,245,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="1" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 563.8686872209821 162.59563333333335 L 563.8686872209821 130.68473333333336 L 628.0488630022321 130.68473333333336 L 628.0488630022321 162.59563333333335 z" pathFrom="M 563.8686872209821 162.59563333333335 L 563.8686872209821 162.59563333333335 L 628.0488630022321 162.59563333333335 L 628.0488630022321 162.59563333333335 L 628.0488630022321 162.59563333333335 L 628.0488630022321 162.59563333333335 L 628.0488630022321 162.59563333333335 L 563.8686872209821 162.59563333333335 z" cy="130.68373333333335" cx="655.5546526227678" j="6" val="21" barHeight="31.9109" barWidth="64.18017578124999"></path><g id="SvgjsG1145" class="apexcharts-bar-goals-markers"><g id="SvgjsG1146" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1148" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1150" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1152" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1154" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1156" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1158" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g></g></g><g id="SvgjsG1160" class="apexcharts-series" seriesName="Customer" rel="3" data:realIndex="2"><path id="SvgjsPath1164" d="M13.752894810267861 95.73570000000002L13.752894810267861 79.02046666666669L77.93307059151785 79.02046666666669L77.93307059151785 95.73570000000002L13.752894810267861 95.73570000000002C13.752894810267861 95.73570000000002 13.752894810267861 95.73570000000002 13.752894810267861 95.73570000000002C13.752894810267861 95.73570000000002 13.752894810267861 95.73570000000002 13.752894810267861 95.73570000000002C13.752894810267861 95.73570000000002 13.752894810267861 95.73570000000002 13.752894810267861 95.73570000000002C13.752894810267861 95.73570000000002 13.752894810267861 95.73570000000002 13.752894810267861 95.73570000000002 " fill="rgba(4,169,245,0.6)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="2" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 13.752894810267861 95.73570000000002 L 13.752894810267861 79.02046666666669 L 77.93307059151785 79.02046666666669 L 77.93307059151785 95.73570000000002 z" pathFrom="M 13.752894810267861 95.73570000000002 L 13.752894810267861 95.73570000000002 L 77.93307059151785 95.73570000000002 L 77.93307059151785 95.73570000000002 L 77.93307059151785 95.73570000000002 L 77.93307059151785 95.73570000000002 L 77.93307059151785 95.73570000000002 L 13.752894810267861 95.73570000000002 z" cy="79.01946666666669" cx="105.43886021205357" j="0" val="11" barHeight="16.715233333333334" barWidth="64.18017578124999"></path><path id="SvgjsPath1166" d="M105.43886021205357 94.21613333333335L105.43886021205357 68.38350000000001L169.61903599330356 68.38350000000001L169.61903599330356 94.21613333333335L105.43886021205357 94.21613333333335C105.43886021205357 94.21613333333335 105.43886021205357 94.21613333333335 105.43886021205357 94.21613333333335C105.43886021205357 94.21613333333335 105.43886021205357 94.21613333333335 105.43886021205357 94.21613333333335C105.43886021205357 94.21613333333335 105.43886021205357 94.21613333333335 105.43886021205357 94.21613333333335C105.43886021205357 94.21613333333335 105.43886021205357 94.21613333333335 105.43886021205357 94.21613333333335 " fill="rgba(4,169,245,0.6)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="2" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 105.43886021205357 94.21613333333335 L 105.43886021205357 68.38350000000001 L 169.61903599330356 68.38350000000001 L 169.61903599330356 94.21613333333335 z" pathFrom="M 105.43886021205357 94.21613333333335 L 105.43886021205357 94.21613333333335 L 169.61903599330356 94.21613333333335 L 169.61903599330356 94.21613333333335 L 169.61903599330356 94.21613333333335 L 169.61903599330356 94.21613333333335 L 169.61903599330356 94.21613333333335 L 105.43886021205357 94.21613333333335 z" cy="68.38250000000001" cx="197.12482561383928" j="1" val="17" barHeight="25.832633333333337" barWidth="64.18017578124999"></path><path id="SvgjsPath1168" d="M197.12482561383928 89.65743333333336L197.12482561383928 66.86393333333336L261.3050013950893 66.86393333333336L261.3050013950893 89.65743333333336L197.12482561383928 89.65743333333336C197.12482561383928 89.65743333333336 197.12482561383928 89.65743333333336 197.12482561383928 89.65743333333336C197.12482561383928 89.65743333333336 197.12482561383928 89.65743333333336 197.12482561383928 89.65743333333336C197.12482561383928 89.65743333333336 197.12482561383928 89.65743333333336 197.12482561383928 89.65743333333336C197.12482561383928 89.65743333333336 197.12482561383928 89.65743333333336 197.12482561383928 89.65743333333336 " fill="rgba(4,169,245,0.6)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="2" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 197.12482561383928 89.65743333333336 L 197.12482561383928 66.86393333333336 L 261.3050013950893 66.86393333333336 L 261.3050013950893 89.65743333333336 z" pathFrom="M 197.12482561383928 89.65743333333336 L 197.12482561383928 89.65743333333336 L 261.3050013950893 89.65743333333336 L 261.3050013950893 89.65743333333336 L 261.3050013950893 89.65743333333336 L 261.3050013950893 89.65743333333336 L 261.3050013950893 89.65743333333336 L 197.12482561383928 89.65743333333336 z" cy="66.86293333333336" cx="288.810791015625" j="2" val="15" barHeight="22.7935" barWidth="64.18017578124999"></path><path id="SvgjsPath1170" d="M288.810791015625 68.38350000000003L288.810791015625 45.59000000000002L352.990966796875 45.59000000000002L352.990966796875 68.38350000000003L288.810791015625 68.38350000000003C288.810791015625 68.38350000000003 288.810791015625 68.38350000000003 288.810791015625 68.38350000000003C288.810791015625 68.38350000000003 288.810791015625 68.38350000000003 288.810791015625 68.38350000000003C288.810791015625 68.38350000000003 288.810791015625 68.38350000000003 288.810791015625 68.38350000000003C288.810791015625 68.38350000000003 288.810791015625 68.38350000000003 288.810791015625 68.38350000000003 " fill="rgba(4,169,245,0.6)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="2" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 288.810791015625 68.38350000000003 L 288.810791015625 45.59000000000002 L 352.990966796875 45.59000000000002 L 352.990966796875 68.38350000000003 z" pathFrom="M 288.810791015625 68.38350000000003 L 288.810791015625 68.38350000000003 L 352.990966796875 68.38350000000003 L 352.990966796875 68.38350000000003 L 352.990966796875 68.38350000000003 L 352.990966796875 68.38350000000003 L 352.990966796875 68.38350000000003 L 288.810791015625 68.38350000000003 z" cy="45.58900000000002" cx="380.4967564174107" j="3" val="15" barHeight="22.7935" barWidth="64.18017578124999"></path><path id="SvgjsPath1172" d="M380.4967564174107 83.57916666666668L380.4967564174107 51.668266666666675L444.6769321986607 51.668266666666675L444.6769321986607 83.57916666666668L380.4967564174107 83.57916666666668C380.4967564174107 83.57916666666668 380.4967564174107 83.57916666666668 380.4967564174107 83.57916666666668C380.4967564174107 83.57916666666668 380.4967564174107 83.57916666666668 380.4967564174107 83.57916666666668C380.4967564174107 83.57916666666668 380.4967564174107 83.57916666666668 380.4967564174107 83.57916666666668C380.4967564174107 83.57916666666668 380.4967564174107 83.57916666666668 380.4967564174107 83.57916666666668 " fill="rgba(4,169,245,0.6)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="2" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 380.4967564174107 83.57916666666668 L 380.4967564174107 51.668266666666675 L 444.6769321986607 51.668266666666675 L 444.6769321986607 83.57916666666668 z" pathFrom="M 380.4967564174107 83.57916666666668 L 380.4967564174107 83.57916666666668 L 444.6769321986607 83.57916666666668 L 444.6769321986607 83.57916666666668 L 444.6769321986607 83.57916666666668 L 444.6769321986607 83.57916666666668 L 444.6769321986607 83.57916666666668 L 380.4967564174107 83.57916666666668 z" cy="51.66726666666668" cx="472.18272181919644" j="4" val="21" barHeight="31.9109" barWidth="64.18017578124999"></path><path id="SvgjsPath1174" d="M472.18272181919644 60.78566666666667L472.18272181919644 39.51173333333333L536.3628976004464 39.51173333333333L536.3628976004464 60.78566666666667L472.18272181919644 60.78566666666667C472.18272181919644 60.78566666666667 472.18272181919644 60.78566666666667 472.18272181919644 60.78566666666667C472.18272181919644 60.78566666666667 472.18272181919644 60.78566666666667 472.18272181919644 60.78566666666667C472.18272181919644 60.78566666666667 472.18272181919644 60.78566666666667 472.18272181919644 60.78566666666667C472.18272181919644 60.78566666666667 472.18272181919644 60.78566666666667 472.18272181919644 60.78566666666667 " fill="rgba(4,169,245,0.6)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="2" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 472.18272181919644 60.78566666666667 L 472.18272181919644 39.51173333333333 L 536.3628976004464 39.51173333333333 L 536.3628976004464 60.78566666666667 z" pathFrom="M 472.18272181919644 60.78566666666667 L 472.18272181919644 60.78566666666667 L 536.3628976004464 60.78566666666667 L 536.3628976004464 60.78566666666667 L 536.3628976004464 60.78566666666667 L 536.3628976004464 60.78566666666667 L 536.3628976004464 60.78566666666667 L 472.18272181919644 60.78566666666667 z" cy="39.510733333333334" cx="563.8686872209821" j="5" val="14" barHeight="21.273933333333336" barWidth="64.18017578124999"></path><path id="SvgjsPath1176" d="M563.8686872209821 130.68573333333336L563.8686872209821 113.97050000000003L628.0488630022321 113.97050000000003L628.0488630022321 130.68573333333336L563.8686872209821 130.68573333333336C563.8686872209821 130.68573333333336 563.8686872209821 130.68573333333336 563.8686872209821 130.68573333333336C563.8686872209821 130.68573333333336 563.8686872209821 130.68573333333336 563.8686872209821 130.68573333333336C563.8686872209821 130.68573333333336 563.8686872209821 130.68573333333336 563.8686872209821 130.68573333333336C563.8686872209821 130.68573333333336 563.8686872209821 130.68573333333336 563.8686872209821 130.68573333333336 " fill="rgba(4,169,245,0.6)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="2" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 563.8686872209821 130.68573333333336 L 563.8686872209821 113.97050000000003 L 628.0488630022321 113.97050000000003 L 628.0488630022321 130.68573333333336 z" pathFrom="M 563.8686872209821 130.68573333333336 L 563.8686872209821 130.68573333333336 L 628.0488630022321 130.68573333333336 L 628.0488630022321 130.68573333333336 L 628.0488630022321 130.68573333333336 L 628.0488630022321 130.68573333333336 L 628.0488630022321 130.68573333333336 L 563.8686872209821 130.68573333333336 z" cy="113.96950000000002" cx="655.5546526227678" j="6" val="11" barHeight="16.715233333333334" barWidth="64.18017578124999"></path><g id="SvgjsG1162" class="apexcharts-bar-goals-markers"><g id="SvgjsG1163" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1165" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1167" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1169" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1171" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1173" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1175" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g></g></g><g id="SvgjsG1177" class="apexcharts-series" seriesName="Profits" rel="4" data:realIndex="3"><path id="SvgjsPath1181" d="M13.752894810267861 79.0214666666667L13.752894810267861 47.11056666666669L77.93307059151785 47.11056666666669L77.93307059151785 79.0214666666667L13.752894810267861 79.0214666666667C13.752894810267861 79.0214666666667 13.752894810267861 79.0214666666667 13.752894810267861 79.0214666666667C13.752894810267861 79.0214666666667 13.752894810267861 79.0214666666667 13.752894810267861 79.0214666666667C13.752894810267861 79.0214666666667 13.752894810267861 79.0214666666667 13.752894810267861 79.0214666666667C13.752894810267861 79.0214666666667 13.752894810267861 79.0214666666667 13.752894810267861 79.0214666666667 " fill="rgba(124,87,193,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="3" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 13.752894810267861 79.0214666666667 L 13.752894810267861 47.11056666666669 L 77.93307059151785 47.11056666666669 L 77.93307059151785 79.0214666666667 z" pathFrom="M 13.752894810267861 79.0214666666667 L 13.752894810267861 79.0214666666667 L 77.93307059151785 79.0214666666667 L 77.93307059151785 79.0214666666667 L 77.93307059151785 79.0214666666667 L 77.93307059151785 79.0214666666667 L 77.93307059151785 79.0214666666667 L 13.752894810267861 79.0214666666667 z" cy="47.109566666666694" cx="105.43886021205357" j="0" val="21" barHeight="31.9109" barWidth="64.18017578124999"></path><path id="SvgjsPath1183" d="M105.43886021205357 68.38450000000002L105.43886021205357 57.747533333333344L169.61903599330356 57.747533333333344L169.61903599330356 68.38450000000002L105.43886021205357 68.38450000000002C105.43886021205357 68.38450000000002 105.43886021205357 68.38450000000002 105.43886021205357 68.38450000000002C105.43886021205357 68.38450000000002 105.43886021205357 68.38450000000002 105.43886021205357 68.38450000000002C105.43886021205357 68.38450000000002 105.43886021205357 68.38450000000002 105.43886021205357 68.38450000000002C105.43886021205357 68.38450000000002 105.43886021205357 68.38450000000002 105.43886021205357 68.38450000000002 " fill="rgba(124,87,193,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="3" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 105.43886021205357 68.38450000000002 L 105.43886021205357 57.747533333333344 L 169.61903599330356 57.747533333333344 L 169.61903599330356 68.38450000000002 z" pathFrom="M 105.43886021205357 68.38450000000002 L 105.43886021205357 68.38450000000002 L 169.61903599330356 68.38450000000002 L 169.61903599330356 68.38450000000002 L 169.61903599330356 68.38450000000002 L 169.61903599330356 68.38450000000002 L 169.61903599330356 68.38450000000002 L 105.43886021205357 68.38450000000002 z" cy="57.746533333333346" cx="197.12482561383928" j="1" val="7" barHeight="10.636966666666668" barWidth="64.18017578124999"></path><path id="SvgjsPath1185" d="M197.12482561383928 66.86493333333337L197.12482561383928 28.875766666666692L261.3050013950893 28.875766666666692L261.3050013950893 66.86493333333337L197.12482561383928 66.86493333333337C197.12482561383928 66.86493333333337 197.12482561383928 66.86493333333337 197.12482561383928 66.86493333333337C197.12482561383928 66.86493333333337 197.12482561383928 66.86493333333337 197.12482561383928 66.86493333333337C197.12482561383928 66.86493333333337 197.12482561383928 66.86493333333337 197.12482561383928 66.86493333333337C197.12482561383928 66.86493333333337 197.12482561383928 66.86493333333337 197.12482561383928 66.86493333333337 " fill="rgba(124,87,193,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="3" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 197.12482561383928 66.86493333333337 L 197.12482561383928 28.875766666666696 L 261.3050013950893 28.875766666666696 L 261.3050013950893 66.86493333333337 z" pathFrom="M 197.12482561383928 66.86493333333337 L 197.12482561383928 66.86493333333337 L 261.3050013950893 66.86493333333337 L 261.3050013950893 66.86493333333337 L 261.3050013950893 66.86493333333337 L 261.3050013950893 66.86493333333337 L 261.3050013950893 66.86493333333337 L 197.12482561383928 66.86493333333337 z" cy="28.874766666666694" cx="288.810791015625" j="2" val="25" barHeight="37.98916666666667" barWidth="64.18017578124999"></path><path id="SvgjsPath1187" d="M288.810791015625 45.591000000000015L288.810791015625 25.83663333333335L352.990966796875 25.83663333333335L352.990966796875 45.591000000000015L288.810791015625 45.591000000000015C288.810791015625 45.591000000000015 288.810791015625 45.591000000000015 288.810791015625 45.591000000000015C288.810791015625 45.591000000000015 288.810791015625 45.591000000000015 288.810791015625 45.591000000000015C288.810791015625 45.591000000000015 288.810791015625 45.591000000000015 288.810791015625 45.591000000000015C288.810791015625 45.591000000000015 288.810791015625 45.591000000000015 288.810791015625 45.591000000000015 " fill="rgba(124,87,193,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="3" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 288.810791015625 45.591000000000015 L 288.810791015625 25.83663333333335 L 352.990966796875 25.83663333333335 L 352.990966796875 45.591000000000015 z" pathFrom="M 288.810791015625 45.591000000000015 L 288.810791015625 45.591000000000015 L 352.990966796875 45.591000000000015 L 352.990966796875 45.591000000000015 L 352.990966796875 45.591000000000015 L 352.990966796875 45.591000000000015 L 352.990966796875 45.591000000000015 L 288.810791015625 45.591000000000015 z" cy="25.835633333333348" cx="380.4967564174107" j="3" val="13" barHeight="19.75436666666667" barWidth="64.18017578124999"></path><path id="SvgjsPath1189" d="M380.4967564174107 51.66926666666667L380.4967564174107 18.238800000000012L444.6769321986607 18.238800000000012L444.6769321986607 51.66926666666667L380.4967564174107 51.66926666666667C380.4967564174107 51.66926666666667 380.4967564174107 51.66926666666667 380.4967564174107 51.66926666666667C380.4967564174107 51.66926666666667 380.4967564174107 51.66926666666667 380.4967564174107 51.66926666666667C380.4967564174107 51.66926666666667 380.4967564174107 51.66926666666667 380.4967564174107 51.66926666666667C380.4967564174107 51.66926666666667 380.4967564174107 51.66926666666667 380.4967564174107 51.66926666666667 " fill="rgba(124,87,193,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="3" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 380.4967564174107 51.66926666666667 L 380.4967564174107 18.23880000000001 L 444.6769321986607 18.23880000000001 L 444.6769321986607 51.66926666666667 z" pathFrom="M 380.4967564174107 51.66926666666667 L 380.4967564174107 51.66926666666667 L 444.6769321986607 51.66926666666667 L 444.6769321986607 51.66926666666667 L 444.6769321986607 51.66926666666667 L 444.6769321986607 51.66926666666667 L 444.6769321986607 51.66926666666667 L 380.4967564174107 51.66926666666667 z" cy="18.237800000000007" cx="472.18272181919644" j="4" val="22" barHeight="33.43046666666667" barWidth="64.18017578124999"></path><path id="SvgjsPath1191" d="M472.18272181919644 39.51273333333333L472.18272181919644 34.95403333333333L536.3628976004464 34.95403333333333L536.3628976004464 39.51273333333333L472.18272181919644 39.51273333333333C472.18272181919644 39.51273333333333 472.18272181919644 39.51273333333333 472.18272181919644 39.51273333333333C472.18272181919644 39.51273333333333 472.18272181919644 39.51273333333333 472.18272181919644 39.51273333333333C472.18272181919644 39.51273333333333 472.18272181919644 39.51273333333333 472.18272181919644 39.51273333333333C472.18272181919644 39.51273333333333 472.18272181919644 39.51273333333333 472.18272181919644 39.51273333333333 " fill="rgba(124,87,193,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="3" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 472.18272181919644 39.51273333333333 L 472.18272181919644 34.95403333333333 L 536.3628976004464 34.95403333333333 L 536.3628976004464 39.51273333333333 z" pathFrom="M 472.18272181919644 39.51273333333333 L 472.18272181919644 39.51273333333333 L 536.3628976004464 39.51273333333333 L 536.3628976004464 39.51273333333333 L 536.3628976004464 39.51273333333333 L 536.3628976004464 39.51273333333333 L 536.3628976004464 39.51273333333333 L 472.18272181919644 39.51273333333333 z" cy="34.95303333333333" cx="563.8686872209821" j="5" val="3" barHeight="4.558700000000001" barWidth="64.18017578124999"></path><path id="SvgjsPath1193" d="M563.8686872209821 113.97150000000003L563.8686872209821 47.110566666666685L628.0488630022321 47.110566666666685L628.0488630022321 113.97150000000003L563.8686872209821 113.97150000000003C563.8686872209821 113.97150000000003 563.8686872209821 113.97150000000003 563.8686872209821 113.97150000000003C563.8686872209821 113.97150000000003 563.8686872209821 113.97150000000003 563.8686872209821 113.97150000000003C563.8686872209821 113.97150000000003 563.8686872209821 113.97150000000003 563.8686872209821 113.97150000000003C563.8686872209821 113.97150000000003 563.8686872209821 113.97150000000003 563.8686872209821 113.97150000000003 " fill="rgba(124,87,193,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="3" clip-path="url(#gridRectBarMask0vwb5vyug)" pathTo="M 563.8686872209821 113.97150000000003 L 563.8686872209821 47.11056666666669 L 628.0488630022321 47.11056666666669 L 628.0488630022321 113.97150000000003 z" pathFrom="M 563.8686872209821 113.97150000000003 L 563.8686872209821 113.97150000000003 L 628.0488630022321 113.97150000000003 L 628.0488630022321 113.97150000000003 L 628.0488630022321 113.97150000000003 L 628.0488630022321 113.97150000000003 L 628.0488630022321 113.97150000000003 L 563.8686872209821 113.97150000000003 z" cy="47.109566666666694" cx="655.5546526227678" j="6" val="44" barHeight="66.86093333333334" barWidth="64.18017578124999"></path><g id="SvgjsG1179" class="apexcharts-bar-goals-markers"><g id="SvgjsG1180" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1182" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1184" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1186" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1188" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1190" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g><g id="SvgjsG1192" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMask0vwb5vyug)"></g></g></g><g id="SvgjsG1127" class="apexcharts-datalabels" data:realIndex="0"></g><g id="SvgjsG1144" class="apexcharts-datalabels" data:realIndex="1"></g><g id="SvgjsG1161" class="apexcharts-datalabels" data:realIndex="2"></g><g id="SvgjsG1178" class="apexcharts-datalabels" data:realIndex="3"></g></g><line id="SvgjsLine1215" x1="0" y1="0" x2="641.8017578125" y2="0" stroke="#b6b6b6" stroke-dasharray="0" stroke-width="1" stroke-linecap="butt" class="apexcharts-ycrosshairs"></line><line id="SvgjsLine1216" x1="0" y1="0" x2="641.8017578125" y2="0" stroke-dasharray="0" stroke-width="0" stroke-linecap="butt" class="apexcharts-ycrosshairs-hidden"></line><g id="SvgjsG1217" class="apexcharts-xaxis" transform="translate(0, 0)"><g id="SvgjsG1218" class="apexcharts-xaxis-texts-g" transform="translate(0, -4)"><text id="SvgjsText1220" font-family="Helvetica, Arial, sans-serif" x="45.842982700892854" y="210.348" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1221">Mon</tspan><title>Mon</title></text><text id="SvgjsText1223" font-family="Helvetica, Arial, sans-serif" x="137.52894810267856" y="210.348" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1224">Tue</tspan><title>Tue</title></text><text id="SvgjsText1226" font-family="Helvetica, Arial, sans-serif" x="229.21491350446425" y="210.348" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1227">Wen</tspan><title>Wen</title></text><text id="SvgjsText1229" font-family="Helvetica, Arial, sans-serif" x="320.90087890625" y="210.348" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1230">Thu</tspan><title>Thu</title></text><text id="SvgjsText1232" font-family="Helvetica, Arial, sans-serif" x="412.5868443080357" y="210.348" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1233">Fri</tspan><title>Fri</title></text><text id="SvgjsText1235" font-family="Helvetica, Arial, sans-serif" x="504.2728097098214" y="210.348" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1236">Sat</tspan><title>Sat</title></text><text id="SvgjsText1238" font-family="Helvetica, Arial, sans-serif" x="595.958775111607" y="210.348" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1239">Sun</tspan><title>Sun</title></text></g></g><g id="SvgjsG1264" class="apexcharts-yaxis-annotations apexcharts-hidden-element-shown"></g><g id="SvgjsG1265" class="apexcharts-xaxis-annotations apexcharts-hidden-element-shown"></g><g id="SvgjsG1266" class="apexcharts-point-annotations apexcharts-hidden-element-shown"></g></g></svg><div class="apexcharts-tooltip apexcharts-theme-light" style="left: 540.654px; top: 157px;"><div class="apexcharts-tooltip-title" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;">Sun</div><div class="apexcharts-tooltip-series-group apexcharts-tooltip-series-group-0 apexcharts-active" style="order: 1; display: flex;"><span class="apexcharts-tooltip-marker" style="background-color: rgba(4, 169, 245, 0.6);"></span><div class="apexcharts-tooltip-text" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;"><div class="apexcharts-tooltip-y-group"><span class="apexcharts-tooltip-text-y-label">Deals: </span><span class="apexcharts-tooltip-text-y-value">13</span></div><div class="apexcharts-tooltip-goals-group"><span class="apexcharts-tooltip-text-goals-label"></span><span class="apexcharts-tooltip-text-goals-value"></span></div><div class="apexcharts-tooltip-z-group"><span class="apexcharts-tooltip-text-z-label"></span><span class="apexcharts-tooltip-text-z-value"></span></div></div></div><div class="apexcharts-tooltip-series-group apexcharts-tooltip-series-group-1" style="order: 2; display: none;"><span class="apexcharts-tooltip-marker" style="background-color: rgba(4, 169, 245, 0.6);"></span><div class="apexcharts-tooltip-text" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;"><div class="apexcharts-tooltip-y-group"><span class="apexcharts-tooltip-text-y-label">Deals: </span><span class="apexcharts-tooltip-text-y-value">13</span></div><div class="apexcharts-tooltip-goals-group"><span class="apexcharts-tooltip-text-goals-label"></span><span class="apexcharts-tooltip-text-goals-value"></span></div><div class="apexcharts-tooltip-z-group"><span class="apexcharts-tooltip-text-z-label"></span><span class="apexcharts-tooltip-text-z-value"></span></div></div></div><div class="apexcharts-tooltip-series-group apexcharts-tooltip-series-group-2" style="order: 3; display: none;"><span class="apexcharts-tooltip-marker" style="background-color: rgba(4, 169, 245, 0.6);"></span><div class="apexcharts-tooltip-text" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;"><div class="apexcharts-tooltip-y-group"><span class="apexcharts-tooltip-text-y-label">Deals: </span><span class="apexcharts-tooltip-text-y-value">13</span></div><div class="apexcharts-tooltip-goals-group"><span class="apexcharts-tooltip-text-goals-label"></span><span class="apexcharts-tooltip-text-goals-value"></span></div><div class="apexcharts-tooltip-z-group"><span class="apexcharts-tooltip-text-z-label"></span><span class="apexcharts-tooltip-text-z-value"></span></div></div></div><div class="apexcharts-tooltip-series-group apexcharts-tooltip-series-group-3" style="order: 4; display: none;"><span class="apexcharts-tooltip-marker" style="background-color: rgba(4, 169, 245, 0.6);"></span><div class="apexcharts-tooltip-text" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;"><div class="apexcharts-tooltip-y-group"><span class="apexcharts-tooltip-text-y-label">Deals: </span><span class="apexcharts-tooltip-text-y-value">13</span></div><div class="apexcharts-tooltip-goals-group"><span class="apexcharts-tooltip-text-goals-label"></span><span class="apexcharts-tooltip-text-goals-value"></span></div><div class="apexcharts-tooltip-z-group"><span class="apexcharts-tooltip-text-z-label"></span><span class="apexcharts-tooltip-text-z-value"></span></div></div></div></div><div class="apexcharts-yaxistooltip apexcharts-yaxistooltip-0 apexcharts-yaxistooltip-left apexcharts-theme-light"><div class="apexcharts-yaxistooltip-text"></div></div></div></div>
+              </div>
+            </div>
+          </div>
+          <!-- [ Row 3 ] end -->
+        </div>
+        <!--
+
+    <!-- [ Main Content ] end -->
+ <!-- Required Js -->
+<script src="../assets/js/plugins/popper.min.js"></script>
+<script src="../assets/js/plugins/simplebar.min.js"></script>
+<script src="../assets/js/plugins/bootstrap.min.js"></script>
+<script src="../assets/js/plugins/i18next.min.js"></script>
+<script src="../assets/js/plugins/i18nextHttpBackend.min.js"></script>
+<script src="../assets/js/icon/custom-font.js"></script>
+<script src="../assets/js/script.js"></script>
+<script src="../assets/js/theme.js"></script>
+<script src="../assets/js/multi-lang.js"></script>
+<script src="../assets/js/plugins/feather.min.js"></script>
+
+   
+<script>
+  layout_change('light');
+</script>
+   
+<script>
+  layout_sidebar_change('light');
+</script>
+  
+<script>
+  change_box_container('false');
+</script>
+ 
+<script>
+  layout_caption_change('true');
+</script>
+   
+<script>
+  layout_rtl_change('true');
+</script>
+ 
+<script>
+  preset_change('preset-1');
+</script>
+
+ <div class="offcanvas border-0 pct-offcanvas offcanvas-end" tabindex="-1" id="offcanvas_pc_layout">
+  <div class="offcanvas-header justify-content-between">
+    <h5 class="offcanvas-title">Settings</h5>
+    <button type="button" class="btn btn-icon btn-link-danger" data-bs-dismiss="offcanvas" aria-label="Close"
+      ><i class="ti ti-x"></i
+    ></button>
+  </div>
+  <div class="pct-body customizer-body">
+    <div class="offcanvas-body py-0">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <div class="pc-dark">
+            <h6 class="mb-1">Theme Mode</h6>
+            <p class="text-muted text-sm">Choose light or dark mode or Auto</p>
+            <div class="row theme-color theme-layout">
+              <div class="col-4">
+                <div class="d-grid">
+                  <button class="preset-btn btn active" data-value="true" onclick="layout_change('light');">
+                    <span class="btn-label">Light</span>
+                    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
+                  </button>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-grid">
+                  <button class="preset-btn btn" data-value="false" onclick="layout_change('dark');">
+                    <span class="btn-label">Dark</span>
+                    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
+                  </button>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-grid">
+                  <button
+                    class="preset-btn btn"
+                    data-value="default"
+                    onclick="layout_change_default();"
+                    data-bs-toggle="tooltip"
+                    title="Automatically sets the theme based on user's operating system's color scheme."
+                  >
+                    <span class="btn-label">Default</span>
+                    <span class="pc-lay-icon d-flex align-items-center justify-content-center">
+                      <i class="ph-duotone ph-cpu"></i>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item pc-sidebar-color">
+          <h6 class="mb-1">Sidebar Theme</h6>
+          <p class="text-muted text-sm">Choose Sidebar Theme</p>
+          <div class="row theme-color theme-sidebar-color">
+            <div class="col-6">
+              <div class="d-grid">
+                <button class="preset-btn btn" data-value="true" onclick="layout_sidebar_change('dark');">
+                  <span class="btn-label">Dark</span>
+                  <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
+                </button>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="d-grid">
+                <button class="preset-btn btn active" data-value="false" onclick="layout_sidebar_change('light');">
+                  <span class="btn-label">Light</span>
+                  <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <h6 class="mb-1">Accent color</h6>
+          <p class="text-muted text-sm">Choose your primary theme color</p>
+          <div class="theme-color preset-color">
+            <a href="#!" class="active" data-value="preset-1"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-2"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-3"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-4"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-5"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-6"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-7"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-8"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-9"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-10"><i class="ti ti-check"></i></a>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <h6 class="mb-1">Sidebar Caption</h6>
+          <p class="text-muted text-sm">Sidebar Caption Hide/Show</p>
+          <div class="row theme-color theme-nav-caption">
+            <div class="col-6">
+              <div class="d-grid">
+                <button class="preset-btn btn active" data-value="true" onclick="layout_caption_change('true');">
+                  <span class="btn-label">Caption Show</span>
+                  <span class="pc-lay-icon"
+                    ><span></span><span></span><span><span></span><span></span></span><span></span
+                  ></span>
+                </button>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="d-grid">
+                <button class="preset-btn btn" data-value="false" onclick="layout_caption_change('false');">
+                  <span class="btn-label">Caption Hide</span>
+                  <span class="pc-lay-icon"
+                    ><span></span><span></span><span><span></span><span></span></span><span></span
+                  ></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="pc-rtl">
+            <h6 class="mb-1">Theme Layout</h6>
+            <p class="text-muted text-sm">LTR/RTL</p>
+            <div class="row theme-color theme-direction">
+              <div class="col-6">
+                <div class="d-grid">
+                  <button class="preset-btn btn active" data-value="false" onclick="layout_rtl_change('false');">
+                    <span class="btn-label">LTR</span>
+                    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
+                  </button>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="d-grid">
+                  <button class="preset-btn btn" data-value="true" onclick="layout_rtl_change('true');">
+                    <span class="btn-label">RTL</span>
+                    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item pc-box-width">
+          <div class="pc-container-width">
+            <h6 class="mb-1">Layout Width</h6>
+            <p class="text-muted text-sm">Choose Full or Container Layout</p>
+            <div class="row theme-color theme-container">
+              <div class="col-6">
+                <div class="d-grid">
+                  <button class="preset-btn btn active" data-value="false" onclick="change_box_container('false')">
+                    <span class="btn-label">Full Width</span>
+                    <span class="pc-lay-icon"
+                      ><span></span><span></span><span></span><span><span></span></span
+                    ></span>
+                  </button>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="d-grid">
+                  <button class="preset-btn btn" data-value="true" onclick="change_box_container('true')">
+                    <span class="btn-label">Fixed Width</span>
+                    <span class="pc-lay-icon"
+                      ><span></span><span></span><span></span><span><span></span></span
+                    ></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="d-grid">
+            <button class="btn btn-light-danger" id="layoutreset">Reset Layout</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../assets/js/plugins/dataTables.min.js"></script>
+    <script src="../assets/js/layout-horizontal.js"></script>
+
+    <script src="../assets/js/plugins/dataTables.fixedColumns.min.js"></script>
+    <script>
+      // [ left-right-fix
+      var table = $('#left-right-fix').DataTable({
+        "language": {
+          "info": "عرض _START_ إلى _END_ من _TOTAL_ مدخلات",
+          "infoEmpty": "عرض 0 إلى 0 من 0 مدخلات",
+          "lengthMenu": "عرض _MENU_ مدخلات",
+          "search": "بحث:",
+          "paginate": {
+            "first": "الأول",
+            "last": "الأخير",
+            "next": "التالي",
+            "previous": "السابق"
+          }
+        },
+        scrollY: '300px',
+        scrollX: true,
+        scrollCollapse: true,
+        paging: false,
+        fixedColumns: {
+          leftColumns: 1,
+          rightColumns: 1
+        }
+      });
+      var table = $('#right-fix').DataTable({
+        scrollY: '300px',
+        scrollX: true,
+        scrollCollapse: true,
+        paging: false,
+        fixedColumns: {
+          leftColumns: 0,
+          rightColumns: 1
+
+
+        }
+
+
+
+      });
+
+
+
+
+    </script>
+
+
+  </body>
+  <!-- [Body] end -->
+
+</html>
