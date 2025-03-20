@@ -1,0 +1,1202 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <title>Election Management System</title>
+  <!-- [Meta] -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="Election Management System"/>
+
+
+  <!-- [Favicon] icon -->
+  <link rel="icon" href="../assets/images/favicon.svg" type="image/x-icon" />
+
+  <link rel="stylesheet" href="../assets/css/plugins/dataTables.bootstrap5.min.css" />
+  <link rel="stylesheet" href="../assets/css/plugins/fixedColumns.bootstrap5.min.css" />
+
+  <!-- [Google Font : Public Sans] icon -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+
+  <!-- [phosphor Icons] https://phosphoricons.com/ -->
+  <link rel="stylesheet" href="../assets/fonts/phosphor/duotone/style.css" />
+  <!-- [Tabler Icons] https://tablericons.com -->
+  <link rel="stylesheet" href="../assets/fonts/tabler-icons.min.css" />
+
+  <!-- [Feather Icons] https://feathericons.com -->
+  <!-- [Font Awesome Icons] https://fontawesome.com/icons -->
+  <link rel="stylesheet" href="../assets/fonts/fontawesome.css" />
+  <!-- [Material Icons] https://fonts.google.com/icons -->
+  <!-- [Template CSS Files] -->
+  <link rel="stylesheet" href="../assets/css/style.css" id="main-style-link" />
+  <link rel="stylesheet" href="../assets/css/style-preset.css" />
+
+</head>
+<!-- [Head] end -->
+<!-- [Body] Start -->
+<body >
+<!-- [ Pre-loader ] start -->
+<div class="loader-bg">
+  <div class="loader-track">
+    <div class="loader-fill"></div>
+  </div>
+</div>
+<!-- [ Pre-loader ] End -->
+<!-- [ Sidebar Menu ] start -->
+<nav class="pc-sidebar">
+  <div class="navbar-wrapper">
+    <div class="m-header">
+      <a href="../dashboard/index.html" class="b-brand text-primary">
+        <!-- ========   Change your logo from here   ============ -->
+        <img src="../assets/images/logo-dark.svg" alt="logo image" class="logo-lg" />
+        <span class="badge bg-primary rounded-pill ms-1 theme-version">2025</span>
+      </a>
+    </div>
+
+
+    <div class="navbar-content">
+      <ul class="pc-navbar">
+        <!-- 02 بطاقة ناخب -->
+        <li class="pc-item pc-caption">
+          <label>02 بطاقة ناخب</label>
+          <i class="ph-duotone ph-gauge"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-users"></i></span><span class="pc-mtext">الناخبون</span></a></li>
+        <li class="pc-item pc-hasmenu">
+          <a href="#" class="pc-link"><span class="pc-micon"><i class="ph-duotone ph-clipboard-text"></i></span><span class="pc-mtext">المسوحات الإحصائية</span><span class="pc-arrow"><i class="ph-duotone ph-caret-down"></i></span></a>
+          <ul class="pc-submenu">
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-clipboard-text"></i></span>
+                <span class="pc-mtext">احتياجات انتخابية</span>
+              </a>
+            </li>
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-link"></i></span>
+                <span class="pc-mtext">روابط السجلات</span>
+              </a>
+            </li>
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-users"></i></span>
+                <span class="pc-mtext">روابط الاسر</span>
+              </a>
+            </li>
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-buildings"></i></span>
+                <span class="pc-mtext">المرتكزات الانتخابية</span>
+              </a>
+            </li>
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-eye"></i></span>
+                <span class="pc-mtext">المراقبين الانتخابيين</span>
+              </a>
+            </li>
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-list-numbers"></i></span>
+                <span class="pc-mtext">التصنيف الانتخابي</span>
+              </a>
+            </li>
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-clipboard"></i></span>
+                <span class="pc-mtext">استمارة احصائية (مرنة)</span>
+              </a>
+            </li>
+          </ul>
+
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-upload"></i></span><span class="pc-mtext">استيراد الناخبين</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-map-pin"></i></span><span class="pc-mtext">خدمة مكان الاقتراع</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file-text"></i></span><span class="pc-mtext">التقارير</span></a></li>
+
+        <!-- 03 بطاقة محطة الاقتراع -->
+        <li class="pc-item pc-caption">
+          <label>03 بطاقة محطة الاقتراع</label>
+          <i class="ph-duotone ph-clipboard-text"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-gauge"></i></span><span class="pc-mtext">صفحة مؤشرات</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-map-pin"></i></span><span class="pc-mtext">مراكز الاقتراع والمحطات</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-users-three"></i></span><span class="pc-mtext">هيكلية المراقبين</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-check-circle"></i></span><span class="pc-mtext">عملية الاقتراع والتدقيق الالكتروني</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-sort-ascending"></i></span><span class="pc-mtext">فرز النتائج</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file-doc"></i></span><span class="pc-mtext">التقارير</span></a></li>
+
+        <!-- 04 الهيكلية الانتخابية -->
+        <li class="pc-item pc-caption">
+          <label>04 الهيكلية الانتخابية</label>
+          <i class="ph-duotone ph-tree-structure"></i>
+        </li>
+
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-tree-structure"></i></span><span class="pc-mtext">الخريطة التنظيمية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-target"></i></span><span class="pc-mtext">الاهداف  </span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file"></i></span><span class="pc-mtext"> السياسات </span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-target"></i></span><span class="pc-mtext">  الضوابط</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-pencil-line"></i></span><span class="pc-mtext">رسم الهيكل التنظيمي والمهام</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file-text"></i></span><span class="pc-mtext">استمارة عديد الماكنة الانتخابية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-buildings"></i></span><span class="pc-mtext">تسكين عديد الماكنة الانتخابية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-gear"></i></span><span class="pc-mtext">اعدادات</span></a></li>
+
+        <!-- 05 الدورة الانتخابية والنتائج -->
+        <li class="pc-item pc-caption">
+          <label>05 الدورة الانتخابية والنتائج</label>
+          <i class="ph-duotone ph-calendar"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-calendar-check"></i></span><span class="pc-mtext">الدورات الانتخابية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-chart-bar"></i></span><span class="pc-mtext">النتائج والبيانات التفصيلية للدورة الأنتخابية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-download"></i></span><span class="pc-mtext">خدمة تصدير النتائج</span></a></li>
+
+        <!-- 06 الموازنات الانتخابية -->
+        <li class="pc-item pc-caption">
+          <label>06 الموازنات الانتخابية</label>
+          <i class="ph-duotone ph-currency-circle-dollar"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-gauge"></i></span><span class="pc-mtext">صفحة المؤشرات</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-money"></i></span><span class="pc-mtext">الرواتب والاجور</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file"></i></span><span class="pc-mtext">الموازنات التشغيلية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-heart"></i></span><span class="pc-mtext">موازنة الخدمات (الصحية، التربوية، الاجتماعية،...)</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-trend-up"></i></span><span class="pc-mtext">الموازنات الانمائية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-toolbox"></i></span><span class="pc-mtext">موازنة التجهيزات</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-wallet"></i></span><span class="pc-mtext">الصرف</span></a></li>
+
+        <!-- 07 اللوائح والمرشحين -->
+        <li class="pc-item pc-caption">
+          <label>07 اللوائح والمرشحين</label>
+          <i class="ph-duotone ph-user-circle"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-duotone ph-gauge"></i></span><span class="pc-mtext">صفحة المؤشرات  </span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file-text"></i></span><span class="pc-mtext">اللوائح الانتخابية الرسمية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-user-plus"></i></span><span class="pc-mtext">المرشحين الرسميين</span></a></li>
+
+        <li class="pc-item pc-hasmenu">
+          <a href="#" class="pc-link">
+            <span class="pc-micon"><i class="ph-duotone ph-clipboard-text"></i></span>
+            <span class="pc-mtext">معايير اختيار مرشح</span>
+            <span class="pc-arrow"><i class="ph-duotone ph-caret-down"></i></span>
+          </a>
+          <ul class="pc-submenu">
+            <!-- مرشحين محتملين -->
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-user-circle-plus"></i></span>
+                <span class="pc-mtext">مرشحين محتملين</span>
+              </a>
+            </li>
+
+            <!-- بطاقة مرشح -->
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-cards"></i></span>
+                <span class="pc-mtext">بطاقة مرشح</span>
+              </a>
+            </li>
+
+            <!-- تقييم مرشح -->
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-star"></i></span>
+                <span class="pc-mtext">تقييم مرشح</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <!-- 08 نقل الناخبين -->
+        <li class="pc-item pc-caption">
+          <label>08 نقل الناخبين</label>
+          <i class="ph-duotone ph-truck"></i>
+
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-ticket"></i></span><span class="pc-mtext">بطاقة نقل</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-credit-card"></i></span><span class="pc-mtext">دفع نقل</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-gas-pump"></i></span><span class="pc-mtext">محطات الوقود</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-truck"></i></span><span class="pc-mtext">الآليات</span></a></li>
+
+
+
+        <!-- 09 الانشطة والخدمات -->
+
+        <li class="pc-item pc-caption">
+          <label>09 الأنشطة والخدمات</label>
+          <i class="ph-duotone ph-hand-heart"></i>
+        </li>
+        <li class="pc-item">
+          <a class="pc-link" href="#">
+            <span class="pc-micon"><i class="ph-duotone ph-calendar"></i></span>
+            <span class="pc-mtext">الأنشطة الانتخابية</span>
+          </a>
+        </li>
+        <li class="pc-item">
+          <a class="pc-link" href="#">
+            <span class="pc-micon"><i class="ph-duotone ph-hand-heart"></i></span>
+            <span class="pc-mtext">الخدمات الانتخابية</span>
+          </a>
+        </li>
+        <li class="pc-item pc-hasmenu">
+          <!-- رابط الجلسات مع القائمة المنسدلة -->
+          <a class="pc-link" href="#">
+            <span class="pc-micon"><i class="ph-duotone ph-users"></i></span>
+            <span class="pc-mtext">الجلسات</span>
+            <span class="pc-arrow"><i class="ph-duotone ph-caret-down"></i></span>
+          </a>
+          <!-- الروابط الفرعية -->
+          <ul class="pc-submenu">
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-clock-counter-clockwise"></i></span>
+                <span class="pc-mtext"> الجلسات</span>
+              </a>
+            </li>
+
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-check-square"></i></span>
+                <span class="pc-mtext">الحضور والغياب</span>
+              </a>
+            </li>
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-file-text"></i></span>
+                <span class="pc-mtext">المقررات</span>
+              </a>
+            </li>
+
+          </ul>
+        </li>
+        <li class="pc-item">
+          <a class="pc-link" href="#">
+            <span class="pc-micon"><i class="ph-duotone ph-gear"></i></span>
+            <span class="pc-mtext">إعدادات</span>
+          </a>
+        </li>
+
+
+        <!-- 10 النتائج -->
+        <li class="pc-item pc-caption">
+          <label>10 النتائج</label>
+          <i class="ph-duotone ph-chart-bar"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-chart-bar"></i></span><span class="pc-mtext">استيراد النتائج الرسمية </span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-flag"></i></span><span class="pc-mtext">النتيجة النهائية</span></a></li>
+
+        <!-- 11 الاعدادات -->
+
+
+      </ul>
+    </div>
+
+
+
+
+    <div class="card pc-user-card">
+      <div class="card-body">
+
+        <div class="d-flex align-items-center">
+          <div class="flex-shrink-0">
+            <img src="../assets/images/user/avatar-1.jpg" alt="user-image" class="user-avtar wid-45 rounded-circle" />
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <div class="dropdown">
+              <a href="#" class="arrow-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="0,20">
+                <div class="d-flex align-items-center">
+                  <div class="flex-grow-1 me-2">
+                    <h6 class="mb-0">Jonh Smith</h6>
+                    <small>Administrator</small>
+                  </div>
+                  <div class="flex-shrink-0">
+                    <div class="btn btn-icon btn-link-secondary avtar">
+                      <i class="ph-duotone ph-windows-logo"></i>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <div class="dropdown-menu">
+                <ul>
+                  <li>
+                    <a class="pc-user-links">
+                      <i class="ph-duotone ph-user"></i>
+                      <span>My Account</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="pc-user-links">
+                      <i class="ph-duotone ph-gear"></i>
+                      <span>Settings</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="pc-user-links">
+                      <i class="ph-duotone ph-lock-key"></i>
+                      <span>Lock Screen</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="pc-user-links">
+                      <i class="ph-duotone ph-power"></i>
+                      <span>Logout</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- [ Sidebar Menu ] end -->
+<!-- [ Header Topbar ] start -->
+<header class="pc-header">
+  <div class="header-wrapper"> <!-- [Mobile Media Block] start -->
+    <div class="me-auto pc-mob-drp">
+      <ul class="list-unstyled">
+        <!-- ======= Menu collapse Icon ===== -->
+        <li class="pc-h-item pc-sidebar-collapse">
+          <a href="#" class="pc-head-link ms-0" id="sidebar-hide">
+            <i class="ti ti-menu-2"></i>
+          </a>
+        </li>
+        <li class="pc-h-item pc-sidebar-popup">
+          <a href="#" class="pc-head-link ms-0" id="mobile-collapse">
+            <i class="ti ti-menu-2"></i>
+          </a>
+        </li>
+        <li class="dropdown pc-h-item d-inline-flex d-md-none">
+
+          <div class="dropdown-menu pc-h-dropdown drp-search">
+            <form class="px-3">
+              <div class="mb-0 d-flex align-items-center">
+                <input type="search" class="form-control border-0 shadow-none" placeholder="Search..." />
+                <button class="btn btn-light-secondary btn-search">Search</button>
+              </div>
+            </form>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+    <!-- [Mobile Media Block end] -->
+    <div class="ms-auto">
+      <ul class="list-unstyled">
+        <li class="dropdown pc-h-item d-none d-md-inline-flex">
+          <a
+                  class="pc-head-link dropdown-toggle arrow-none me-0"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="false"
+                  aria-expanded="false"
+          >
+            <i class="ph-duotone ph-circles-four"></i>
+          </a>
+          <div class="dropdown-menu dropdown-qta dropdown-menu-end pc-h-dropdown">
+            <div class="overflow-hidden">
+              <div class="qta-links m-n1">
+                <a href="#!" class="dropdown-item">
+                  <i class="ph-duotone ph-shopping-cart"></i>
+                  <span>إدارة التبرعات</span>
+                </a>
+                <a href="#!" class="dropdown-item">
+                  <i class="ph-duotone ph-lifebuoy"></i>
+                  <span>دعم الناخبين</span>
+                </a>
+                <a href="#!" class="dropdown-item">
+                  <i class="ph-duotone ph-scroll"></i>
+                  <span>إصدار الفواتير</span>
+                </a>
+                <a href="#!" class="dropdown-item">
+                  <i class="ph-duotone ph-books"></i>
+                  <span>ورش العمل الانتخابية</span>
+                </a>
+                <a href="#!" class="dropdown-item">
+                  <i class="ph-duotone ph-envelope-open"></i>
+                  <span>الرسائل البريدية</span>
+                </a>
+                <a href="#!" class="dropdown-item">
+                  <i class="ph-duotone ph-identification-badge"></i>
+                  <span>عضوية الفريق</span>
+                </a>
+                <a href="#!" class="dropdown-item">
+                  <i class="ph-duotone ph-chats-circle"></i>
+                  <span>غرفة النقاش</span>
+                </a>
+                <a href="#!" class="dropdown-item">
+                  <i class="ph-duotone ph-currency-circle-dollar"></i>
+                  <span>خطط الحملة</span>
+                </a>
+                <a href="#!" class="dropdown-item">
+                  <i class="ph-duotone ph-user-circle"></i>
+                  <span>إدارة المرشحين</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>    <li class="dropdown pc-h-item d-none d-md-inline-flex">
+        <a
+                class="pc-head-link dropdown-toggle arrow-none me-0"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="false"
+                aria-expanded="false"
+        >
+          <i class="ph-duotone ph-sun-dim"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-end pc-h-dropdown">
+          <a href="#!" class="dropdown-item" onclick="layout_change('dark')">
+            <i class="ph-duotone ph-moon"></i>
+            <span>داكن</span>
+          </a>
+          <a href="#!" class="dropdown-item" onclick="layout_change('light')">
+            <i class="ph-duotone ph-sun-dim"></i>
+            <span>فاتح</span>
+          </a>
+          <a href="#!" class="dropdown-item" onclick="layout_change_default()">
+            <i class="ph-duotone ph-cpu"></i>
+            <span>تلقائي</span>
+          </a>
+        </div>
+      </li>
+
+        <li class="dropdown pc-h-item">
+          <a
+                  class="pc-head-link dropdown-toggle arrow-none me-0"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="false"
+                  aria-expanded="false"
+          >
+            <i class="ph-duotone ph-bell"></i>
+            <span class="badge bg-primary pc-h-badge">3</span>
+          </a>
+          <div class="dropdown-menu dropdown-notification dropdown-menu-end pc-h-dropdown">
+            <div class="dropdown-header d-flex align-items-center justify-content-between">
+              <h5 class="m-0">الإشعارات</h5>
+              <ul class="list-inline ms-auto mb-0">
+                <li class="list-inline-item">
+                  <a href="../application/mail.html" class="avtar avtar-s btn-link-hover-primary">
+                    <i class="ti ti-link f-18"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="dropdown-body text-wrap header-notification-scroll position-relative" style="max-height: calc(100vh - 235px)">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <div class="d-flex">
+                    <div class="flex-shrink-0">
+                      <div class="avtar avtar-s bg-light-primary">
+                        <i class="ph-duotone ph-chats-teardrop f-18"></i>
+                      </div>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <div class="d-flex">
+                        <div class="flex-grow-1 me-3 position-relative">
+                          <h6 class="mb-0 text-truncate">رسالة من فريق الحملة</h6>
+                        </div>
+                        <div class="flex-shrink-0">
+                          <span class="text-sm">منذ ساعة</span>
+                        </div>
+                      </div>
+                      <p class="position-relative mt-1 mb-2"
+                      ><br /><span class="text-truncate"
+                      >يرجى مشاركة الرسائل التحفيزية على وسائل التواصل الاجتماعي لدعم المرشح.</span
+                      ></p
+                      >
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="d-flex">
+                    <div class="flex-shrink-0">
+                      <div class="avtar avtar-s bg-light-success">
+                        <i class="ph-duotone ph-shield-checkered f-18"></i>
+                      </div>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <div class="d-flex">
+                        <div class="flex-grow-1 me-3 position-relative">
+                          <h6 class="mb-0 text-truncate">تأكيد تسجيل الناخبين</h6>
+                        </div>
+                        <div class="flex-shrink-0">
+                          <span class="text-sm">منذ 5 ساعات</span>
+                        </div>
+                      </div>
+                      <p class="position-relative mt-1 mb-2"
+                      >تم تأكيد تسجيل جميع الناخبين في القوائم الانتخابية. شكرًا لجهودكم!</p
+                      >
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="dropdown-footer">
+              <div class="row g-3">
+                <div class="col-6">
+                  <div class="d-grid"><button class="btn btn-primary">أرشفة الكل</button></div>
+                </div>
+                <div class="col-6">
+                  <div class="d-grid"><button class="btn btn-outline-secondary">تعليم الكل كمقروء</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="dropdown pc-h-item header-user-profile">
+          <a
+                  class="pc-head-link dropdown-toggle arrow-none me-0"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="false"
+                  data-bs-auto-close="outside"
+                  aria-expanded="false"
+          >
+            <img src="../assets/images/user/avatar-2.jpg" alt="صورة المستخدم" class="user-avtar" />
+          </a>
+          <div class="dropdown-menu dropdown-user-profile dropdown-menu-end pc-h-dropdown">
+            <div class="dropdown-header d-flex align-items-center justify-content-between">
+              <h5 class="m-0">الملف الشخصي</h5>
+            </div>
+            <div class="dropdown-body">
+              <div class="profile-notification-scroll position-relative" style="max-height: calc(100vh - 225px)">
+                <ul class="list-group list-group-flush w-100">
+                  <li class="list-group-item">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <img src="../assets/images/user/avatar-2.jpg" alt="صورة المستخدم" class="wid-50 rounded-circle" />
+                      </div>
+                      <div class="flex-grow-1 mx-3">
+                        <h5 class="mb-0"> سمير علوية</h5>
+                        <a class="link-primary" href="mailto:carson.darrin@company.io">00961-0125250</a>
+                      </div>
+                      <span class="badge bg-primary">مشرف عام</span>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="#" class="dropdown-item">
+              <span class="d-flex align-items-center">
+                <i class="ph-duotone ph-key"></i>
+                <span>تغيير كلمة المرور</span>
+              </span>
+                    </a>
+                    <a href="#" class="dropdown-item">
+              <span class="d-flex align-items-center">
+                <i class="ph-duotone ph-envelope-simple"></i>
+                <span>الرسائل الأخيرة</span>
+              </span>
+                      <div class="user-group">
+                        <img src="../assets/images/user/avatar-1.jpg" alt="صورة المستخدم" class="avtar" />
+                        <img src="../assets/images/user/avatar-2.jpg" alt="صورة المستخدم" class="avtar" />
+                        <img src="../assets/images/user/avatar-3.jpg" alt="صورة المستخدم" class="avtar" />
+                      </div>
+                    </a>
+                    <a href="#" class="dropdown-item">
+              <span class="d-flex align-items-center">
+                <i class="ph-duotone ph-calendar-blank"></i>
+                <span>جدولة الاجتماعات</span>
+              </span>
+                    </a>
+                  </li>
+
+
+                  <li class="list-group-item">
+                    <a href="#" class="dropdown-item">
+              <span class="d-flex align-items-center">
+                <i class="ph-duotone ph-user-circle"></i>
+                <span>تعديل الملف الشخصي</span>
+              </span>
+                    </a>
+
+
+                    <a href="#" class="dropdown-item">
+              <span class="d-flex align-items-center">
+                <i class="ph-duotone ph-gear-six"></i>
+                <span>الإعدادات</span>
+              </span>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+
+                    <a href="#" class="dropdown-item">
+              <span class="d-flex align-items-center">
+                <i class="ph-duotone ph-power"></i>
+                <span>تسجيل الخروج</span>
+              </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+
+    <!-- [ Main Content ] start -->
+<div class="pc-container">
+  <div class="pc-content pt-0">
+    <!-- [ breadcrumb ] start -->
+    <div class="page-header">
+      <div class="page-block">
+
+                    <div class="card-header">
+                      <div class="d-sm-flex align-items-center justify-content-between">
+                        <div>
+                          <ul class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="../dashboard/index.html">الرئيسية</a></li>
+                            <li class="breadcrumb-item"><a href="javascript: void(0)">بطاقة ناخب</a></li>
+                            <li class="breadcrumb-item" aria-current="page"> المسوحات الاحصائية</li>
+                          </ul>
+                          <h4 class="mb-3 mb-sm-3">
+                            احتياجات انتخابية
+                          </h4>
+
+                        </div>
+
+                        <div>
+
+
+
+                          <a class="btn btn-tab" href="#">
+                            <span class="pc-micon"><i class="ph-duotone ph-eraser"></i></span>
+                            <span class="pc-mtext">حذف   </span>
+                          </a>
+
+                          <a class="btn active btn-tab" href="#">
+                            <span class="pc-micon"><i class="ph-duotone ph-floppy-disk"></i></span>
+                            <span class="pc-mtext"> حفظ   </span>
+                          </a>
+
+
+                        </div>
+                      </div>
+                    </div>
+
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+
+              <!-- الصف الأول -->
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingSerialNumber" placeholder="الرقم التسلسلي" />
+                  <label for="floatingSerialNumber">الرقم التسلسلي</label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingGovernorate" placeholder="المحافظة" />
+                  <label for="floatingGovernorate">المحافظة</label>
+                </div>
+              </div>
+
+              <!-- الصف الثاني -->
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingDistrict" placeholder="القضاء" />
+                  <label for="floatingDistrict">القضاء</label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingSubDistrict" placeholder="الناحية" />
+                  <label for="floatingSubDistrict">الناحية</label>
+                </div>
+              </div>
+
+
+              <!-- الصف الثالث -->
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingSupplyCenter" placeholder="اسم مركز التموين" />
+                  <label for="floatingSupplyCenter">اسم مركز التموين</label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingRegistrationCenter" placeholder="اسم مركز التسجيل" />
+                  <label for="floatingRegistrationCenter">اسم مركز التسجيل</label>
+                </div>
+              </div>
+
+              <!-- الصف الرابع -->
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingRegistrationAddress" placeholder="عنوان مركز التسجيل" />
+                  <label for="floatingRegistrationAddress">عنوان مركز التسجيل</label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingPollingCenter" placeholder="مركز الاقتراع" />
+                  <label for="floatingPollingCenter">مركز الاقتراع</label>
+                </div>
+              </div>
+
+              <!-- الصف الخامس -->
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingPollingAddress" placeholder="عنوان مركز الاقتراع" />
+                  <label for="floatingPollingAddress">عنوان مركز الاقتراع</label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingStationNumber" placeholder="رقم المحطة" />
+                  <label for="floatingStationNumber">رقم المحطة</label>
+                </div>
+              </div>
+
+              <!-- الصف السادس -->
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <select class="form-control" id="floatingVotingType">
+                    <option value="عادي">عادي</option>
+                    <option value="خاص">خاص</option>
+                  </select>
+                  <label for="floatingVotingType">نوع التصويت</label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingElectoralNumber" placeholder="الرقم الانتخابي" />
+                  <label for="floatingElectoralNumber">الرقم الانتخابي</label>
+                </div>
+              </div>
+
+              <!-- الصف السابع -->
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingFamilyNumber" placeholder="رقم العائلة" />
+                  <label for="floatingFamilyNumber">رقم العائلة</label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingName" placeholder="الاسم" />
+                  <label for="floatingName">الاسم</label>
+                </div>
+              </div>
+
+              <!-- الصف الثامن -->
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingFatherName" placeholder="الاب" />
+                  <label for="floatingFatherName">الاب</label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingGrandfatherName" placeholder="اسم الجد" />
+                  <label for="floatingGrandfatherName">اسم الجد</label>
+                </div>
+              </div>
+
+              <!-- الصف التاسع -->
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingPhone" placeholder="الهاتف" />
+                  <label for="floatingPhone">الهاتف</label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <select class="form-control" id="floatingGender">
+                    <option value="ذكر">ذكر</option>
+                    <option value="أنثى">أنثى</option>
+                  </select>
+                  <label for="floatingGender">الجنس</label>
+                </div>
+              </div>
+
+              <!-- الصف العاشر -->
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="date" class="form-control" id="floatingBirthDate" />
+                  <label for="floatingBirthDate">تاريخ الولادة</label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingMobile" placeholder="الهاتف المحمول" />
+                  <label for="floatingMobile">الهاتف المحمول</label>
+                </div>
+              </div>
+
+              <!-- الصف الحادي عشر -->
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingAddress" placeholder="عنوان السكن (قضاء، ناحية)" />
+                  <label for="floatingAddress">عنوان السكن (قضاء، ناحية)</label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingNeighborhood" placeholder="الحي" />
+                  <label for="floatingNeighborhood">الحي</label>
+                </div>
+              </div>
+
+              <!-- الصف الثاني عشر -->
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingStreet" placeholder="الشارع" />
+                  <label for="floatingStreet">الشارع</label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingBuildingName" placeholder="اسم المبنى" />
+                  <label for="floatingBuildingName">اسم المبنى</label>
+                </div>
+              </div>
+
+              <!-- الصف الثالث عشر -->
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingSect" placeholder="الطائفة الرسمية" />
+                  <label for="floatingSect">الطائفة الرسمية</label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingReligion" placeholder="المذهب الرسمي" />
+                  <label for="floatingReligion">المذهب الرسمي</label>
+                </div>
+              </div>
+
+              <!-- الصف الرابع عشر -->
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingFamilyDistrict" placeholder="القضاء الأصل للعائلة" />
+                  <label for="floatingFamilyDistrict">القضاء الأصل للعائلة</label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingFamilyTown" placeholder="البلدة الأصل للعائلة" />
+                  <label for="floatingFamilyTown">البلدة الأصل للعائلة</label>
+                </div>
+              </div>
+
+              <!-- الصف الخامس عشر -->
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingTribe" placeholder="اسم العشيرة التابع لها" />
+                  <label for="floatingTribe">اسم العشيرة التابع لها</label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingTribeArea" placeholder="الجب التابع للعشيرة" />
+                  <label for="floatingTribeArea">الجب التابع للعشيرة</label>
+                </div>
+              </div>
+
+              <!-- الصف السادس عشر -->
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingFatherNumber" placeholder="رقم الاب" />
+                  <label for="floatingFatherNumber">رقم الاب</label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingMotherNumber" placeholder="رقم الام" />
+                  <label for="floatingMotherNumber">رقم الام</label>
+                </div>
+              </div>
+
+              <!-- الصف السابع عشر -->
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingSpouseNumber" placeholder="رقم الزوج" />
+                  <label for="floatingSpouseNumber">رقم الزوج</label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingNationality" placeholder="القومية" />
+                  <label for="floatingNationality">القومية</label>
+                </div>
+              </div>
+
+              <!-- الصف الثامن عشر -->
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <select class="form-control" id="floatingDeceased">
+                    <option value="نعم">نعم</option>
+                    <option value="لا">لا</option>
+                  </select>
+                  <label for="floatingDeceased">متوفى</label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-floating mb-3">
+                  <textarea class="form-control" id="floatingNotes" placeholder="ملاحظات"></textarea>
+                  <label for="floatingNotes">ملاحظات</label>
+                </div>
+              </div>
+
+              <!-- زر الإرسال -->
+              <div class="col-md-12 text-end">
+                <button class="btn btn-primary">إرسال</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+          </div>
+        </div>
+        <!-- [ breadcrumb ] end -->
+
+
+        <!-- [ Main Content ] start -->
+
+        <!-- [ Main Content ] end -->
+      </div>
+    </div>
+    <!-- [ Main Content ] end -->
+ <!-- Required Js -->
+
+ <div class="offcanvas border-0 pct-offcanvas offcanvas-end" tabindex="-1" id="offcanvas_pc_layout">
+  <div class="offcanvas-header justify-content-between">
+    <h5 class="offcanvas-title">Settings</h5>
+    <button type="button" class="btn btn-icon btn-link-danger" data-bs-dismiss="offcanvas" aria-label="Close"
+      ><i class="ti ti-x"></i
+    ></button>
+  </div>
+  <div class="pct-body customizer-body">
+    <div class="offcanvas-body py-0">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <div class="pc-dark">
+            <h6 class="mb-1">Theme Mode</h6>
+            <p class="text-muted text-sm">Choose light or dark mode or Auto</p>
+            <div class="row theme-color theme-layout">
+              <div class="col-4">
+                <div class="d-grid">
+                  <button class="preset-btn btn active" data-value="true" onclick="layout_change('light');">
+                    <span class="btn-label">Light</span>
+                    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
+                  </button>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-grid">
+                  <button class="preset-btn btn" data-value="false" onclick="layout_change('dark');">
+                    <span class="btn-label">Dark</span>
+                    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
+                  </button>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-grid">
+                  <button
+                    class="preset-btn btn"
+                    data-value="default"
+                    onclick="layout_change_default();"
+                    data-bs-toggle="tooltip"
+                    title="Automatically sets the theme based on user's operating system's color scheme."
+                  >
+                    <span class="btn-label">Default</span>
+                    <span class="pc-lay-icon d-flex align-items-center justify-content-center">
+                      <i class="ph-duotone ph-cpu"></i>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item pc-sidebar-color">
+          <h6 class="mb-1">Sidebar Theme</h6>
+          <p class="text-muted text-sm">Choose Sidebar Theme</p>
+          <div class="row theme-color theme-sidebar-color">
+            <div class="col-6">
+              <div class="d-grid">
+                <button class="preset-btn btn" data-value="true" onclick="layout_sidebar_change('dark');">
+                  <span class="btn-label">Dark</span>
+                  <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
+                </button>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="d-grid">
+                <button class="preset-btn btn active" data-value="false" onclick="layout_sidebar_change('light');">
+                  <span class="btn-label">Light</span>
+                  <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <h6 class="mb-1">Accent color</h6>
+          <p class="text-muted text-sm">Choose your primary theme color</p>
+          <div class="theme-color preset-color">
+            <a href="#!" class="active" data-value="preset-1"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-2"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-3"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-4"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-5"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-6"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-7"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-8"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-9"><i class="ti ti-check"></i></a>
+            <a href="#!" data-value="preset-10"><i class="ti ti-check"></i></a>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <h6 class="mb-1">Sidebar Caption</h6>
+          <p class="text-muted text-sm">Sidebar Caption Hide/Show</p>
+          <div class="row theme-color theme-nav-caption">
+            <div class="col-6">
+              <div class="d-grid">
+                <button class="preset-btn btn active" data-value="true" onclick="layout_caption_change('true');">
+                  <span class="btn-label">Caption Show</span>
+                  <span class="pc-lay-icon"
+                    ><span></span><span></span><span><span></span><span></span></span><span></span
+                  ></span>
+                </button>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="d-grid">
+                <button class="preset-btn btn" data-value="false" onclick="layout_caption_change('false');">
+                  <span class="btn-label">Caption Hide</span>
+                  <span class="pc-lay-icon"
+                    ><span></span><span></span><span><span></span><span></span></span><span></span
+                  ></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="pc-rtl">
+            <h6 class="mb-1">Theme Layout</h6>
+            <p class="text-muted text-sm">LTR/RTL</p>
+            <div class="row theme-color theme-direction">
+              <div class="col-6">
+                <div class="d-grid">
+                  <button class="preset-btn btn active" data-value="false" onclick="layout_rtl_change('false');">
+                    <span class="btn-label">LTR</span>
+                    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
+                  </button>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="d-grid">
+                  <button class="preset-btn btn" data-value="true" onclick="layout_rtl_change('true');">
+                    <span class="btn-label">RTL</span>
+                    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item pc-box-width">
+          <div class="pc-container-width">
+            <h6 class="mb-1">Layout Width</h6>
+            <p class="text-muted text-sm">Choose Full or Container Layout</p>
+            <div class="row theme-color theme-container">
+              <div class="col-6">
+                <div class="d-grid">
+                  <button class="preset-btn btn active" data-value="false" onclick="change_box_container('false')">
+                    <span class="btn-label">Full Width</span>
+                    <span class="pc-lay-icon"
+                      ><span></span><span></span><span></span><span><span></span></span
+                    ></span>
+                  </button>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="d-grid">
+                  <button class="preset-btn btn" data-value="true" onclick="change_box_container('true')">
+                    <span class="btn-label">Fixed Width</span>
+                    <span class="pc-lay-icon"
+                      ><span></span><span></span><span></span><span><span></span></span
+                    ></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="d-grid">
+            <button class="btn btn-light-danger" id="layoutreset">Reset Layout</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    <!-- Required Js -->
+
+    <!-- تحميل jQuery أولاً -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+
+    <!-- تحميل مكتبة PoshyTip -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/poshytip/1.2/tip-yellow/tip-yellow.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/poshytip/1.2/jquery.poshytip.min.js"></script>
+
+    <!-- تحميل مكتبة X-editable -->
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/jquery-editable/css/jquery-editable.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/jquery-editable/js/jquery-editable-poshytip.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+
+
+
+    <!-- تحميل مكتبات Bootstrap و Popper.js -->
+    <script src="../assets/js/plugins/popper.min.js"></script>
+    <script src="../assets/js/plugins/bootstrap.min.js"></script>
+
+    <!-- تحميل مكتبات DataTables -->
+    <script src="../assets/js/plugins/dataTables.min.js"></script>
+    <script src="../assets/js/plugins/dataTables.fixedColumns.min.js"></script>
+
+    <!-- تحميل باقي المكتبات -->
+    <script src="../assets/js/plugins/simplebar.min.js"></script>
+    <script src="../assets/js/icon/custom-font.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/theme.js"></script>
+    <script src="../assets/js/plugins/feather.min.js"></script>
+    <script src="../assets/js/layout-horizontal.js"></script>
+    <script src="../assets/js/plugins/custom.min.js"></script>
+
+
+
+  </body>
+<!-- [Body] end -->
+
+</html>

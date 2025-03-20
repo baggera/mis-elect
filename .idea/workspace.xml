@@ -5,13 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e064dde-1082-47c9-be6b-10e0693431d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desgin/01-01-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desgin/01-03-01-ihtiajat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desgin/01-03-02-rawabet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desgin/01-03-04-morakibin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desgin/01-03-05-tasnif.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desgin/01-03-06-marina.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desgin/03-03-marakz-haikaliat-morakibin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desgin/04-07-taskin-adid-makina.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desgin/04-09-dawrat-itikabia.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desgin/06-02-rawatb-ojour.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desgin/07-02-nataij-rasmia.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desgin/07-03-morashahin-rasmiin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desgin/09-01-kadamat-intikabia.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desgin/09-02-01-jalasat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desgin/09-02-03-mokarart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/plugins/custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/plugins/custom.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/01-02-mousouhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/desgin/01-nakboun.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/01-03-kadamat-intikabia.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/01-03-mortakazat.html" beforeDir="false" afterPath="$PROJECT_DIR$/desgin/01-03-mortakazat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desgin/01-03-mortakazat.html" beforeDir="false" afterPath="$PROJECT_DIR$/desgin/01-02-btakat-nakb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desgin/01-nakboun.html" beforeDir="false" afterPath="$PROJECT_DIR$/desgin/03-02-marakz-iqtiraa-mahatat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desgin/layout-horizontal4.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +109,7 @@
       <workItem from="1742366316601" duration="508000" />
       <workItem from="1742366835488" duration="1489000" />
       <workItem from="1742390565072" duration="6187000" />
-      <workItem from="1742467983705" duration="2590000" />
+      <workItem from="1742467983705" duration="15435000" />
     </task>
     <servers />
   </component>

@@ -65,6 +65,7 @@
           <i class="ph-duotone ph-gauge"></i>
         </li>
         <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-users"></i></span><span class="pc-mtext">الناخبون</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-users"></i></span><span class="pc-mtext">بطاقة ناخب</span></a></li>
         <li class="pc-item pc-hasmenu">
           <a href="#" class="pc-link"><span class="pc-micon"><i class="ph-duotone ph-clipboard-text"></i></span><span class="pc-mtext">المسوحات الإحصائية</span><span class="pc-arrow"><i class="ph-duotone ph-caret-down"></i></span></a>
           <ul class="pc-submenu">
@@ -176,11 +177,35 @@
         <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-user-plus"></i></span><span class="pc-mtext">المرشحين الرسميين</span></a></li>
 
         <li class="pc-item pc-hasmenu">
-          <a href="#" class="pc-link"><span class="pc-micon"><i class="ph-duotone ph-clipboard-text"></i></span><span class="pc-mtext">معايير اختيار مرشح </span><span class="pc-arrow"><i class="ph-duotone ph-caret-down"></i></span></a>
+          <a href="#" class="pc-link">
+            <span class="pc-micon"><i class="ph-duotone ph-clipboard-text"></i></span>
+            <span class="pc-mtext">معايير اختيار مرشح</span>
+            <span class="pc-arrow"><i class="ph-duotone ph-caret-down"></i></span>
+          </a>
           <ul class="pc-submenu">
-            <li class="pc-item"><a class="pc-link" href="#"><span class="pc-mtext">مرشحين محتملين </span></a></li>
-            <li class="pc-item"><a class="pc-link" href="#"><span class="pc-mtext">بطاقة مرشح </span></a></li>
-            <li class="pc-item"><a class="pc-link" href="#"><span class="pc-mtext">تقييم مرشح </span></a></li>
+            <!-- مرشحين محتملين -->
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-user-circle-plus"></i></span>
+                <span class="pc-mtext">مرشحين محتملين</span>
+              </a>
+            </li>
+
+            <!-- بطاقة مرشح -->
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-cards"></i></span>
+                <span class="pc-mtext">بطاقة مرشح</span>
+              </a>
+            </li>
+
+            <!-- تقييم مرشح -->
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-star"></i></span>
+                <span class="pc-mtext">تقييم مرشح</span>
+              </a>
+            </li>
           </ul>
         </li>
 
@@ -275,16 +300,13 @@
       <div class="card-body">
 
         <div class="d-flex align-items-center">
-          <div class="flex-shrink-0">
-            <img src="../assets/images/user/avatar-1.jpg" alt="user-image" class="user-avtar wid-45 rounded-circle" />
-          </div>
+
           <div class="flex-grow-1 ms-3">
             <div class="dropdown">
               <a href="#" class="arrow-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="0,20">
                 <div class="d-flex align-items-center">
                   <div class="flex-grow-1 me-2">
-                    <h6 class="mb-0">Jonh Smith</h6>
-                    <small>Administrator</small>
+                    <h6 class="mb-0"> الخدمات</h6>
                   </div>
                   <div class="flex-shrink-0">
                     <div class="btn btn-icon btn-link-secondary avtar">
@@ -293,34 +315,8 @@
                   </div>
                 </div>
               </a>
-              <div class="dropdown-menu">
-                <ul>
-                  <li>
-                    <a class="pc-user-links">
-                      <i class="ph-duotone ph-user"></i>
-                      <span>My Account</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="pc-user-links">
-                      <i class="ph-duotone ph-gear"></i>
-                      <span>Settings</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="pc-user-links">
-                      <i class="ph-duotone ph-lock-key"></i>
-                      <span>Lock Screen</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="pc-user-links">
-                      <i class="ph-duotone ph-power"></i>
-                      <span>Logout</span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+
+
             </div>
           </div>
         </div>
@@ -339,32 +335,17 @@
       <a href="#" class="pc-head-link ms-0" id="sidebar-hide">
         <i class="ti ti-menu-2"></i>
       </a>
+
     </li>
     <li class="pc-h-item pc-sidebar-popup">
       <a href="#" class="pc-head-link ms-0" id="mobile-collapse">
         <i class="ti ti-menu-2"></i>
+
       </a>
+      <img src="../assets/images/logo-dark.svg" alt="logo image" class="logo-lg" />
+
     </li>
-    <li class="dropdown pc-h-item d-inline-flex d-md-none">
-      <a
-        class="pc-head-link dropdown-toggle arrow-none m-0"
-        data-bs-toggle="dropdown"
-        href="#"
-        role="button"
-        aria-haspopup="false"
-        aria-expanded="false"
-      >
-        <i class="ph-duotone ph-magnifying-glass"></i>
-      </a>
-      <div class="dropdown-menu pc-h-dropdown drp-search">
-        <form class="px-3">
-          <div class="mb-0 d-flex align-items-center">
-            <input type="search" class="form-control border-0 shadow-none" placeholder="Search..." />
-            <button class="btn btn-light-secondary btn-search">Search</button>
-          </div>
-        </form>
-      </div>
-    </li>
+
 
   </ul>
 </div>
@@ -424,7 +405,8 @@
           </div>
         </div>
       </div>
-    </li>    <li class="dropdown pc-h-item d-none d-md-inline-flex">
+    </li>
+    <li class="dropdown pc-h-item d-none d-md-inline-flex">
       <a
         class="pc-head-link dropdown-toggle arrow-none me-0"
         data-bs-toggle="dropdown"
@@ -639,54 +621,42 @@
         <!-- [ breadcrumb ] start -->
         <div class="page-header">
           <div class="page-block">
-            <div class="row align-items-center">
 
-              <div class="col-sm-12">
 
                 <div class="card-header">
                   <div class="d-sm-flex align-items-center justify-content-between">
                     <div>
-                      <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="../dashboard/index.html">الرئيسية</a></li>
-                        <li class="breadcrumb-item"><a href="javascript: void(0)">بطاقة ناخب</a></li>
-                        <li class="breadcrumb-item" aria-current="page"> المسوحات الاحصائية</li>
-                      </ul>
-                      <h4 class="mb-3 mb-sm-3">
-                        احتياجات انتخابية
+
+                      <h4>
+                       اضف ناخب
+
+                        <ul class="breadcrumb ms-5 ">
+                          <li class="breadcrumb-item"><a href="javascript: void(0)">بطاقة ناخب</a></li>
+                          <li class="breadcrumb-item"><a href="../dashboard/index.html">الرئيسية</a></li>
+
+
+                        </ul>
+
                       </h4>
+
 
                     </div>
 
-                    <div>
+                    <div class="mb-2">
 
-                      <a href="course-teacher-apply.html" class="btn btn-tab btn-outline-secondary">
-                       استمارة مرنة
 
-                      </a>
-                      <a href="course-teacher-apply.html" class="btn btn-tab btn-outline-secondary">
-                        التصنيف الانتخابي
 
-                      </a>
-                      <a href="course-teacher-apply.html" class="btn btn-tab btn-outline-secondary">
-                        المراقبين الانتخابيين
-                      </a>
-                      <a href="course-teacher-add.html" class="btn btn-tab btn-outline-secondary">
-                        المرتكزات الانتخابية
+                      <a class="btn btn-tab" href="#">
+                        <span class="pc-micon"><i class="ph-duotone ph-eraser"></i></span>
+                        <span class="pc-mtext">احتياجات انتخابية </span>
                       </a>
 
-                      <a href="course-teacher-add.html" class="btn btn-tab btn-outline-secondary">
-                        روابط الاسر
-
-                      </a>
-                      <a href="course-teacher-add.html" class="btn btn-tab btn-outline-secondary">
-                        روابط السجلات
-
+                      <a class="btn active btn-tab" href="#">
+                        <span class="pc-micon"><i class="ph-duotone ph-plus-circle"></i></span>
+                        <span class="pc-mtext">احتياجات انتخابية </span>
                       </a>
 
-                      <a href="course-teacher-add.html" class="btn active btn-tab">
-                        احتياجات انتخابية
 
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -703,14 +673,6 @@
                             <thead>
                             <tr>
                               <th>الرقم التسلسلي</th>
-                              <th>رقم الناخب</th>
-                              <th>رقم العائلة</th>
-                              <th>الاسم</th>
-                              <th>الاب</th>
-                              <th>اسم الجد</th>
-                              <th>تاريخ الولادة</th>
-                              <th>الجنس</th>
-                              <th>رقم الهاتف</th>
                               <th>المحافظة</th>
                               <th>القضاء</th>
                               <th>الناحية</th>
@@ -721,19 +683,18 @@
                               <th>عنوان مركز الاقتراع</th>
                               <th>رقم المحطة</th>
                               <th>نوع التصويت</th>
+                              <th>رقم الناخب</th>
+                              <th>الاسم</th>
+                              <th>الاب</th>
+                              <th>اسم الجد</th>
+                              <th>تاريخ الولادة</th>
+                              <th>الجنس</th>
+                              <th>رقم الهاتف</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
                               <td><a href="#" class="editable" data-type="text" data-name="serial_number" data-title="الرقم التسلسلي">1</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="voter_number" data-title="رقم الناخب">123456</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="family_number" data-title="رقم العائلة">78910</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="first_name" data-title="الاسم">أحمد</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="father_name" data-title="الاب">محمد</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="grandfather_name" data-title="اسم الجد">علي</a></td>
-                              <td><a href="#" class="editable" data-type="date" data-name="birth_date" data-title="تاريخ الولادة">1990-01-01</a></td>
-                              <td><a href="#" class="editable" data-type="select" data-name="gender" data-title="الجنس" data-source='[{"value":"ذكر","text":"ذكر"},{"value":"أنثى","text":"أنثى"}]'>ذكر</a></td>
-                              <td><a href="#" class="editable" data-type="tel" data-name="phone_number" data-title="رقم الهاتف">0123456789</a></td>
                               <td><a href="#" class="editable" data-type="text" data-name="province" data-title="المحافظة">بيروت</a></td>
                               <td><a href="#" class="editable" data-type="text" data-name="district" data-title="القضاء">القضاء 1</a></td>
                               <td><a href="#" class="editable" data-type="text" data-name="subdistrict" data-title="الناحية">الناحية 1</a></td>
@@ -744,64 +705,44 @@
                               <td><a href="#" class="editable" data-type="text" data-name="polling_center_address" data-title="عنوان مركز الاقتراع">عنوان الاقتراع 1</a></td>
                               <td><a href="#" class="editable" data-type="text" data-name="station_number" data-title="رقم المحطة">1</a></td>
                               <td><a href="#" class="editable" data-type="text" data-name="voting_type" data-title="نوع التصويت">عام</a></td>
-                            </tr>
-                            <tr>
-                              <td><a href="#" class="editable" data-type="text" data-name="serial_number" data-title="الرقم التسلسلي">1</a></td>
                               <td><a href="#" class="editable" data-type="text" data-name="voter_number" data-title="رقم الناخب">123456</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="family_number" data-title="رقم العائلة">78910</a></td>
                               <td><a href="#" class="editable" data-type="text" data-name="first_name" data-title="الاسم">أحمد</a></td>
                               <td><a href="#" class="editable" data-type="text" data-name="father_name" data-title="الاب">محمد</a></td>
                               <td><a href="#" class="editable" data-type="text" data-name="grandfather_name" data-title="اسم الجد">علي</a></td>
                               <td><a href="#" class="editable" data-type="date" data-name="birth_date" data-title="تاريخ الولادة">1990-01-01</a></td>
                               <td><a href="#" class="editable" data-type="select" data-name="gender" data-title="الجنس" data-source='[{"value":"ذكر","text":"ذكر"},{"value":"أنثى","text":"أنثى"}]'>ذكر</a></td>
                               <td><a href="#" class="editable" data-type="tel" data-name="phone_number" data-title="رقم الهاتف">0123456789</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="province" data-title="المحافظة">بيروت</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="district" data-title="القضاء">القضاء 1</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="subdistrict" data-title="الناحية">الناحية 1</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="ration_center" data-title="اسم مركز التموين">مركز التموين 1</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="registration_center" data-title="اسم مركز التسجيل">مركز التسجيل 1</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="registration_center_address" data-title="عنوان مركز التسجيل">عنوان التسجيل 1</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="polling_center" data-title="مركز الاقتراع">مركز الاقتراع 1</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="polling_center_address" data-title="عنوان مركز الاقتراع">عنوان الاقتراع 1</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="station_number" data-title="رقم المحطة">1</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="voting_type" data-title="نوع التصويت">عام</a></td>
                             </tr>
-                            <tr>
-                              <td><a href="#" class="editable" data-type="text" data-name="serial_number" data-title="الرقم التسلسلي">1</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="voter_number" data-title="رقم الناخب">123456</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="family_number" data-title="رقم العائلة">78910</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="first_name" data-title="الاسم">أحمد</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="father_name" data-title="الاب">محمد</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="grandfather_name" data-title="اسم الجد">علي</a></td>
-                              <td><a href="#" class="editable" data-type="date" data-name="birth_date" data-title="تاريخ الولادة">1990-01-01</a></td>
-                              <td><a href="#" class="editable" data-type="select" data-name="gender" data-title="الجنس" data-source='[{"value":"ذكر","text":"ذكر"},{"value":"أنثى","text":"أنثى"}]'>ذكر</a></td>
-                              <td><a href="#" class="editable" data-type="tel" data-name="phone_number" data-title="رقم الهاتف">0123456789</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="province" data-title="المحافظة">بيروت</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="district" data-title="القضاء">القضاء 1</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="subdistrict" data-title="الناحية">الناحية 1</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="ration_center" data-title="اسم مركز التموين">مركز التموين 1</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="registration_center" data-title="اسم مركز التسجيل">مركز التسجيل 1</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="registration_center_address" data-title="عنوان مركز التسجيل">عنوان التسجيل 1</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="polling_center" data-title="مركز الاقتراع">مركز الاقتراع 1</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="polling_center_address" data-title="عنوان مركز الاقتراع">عنوان الاقتراع 1</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="station_number" data-title="رقم المحطة">1</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="voting_type" data-title="نوع التصويت">عام</a></td>
-                            </tr>
+                            <!-- تكرار نفس البنية للصفوف الأخرى -->
                             </tbody>
+                            <tfoot>
+                            <tr>
+                              <th>الرقم التسلسلي</th>
+                              <th>المحافظة</th>
+                              <th>القضاء</th>
+                              <th>الناحية</th>
+                              <th>اسم مركز التموين</th>
+                              <th>اسم مركز التسجيل</th>
+                              <th>عنوان مركز التسجيل</th>
+                              <th>مركز الاقتراع</th>
+                              <th>عنوان مركز الاقتراع</th>
+                              <th>رقم المحطة</th>
+                              <th>نوع التصويت</th>
+                              <th>رقم الناخب</th>
+                              <th>الاسم</th>
+                              <th>الاب</th>
+                              <th>اسم الجد</th>
+                              <th>تاريخ الولادة</th>
+                              <th>الجنس</th>
+                              <th>رقم الهاتف</th>
+                            </tr>
+                            </tfoot>
                           </table>
-
-
-                        </div>
-
-
                       </div>
                     </div>
 
 
 
-              </div>
-
-            </div>
           </div>
         </div>
         <!-- [ breadcrumb ] end -->
@@ -814,181 +755,6 @@
     </div>
     <!-- [ Main Content ] end -->
 
- <div class="offcanvas border-0 pct-offcanvas offcanvas-end" tabindex="-1" id="offcanvas_pc_layout">
-  <div class="offcanvas-header justify-content-between">
-    <h5 class="offcanvas-title">Settings</h5>
-    <button type="button" class="btn btn-icon btn-link-danger" data-bs-dismiss="offcanvas" aria-label="Close"
-      ><i class="ti ti-x"></i
-    ></button>
-  </div>
-  <div class="pct-body customizer-body">
-    <div class="offcanvas-body py-0">
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">
-          <div class="pc-dark">
-            <h6 class="mb-1">Theme Mode</h6>
-            <p class="text-muted text-sm">Choose light or dark mode or Auto</p>
-            <div class="row theme-color theme-layout">
-              <div class="col-4">
-                <div class="d-grid">
-                  <button class="preset-btn btn active" data-value="true" onclick="layout_change('light');">
-                    <span class="btn-label">Light</span>
-                    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
-                  </button>
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="d-grid">
-                  <button class="preset-btn btn" data-value="false" onclick="layout_change('dark');">
-                    <span class="btn-label">Dark</span>
-                    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
-                  </button>
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="d-grid">
-                  <button
-                    class="preset-btn btn"
-                    data-value="default"
-                    onclick="layout_change_default();"
-                    data-bs-toggle="tooltip"
-                    title="Automatically sets the theme based on user's operating system's color scheme."
-                  >
-                    <span class="btn-label">Default</span>
-                    <span class="pc-lay-icon d-flex align-items-center justify-content-center">
-                      <i class="ph-duotone ph-cpu"></i>
-                    </span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="list-group-item pc-sidebar-color">
-          <h6 class="mb-1">Sidebar Theme</h6>
-          <p class="text-muted text-sm">Choose Sidebar Theme</p>
-          <div class="row theme-color theme-sidebar-color">
-            <div class="col-6">
-              <div class="d-grid">
-                <button class="preset-btn btn" data-value="true" onclick="layout_sidebar_change('dark');">
-                  <span class="btn-label">Dark</span>
-                  <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
-                </button>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="d-grid">
-                <button class="preset-btn btn active" data-value="false" onclick="layout_sidebar_change('light');">
-                  <span class="btn-label">Light</span>
-                  <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="list-group-item">
-          <h6 class="mb-1">Accent color</h6>
-          <p class="text-muted text-sm">Choose your primary theme color</p>
-          <div class="theme-color preset-color">
-            <a href="#!" class="active" data-value="preset-1"><i class="ti ti-check"></i></a>
-            <a href="#!" data-value="preset-2"><i class="ti ti-check"></i></a>
-            <a href="#!" data-value="preset-3"><i class="ti ti-check"></i></a>
-            <a href="#!" data-value="preset-4"><i class="ti ti-check"></i></a>
-            <a href="#!" data-value="preset-5"><i class="ti ti-check"></i></a>
-            <a href="#!" data-value="preset-6"><i class="ti ti-check"></i></a>
-            <a href="#!" data-value="preset-7"><i class="ti ti-check"></i></a>
-            <a href="#!" data-value="preset-8"><i class="ti ti-check"></i></a>
-            <a href="#!" data-value="preset-9"><i class="ti ti-check"></i></a>
-            <a href="#!" data-value="preset-10"><i class="ti ti-check"></i></a>
-          </div>
-        </li>
-        <li class="list-group-item">
-          <h6 class="mb-1">Sidebar Caption</h6>
-          <p class="text-muted text-sm">Sidebar Caption Hide/Show</p>
-          <div class="row theme-color theme-nav-caption">
-            <div class="col-6">
-              <div class="d-grid">
-                <button class="preset-btn btn active" data-value="true" onclick="layout_caption_change('true');">
-                  <span class="btn-label">Caption Show</span>
-                  <span class="pc-lay-icon"
-                    ><span></span><span></span><span><span></span><span></span></span><span></span
-                  ></span>
-                </button>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="d-grid">
-                <button class="preset-btn btn" data-value="false" onclick="layout_caption_change('false');">
-                  <span class="btn-label">Caption Hide</span>
-                  <span class="pc-lay-icon"
-                    ><span></span><span></span><span><span></span><span></span></span><span></span
-                  ></span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="list-group-item">
-          <div class="pc-rtl">
-            <h6 class="mb-1">Theme Layout</h6>
-            <p class="text-muted text-sm">LTR/RTL</p>
-            <div class="row theme-color theme-direction">
-              <div class="col-6">
-                <div class="d-grid">
-                  <button class="preset-btn btn active" data-value="false" onclick="layout_rtl_change('false');">
-                    <span class="btn-label">LTR</span>
-                    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
-                  </button>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="d-grid">
-                  <button class="preset-btn btn" data-value="true" onclick="layout_rtl_change('true');">
-                    <span class="btn-label">RTL</span>
-                    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="list-group-item pc-box-width">
-          <div class="pc-container-width">
-            <h6 class="mb-1">Layout Width</h6>
-            <p class="text-muted text-sm">Choose Full or Container Layout</p>
-            <div class="row theme-color theme-container">
-              <div class="col-6">
-                <div class="d-grid">
-                  <button class="preset-btn btn active" data-value="false" onclick="change_box_container('false')">
-                    <span class="btn-label">Full Width</span>
-                    <span class="pc-lay-icon"
-                      ><span></span><span></span><span></span><span><span></span></span
-                    ></span>
-                  </button>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="d-grid">
-                  <button class="preset-btn btn" data-value="true" onclick="change_box_container('true')">
-                    <span class="btn-label">Fixed Width</span>
-                    <span class="pc-lay-icon"
-                      ><span></span><span></span><span></span><span><span></span></span
-                    ></span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="list-group-item">
-          <div class="d-grid">
-            <button class="btn btn-light-danger" id="layoutreset">Reset Layout</button>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
 
 
 
@@ -997,9 +763,6 @@
 
     <!-- تحميل jQuery أولاً -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
-
-
     <!-- تحميل مكتبة PoshyTip -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/poshytip/1.2/tip-yellow/tip-yellow.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/poshytip/1.2/jquery.poshytip.min.js"></script>
@@ -1011,8 +774,11 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
 
+    <!-- jQuery UI (مطلوب لحقول التاريخ) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
 
-
+    <!-- أو Bootstrap Datepicker -->
 
     <!-- تحميل مكتبات Bootstrap و Popper.js -->
     <script src="../assets/js/plugins/popper.min.js"></script>
@@ -1030,12 +796,6 @@
     <script src="../assets/js/plugins/feather.min.js"></script>
     <script src="../assets/js/layout-horizontal.js"></script>
     <script src="../assets/js/plugins/custom.min.js"></script>
-
-
-    <script>
-          layout_rtl_change('true');
-    </script>
-
 
 
   </body>

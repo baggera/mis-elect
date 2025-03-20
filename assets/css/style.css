@@ -2706,9 +2706,9 @@ textarea.form-control-lg {
 .form-floating > .form-control-plaintext,
 .form-floating > .form-select,
 .form-floating > .datatable-selector {
-  height: calc(3rem + calc(var(--bs-border-width) * 1.8));
-  min-height: calc(3rem + calc(var(--bs-border-width) * 1.8));
-  line-height: 1;
+  height: 3em ;
+  min-height: 3rem ;
+  line-height: 1.5;
 }
 .form-floating > label {
   position: absolute;
@@ -2757,18 +2757,18 @@ textarea.form-control-lg {
 .form-floating > .dataTable-input:not(:placeholder-shown),
 .form-floating > .form-control-plaintext:focus,
 .form-floating > .form-control-plaintext:not(:placeholder-shown) {
-  padding-top: 1.625rem;
+
   padding-bottom: 0.625rem;
 }
 .form-floating > .form-control:-webkit-autofill, .form-floating > .datatable-input:-webkit-autofill, .form-floating > .custom-select:-webkit-autofill,
 .form-floating > .dataTable-selector:-webkit-autofill,
 .form-floating > .dataTable-input:-webkit-autofill,
 .form-floating > .form-control-plaintext:-webkit-autofill {
-  padding-top: 1.625rem;
+
   padding-bottom: 0.625rem;
 }
 .form-floating > .form-select, .form-floating > .datatable-selector {
-  padding-top: 1.625rem;
+
   padding-bottom: 0.625rem;
 }
 .form-floating > .form-control:not(:-moz-placeholder-shown) ~ label, .form-floating > .datatable-input:not(:-moz-placeholder-shown) ~ label, .form-floating > .custom-select:not(:-moz-placeholder-shown) ~ label, .form-floating > .dataTable-selector:not(:-moz-placeholder-shown) ~ label, .form-floating > .dataTable-input:not(:-moz-placeholder-shown) ~ label {
@@ -2787,7 +2787,7 @@ textarea.form-control-lg {
 .form-floating > .form-select ~ label,
 .form-floating > .datatable-selector ~ label {
   color: rgba(var(--bs-body-color-rgb), 1);
-  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+  transform: scale(0.80) translateY(0.1rem) translateX(0.1rem);
 }
 .form-floating > .form-control:not(:-moz-placeholder-shown) ~ label::after, .form-floating > .datatable-input:not(:-moz-placeholder-shown) ~ label::after, .form-floating > .custom-select:not(:-moz-placeholder-shown) ~ label::after, .form-floating > .dataTable-selector:not(:-moz-placeholder-shown) ~ label::after, .form-floating > .dataTable-input:not(:-moz-placeholder-shown) ~ label::after {
   position: absolute;
@@ -2812,10 +2812,12 @@ textarea.form-control-lg {
   position: absolute;
   inset: 1rem 0.375rem;
   z-index: -1;
-  height: 1.5em;
+  height: 0.5em;
   content: "";
-  background-color: #ffffff;
+
   border-radius: 8px;
+  right: 0;
+
 }
 .form-floating > .form-control:-webkit-autofill ~ label, .form-floating > .datatable-input:-webkit-autofill ~ label, .form-floating > .custom-select:-webkit-autofill ~ label,
 .form-floating > .dataTable-selector:-webkit-autofill ~ label,
@@ -22846,9 +22848,8 @@ pre[class*=language-] > code {
 
 .table-card .card-body,
 .table-body.card-body {
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
+  padding: 0px 0;
+
 }
 .table-card .card-body .table > thead > tr > th,
 .table-body.card-body .table > thead > tr > th {
@@ -24737,14 +24738,20 @@ select[data-multiselectsplitter-secondselect-selector].dataTable-input {
 .form-floating > .form-select ~ label,
 .form-floating > .datatable-selector ~ label {
   color: #a4a4a4;
+  top: -8px;
+
+
 }
 .form-floating > .form-control:focus ~ label, .form-floating > .datatable-input:focus ~ label, .form-floating > .custom-select:focus ~ label,
 .form-floating > .dataTable-selector:focus ~ label,
 .form-floating > .dataTable-input:focus ~ label {
   color: var(--bs-primary);
+
+
 }
 .form-floating > input {
   color: #39465f;
+
 }
 
 .bootstrap-select -select > .dropdown-toggle.btn-light,
@@ -31299,9 +31306,10 @@ table.dataTable tbody tr > .dtfc-fixed-start, table.dataTable tbody tr > .dtfc-f
 tfoot input {
   width: 100%;
   padding: 3px;
-  box-sizing: border-box;
+  box-sizing: content-box;
   border: 1px solid #e8e8e8;
-  display: table-header-group;
+
+
   border-radius:4px ;
 }
 /* تنسيق Striped Rows */
@@ -31334,4 +31342,18 @@ left-right-fix th {
 {
   background: #04a9f5 !important;
   color: white;
+}
+
+.editable-click, a.editable-click, a.editable-click:hover {
+
+  border-bottom: dotted 1px #a8a8a8 !important;
+  color: #181818;
+}
+
+
+#left-right-fix_info {
+  text-align: left;
+  padding: 0px 10px;
+  color: #757575;
+  margin: 10px 0;
 }
