@@ -22640,7 +22640,7 @@ pre[class*=language-] > code {
     color: var(--bs-primary);
   }
   [data-pc-layout=horizontal] .pc-sidebar .pc-submenu .pc-submenu {
-    left: 100%;
+    right: 100%;
     top: -15px;
     z-index: 1;
   }
@@ -31328,4 +31328,10 @@ left-right-fix th {
 [data-pc-direction=rtl] div.dt-container div.dt-search
 {
   display: none;
+}
+
+.active.btn-tab
+{
+  background: #04a9f5 !important;
+  color: white;
 }
