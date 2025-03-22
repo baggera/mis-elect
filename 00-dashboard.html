@@ -665,10 +665,131 @@
         </div>
         <!-- [ breadcrumb ] end -->
 
-        <!-- [ Main Content ] start -->
         <div class="row">
-          <!-- [ Row 1 ] start -->
-          <div class="col-md-12 col-xxl-4">
+
+          <!-- بطاقة عدد الناخبين -->
+          <div class="col-xxl-3 col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="flex-grow-1 me-3">
+                    <p class="mb-1 fw-medium text-muted">عدد الناخبين</p>
+                    <h4 class="mb-1">15,000+</h4>
+                    <p class="mb-0 text-sm">حتى تاريخ 2023/10/01</p>
+                  </div>
+                  <div class="flex-shrink-0">
+                    <div class="avtar avtar-l bg-light-primary rounded-circle">
+                      <i class="ph-duotone ph-users f-28"></i> <!-- أيقونة الناخبين -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- بطاقة عدد المرشحين -->
+          <div class="col-xxl-3 col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="flex-grow-1 me-3">
+                    <p class="mb-1 fw-medium text-muted">عدد المرشحين</p>
+                    <h4 class="mb-1">250</h4>
+                    <p class="mb-0 text-sm">حتى تاريخ 2023/10/01</p>
+                  </div>
+                  <div class="flex-shrink-0">
+                    <div class="avtar avtar-l bg-light-success rounded-circle">
+                      <i class="ph-duotone ph-user-circle-plus f-28"></i> <!-- أيقونة المرشحين -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- بطاقة نسبة المشاركة -->
+          <div class="col-xxl-3 col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="flex-grow-1 me-3">
+                    <p class="mb-1 fw-medium text-muted">نسبة المشاركة</p>
+                    <h4 class="mb-1">65%</h4>
+                    <p class="mb-0 text-sm">حتى تاريخ 2023/10/01</p>
+                  </div>
+                  <div class="flex-shrink-0">
+                    <div class="avtar avtar-l bg-light-warning rounded-circle">
+                      <i class="ph-duotone ph-chart-bar f-28"></i> <!-- أيقونة الإحصائيات -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- بطاقة عدد المراكز الانتخابية -->
+          <div class="col-xxl-3 col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="flex-grow-1 me-3">
+                    <p class="mb-1 fw-medium text-muted">عدد المراكز الانتخابية</p>
+                    <h4 class="mb-1">1,200</h4>
+                    <p class="mb-0 text-sm">حتى تاريخ 2023/10/01</p>
+                  </div>
+                  <div class="flex-shrink-0">
+                    <div class="avtar avtar-l bg-light-danger rounded-circle">
+                      <i class="ph-duotone ph-buildings f-28"></i> <!-- أيقونة المراكز الانتخابية -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="card-header">
+                <div class="d-flex align-items-center justify-content-between">
+                  <h5 class="mb-0">المشاركة</h5>
+                  <input type="date" class="form-control form-control-sm w-auto border-0 shadow-none2" />
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-1">
+                  <h3 class="mb-0">255,1555 <small class="text-muted">/+202</small></h3>
+                  <span class="badge bg-light-success ms-2">36%</span>
+                </div>
+                <p> حسب الوقت</p>
+                <div id="customer-rate-graph"></div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="card-header">
+                <div class="d-flex align-items-center justify-content-between">
+                  <h5 class="mb-0"> اللوائح</h5>
+                  <select class="form-select form-select-sm w-auto border-0 shadow-none">
+                    <option>Today</option>
+                    <option selected=""> منذ ساعتين</option>
+                    <option>منذ 24 ساعة</option>
+                  </select>
+                </div>
+              </div>
+              <div class="card-body">
+                <p class="mb-0">الاصوات</p>
+                <h4>255,555 صوت</h4>
+                <div id="monthly-report-graph"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xxl-4">
             <div class="card statistics-card-1">
               <div class="card-body">
                 <img src="assets/images/widget/img-status-2.svg" alt="img" class="img-fluid img-bg" />
@@ -729,6 +850,167 @@
               </div>
             </div>
           </div>
+
+          <div class="col-md-6 col-xl-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex align-items-center justify-content-between">
+                  <h5>توزرع الاصوات</h5>
+                  <i class="ph-duotone ph-arrow-square-out f-20 ms-1" data-bs-toggle="tooltip" data-bs-title="Your team performance"></i>
+                </div>
+                <select class="form-select form-select-sm w-auto border-0 shadow-none">
+                  <option>اليوم</option>
+                  <option selected=""> منذ 8 ساعات</option>
+                  <option>منذ 12 ساعة</option>
+                </select>
+                <div id="performance-chart"></div>
+                <div class="text-center">
+
+                  <div class="d-inline-flex align-items-center m-1">
+                    <p class="mb-0"><i class="ph-duotone ph-circle text-primary f-12"></i> الكرامة </p>
+                    <span class="badge bg-light-secondary ms-1">56</span>
+                  </div>
+                  <div class="d-inline-flex align-items-center m-1">
+                    <p class="mb-0"><i class="ph-duotone ph-circle text-secondary f-12"></i> الوفاق </p>
+                    <span class="badge bg-light-danger ms-1">34</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- التقويم الانتخابي -->
+          <div class="col-lg-4 col-md-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="mb-2">التقويم الانتخابي</h5>
+                <p>2023/10/10 <span class="badge text-bg-primary">اليوم</span></p>
+                <div class="card overflow-hidden mb-2">
+                  <div class="card-body px-3 py-2 border-start border-4 border-success">
+                    <h6>بدء التصويت</h6>
+                    <p class="mb-0">08:00</p>
+                  </div>
+                </div>
+                <div class="card overflow-hidden mb-2">
+                  <div class="card-body px-3 py-2 border-start border-4 border-warning">
+                    <h6>إغلاق الصناديق</h6>
+                    <p class="mb-0">18:00</p>
+                  </div>
+                </div>
+                <div class="card overflow-hidden mb-2">
+                  <div class="card-body px-3 py-2 border-start border-4 border-primary">
+                    <h6>فرز الأصوات</h6>
+                    <p class="mb-0">19:00</p>
+                  </div>
+                </div>
+                <div class="card overflow-hidden mb-0">
+                  <div class="card-body px-3 py-2 border-start border-4 border-danger">
+                    <h6>إعلان النتائج</h6>
+                    <p class="mb-0">22:00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- الإشعارات -->
+          <div class="col-lg-4 col-md-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex align-items-center justify-content-between mb-3">
+                  <h5 class="mb-0">الإشعارات</h5>
+                  <div class="dropdown">
+                    <a class="avtar avtar-s btn-link-secondary dropdown-toggle arrow-none" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="ti ti-dots-vertical f-18"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-end">
+                      <a class="dropdown-item" href="#">اليوم</a>
+                      <a class="dropdown-item" href="#">أسبوعي</a>
+                      <a class="dropdown-item" href="#">شهري</a>
+                    </div>
+                  </div>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item px-0 py-2">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <img src="../assets/images/user/avatar-1.jpg" alt="img" class="wid-40 rounded-circle" />
+                      </div>
+                      <div class="flex-grow-1 mx-3">
+                        <h6 class="mb-0">تم تسجيل 100 ناخب جديد</h6>
+                      </div>
+                      <div class="flex-shrink-0">
+                        <p class="mb-0 text-muted">اليوم | 9:00 ص</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item px-0 py-2">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <img src="../assets/images/user/avatar-2.jpg" alt="img" class="wid-40 rounded-circle" />
+                      </div>
+                      <div class="flex-grow-1 mx-3">
+                        <h6 class="mb-0">تم إضافة 5 مرشحين جدد</h6>
+                      </div>
+                      <div class="flex-shrink-0">
+                        <p class="mb-0 text-muted">أمس | 6:30 م</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item px-0 py-2">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <img src="../assets/images/user/avatar-2.jpg" alt="img" class="wid-40 rounded-circle" />
+                      </div>
+                      <div class="flex-grow-1 mx-3">
+                        <h6 class="mb-0">تم إضافة 5 مرشحين جدد</h6>
+                      </div>
+                      <div class="flex-shrink-0">
+                        <p class="mb-0 text-muted">أمس | 6:30 م</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item px-0 py-2">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <img src="../assets/images/user/avatar-2.jpg" alt="img" class="wid-40 rounded-circle" />
+                      </div>
+                      <div class="flex-grow-1 mx-3">
+                        <h6 class="mb-0">تم إضافة 5 مرشحين جدد</h6>
+                      </div>
+                      <div class="flex-shrink-0">
+                        <p class="mb-0 text-muted">أمس | 6:30 م</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item px-0 py-2">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <img src="../assets/images/user/avatar-2.jpg" alt="img" class="wid-40 rounded-circle" />
+                      </div>
+                      <div class="flex-grow-1 mx-3">
+                        <h6 class="mb-0">تم إضافة 5 مرشحين جدد</h6>
+                      </div>
+                      <div class="flex-shrink-0">
+                        <p class="mb-0 text-muted">أمس | 6:30 م</p>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- يمكن إضافة المزيد من الإشعارات -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- [ Main Content ] start -->
+        <div class="row">
+          <!-- [ Row 1 ] start -->
+
           <!-- [ Row 1 ] end -->
 
           <!-- [ Row 2 ] start -->
@@ -1239,60 +1521,67 @@
   </div>
 </div>
 
+          </div>
+        </div>
+      </div>
+    </div>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="assets/js/plugins/dataTables.min.js"></script>
-    <script src="assets/js/layout-horizontal.js"></script>
+<!-- Required Js -->
 
-    <script src="assets/js/plugins/dataTables.fixedColumns.min.js"></script>
-    <script>
-      // [ left-right-fix
-      var table = $('#left-right-fix').DataTable({
-        "language": {
-          "info": "عرض _START_ إلى _END_ من _TOTAL_ مدخلات",
-          "infoEmpty": "عرض 0 إلى 0 من 0 مدخلات",
-          "lengthMenu": "عرض _MENU_ مدخلات",
-          "search": "بحث:",
-          "paginate": {
-            "first": "الأول",
-            "last": "الأخير",
-            "next": "التالي",
-            "previous": "السابق"
-          }
-        },
-        scrollY: '300px',
-        scrollX: true,
-        scrollCollapse: true,
-        paging: false,
-        fixedColumns: {
-          leftColumns: 1,
-          rightColumns: 1
-        }
-      });
-      var table = $('#right-fix').DataTable({
-        scrollY: '300px',
-        scrollX: true,
-        scrollCollapse: true,
-        paging: false,
-        fixedColumns: {
-          leftColumns: 0,
-          rightColumns: 1
-
-
-        }
+<!-- تحميل jQuery أولاً -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 
 
-      });
+<!-- تحميل مكتبة PoshyTip -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/poshytip/1.2/tip-yellow/tip-yellow.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/poshytip/1.2/jquery.poshytip.min.js"></script>
+
+<!-- تحميل مكتبة X-editable -->
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/jquery-editable/css/jquery-editable.css" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/jquery-editable/js/jquery-editable-poshytip.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
 
 
 
 
-    </script>
+<!-- تحميل مكتبات Bootstrap و Popper.js -->
+<script src="assets/js/plugins/popper.min.js"></script>
+<script src="assets/js/plugins/bootstrap.min.js"></script>
+
+<!-- تحميل مكتبات DataTables -->
+<script src="assets/js/plugins/dataTables.min.js"></script>
+<script src="assets/js/plugins/dataTables.fixedColumns.min.js"></script>
+
+<!-- تحميل باقي المكتبات -->
+<script src="assets/js/plugins/simplebar.min.js"></script>
+<script src="assets/js/icon/custom-font.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/theme.js"></script>
+<script src="assets/js/plugins/feather.min.js"></script>
+<script src="assets/js/layout-horizontal.js"></script>
+<script src="assets/js/plugins/custom.min.js"></script>
 
 
-  </body>
-  <!-- [Body] end -->
+
+
+
+<!-- [Page Specific JS] start -->
+<!-- Apex Chart -->
+<script src="assets/js/plugins/apexcharts.min.js"></script>
+<script src="assets/js/widgets/customer-rate-graph.js"></script>
+<script src="assets/js/widgets/monthly-report-graph.js"></script>
+
+
+
+<script src="assets/js/widgets/performance-chart.js"></script>
+
+
+
+</body>
+<!-- [Body] end -->
 
 </html>

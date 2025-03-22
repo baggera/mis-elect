@@ -5,196 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e064dde-1082-47c9-be6b-10e0693431d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/01-02-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-03-01-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-03-02-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-03-03-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-03-04-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-03-05-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-03-06-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-02-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-03-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-07-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w_chart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/course-course-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/course-course-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/course-course-view.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/course-course-view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/course-dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/course-dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/course-pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/course-pricing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/course-setting-notifications.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/course-setting-notifications.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/course-setting-payment.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/course-setting-payment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/course-setting-pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/course-setting-pricing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/course-site.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/course-site.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/course-student-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/course-student-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/course-student-apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/course-student-apply.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/course-student-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/course-student-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/course-teacher-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/course-teacher-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/course-teacher-apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/course-teacher-apply.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/course-teacher-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/course-teacher-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/helpdesk-create-ticket.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/helpdesk-create-ticket.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/helpdesk-customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/helpdesk-customer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/helpdesk-dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/helpdesk-dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/helpdesk-ticket-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/helpdesk-ticket-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/helpdesk-ticket.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/helpdesk-ticket.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/invoice-create.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/invoice-create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/invoice-dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/invoice-dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/invoice-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/invoice-edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/invoice-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/invoice-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/invoice-view.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/invoice-view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00-dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/00-dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admins/membership-dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/membership-dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/membership-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/membership-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/membership-pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/membership-pricing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/membership-setting.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/membership-setting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/account-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/account-profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/calendar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/chat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/ecom_checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/ecom_checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/ecom_product-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/ecom_product-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/ecom_product-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/ecom_product-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/ecom_product-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/ecom_product-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/ecom_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/ecom_product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/gallery-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/gallery-grid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/gallery-masonry.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/gallery-masonry.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/invoice-create.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/invoice-create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/invoice-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/invoice-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/invoice-view.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/invoice-view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/mail.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/mail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/plans.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/plans.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/social-media.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/social-media.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/team.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/user-card.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/user-card.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/user-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/user-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/plugins/custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/plugins/custom.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart/chart-apex.html" beforeDir="false" afterPath="$PROJECT_DIR$/chart/chart-apex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart/chart-peity.html" beforeDir="false" afterPath="$PROJECT_DIR$/chart/chart-peity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart/map-gmap.html" beforeDir="false" afterPath="$PROJECT_DIR$/chart/map-gmap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart/map-vector.html" beforeDir="false" afterPath="$PROJECT_DIR$/chart/map-vector.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/affiliate.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/affiliate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/finance.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/finance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/invoice.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/invoice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/layout-2-column.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/layout-2-column.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/layout-advanced.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/layout-advanced.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/layout-big-compact.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/layout-big-compact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/layout-compact.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/layout-compact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/layout-creative.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/layout-creative.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/layout-detached.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/layout-detached.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/layout-moduler.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/layout-moduler.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/layout-tab.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/layout-tab.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/layout-vertical-tab.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/layout-vertical-tab.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/layout-vertical.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/layout-vertical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/01-01-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-01-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/01-01-nakb.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-01-nakb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/01-02-btakat-nakb.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-02-btakat-nakb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/01-03-01-ihtiajat.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-03-01-ihtiajat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/01-03-02-rawabet.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-03-02-rawabet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/01-03-03-mortakazat.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-03-03-mortakazat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/01-03-04-morakibin.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-03-04-morakibin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/01-03-05-tasnif.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-03-05-tasnif.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/01-03-06-marina.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-03-06-marina.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/03-02-marakz-iqtiraa-mahatat.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-02-marakz-iqtiraa-mahatat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/03-03-marakz-haikaliat-morakibin.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-03-marakz-haikaliat-morakibin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/04-07-taskin-adid-makina.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-07-taskin-adid-makina.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/04-09-dawrat-itikabia.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-01-dawrat-itikabia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/06-02-rawatb-ojour.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-02-rawatb-ojour.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/07-02-nataij-rasmia.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-02-lawaih-rasmia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/07-03-morashahin-rasmiin.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-03-morashahin-rasmiin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/09-01-kadamat-intikabia.html" beforeDir="false" afterPath="$PROJECT_DIR$/08-01-kadamat-intikabia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/09-02-01-jalasat.html" beforeDir="false" afterPath="$PROJECT_DIR$/08-02-01-jalasat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/09-02-03-mokarart.html" beforeDir="false" afterPath="$PROJECT_DIR$/08-02-03-mokarart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/layout-horizontal.html" beforeDir="false" afterPath="$PROJECT_DIR$/layout-horizontal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/layout-horizontal0.html" beforeDir="false" afterPath="$PROJECT_DIR$/00-dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/layout-horizontal2.html" beforeDir="false" afterPath="$PROJECT_DIR$/layout-horizontal2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/layout-horizontal3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/desgin/login-v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/00-login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/animation.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements/animation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/icon-custom.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements/icon-custom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/icon-feather.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements/icon-feather.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/icon-fontawesome.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements/icon-fontawesome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/icon-material.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements/icon-material.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/icon-phosphor.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements/icon-phosphor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/icon-tabler.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements/icon-tabler.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/editor-balloon.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/editor-balloon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/editor-classic.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/editor-classic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/editor-document.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/editor-document.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/editor-inline.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/editor-inline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/file-upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/file-upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form-validation.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form-validation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_checkbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_checkbox.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_choices.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_choices.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_clipboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_clipboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_datepicker.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_datepicker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_daterangepicker.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_daterangepicker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_flu-uppy.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_flu-uppy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_input_group.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_input_group.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_inputmask.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_inputmask.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_lay-actionbars.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_lay-actionbars.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_lay-default.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_lay-default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_lay-multicolumn.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_lay-multicolumn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_lay-stickyactionbars.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_lay-stickyactionbars.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_markdown.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_markdown.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_megaoption.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_megaoption.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_nouislider.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_nouislider.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_quill.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_quill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_radio.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_radio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_rating.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_rating.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_recaptcha.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_recaptcha.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_switch.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_switch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_switchjs.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_switchjs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_timepicker.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_timepicker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_tinymce.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_tinymce.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_typeahead.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_typeahead.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form2_wizard.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form2_wizard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form_elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form_elements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/form_floating.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/form_floating.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/image_crop.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/image_crop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/sample-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/other/sample-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact-search.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact-search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/forgot-password-v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/forgot-password-v2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/loading.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/loading.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login-modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login-modal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/register-v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/register-v2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/reset-password-v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/reset-password-v2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/search-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/search-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/dt_advance.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/dt_advance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/dt_api.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/dt_api.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/dt_ext_autofill.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/dt_ext_autofill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/dt_ext_basic_buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/dt_ext_basic_buttons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/dt_ext_col_reorder.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/dt_ext_col_reorder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/dt_ext_export_buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/dt_ext_export_buttons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/dt_ext_fixed_columns.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/dt_ext_fixed_columns.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/dt_ext_fixed_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/dt_ext_fixed_header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/dt_ext_key_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/dt_ext_key_table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/dt_ext_responsive.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/dt_ext_responsive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/dt_ext_row_reorder.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/dt_ext_row_reorder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/dt_ext_scroller.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/dt_ext_scroller.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/dt_ext_select.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/dt_ext_select.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/dt_plugin.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/dt_plugin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/dt_sources.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/dt_sources.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/dt_styling.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/dt_styling.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/tbl_bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/tbl_bootstrap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/tbl_border.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/tbl_border.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/tbl_dt-add-rows.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/tbl_dt-add-rows.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/tbl_dt-column-manipulation.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/tbl_dt-column-manipulation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/tbl_dt-datetime-sorting.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/tbl_dt-datetime-sorting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/tbl_dt-dynamic-import.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/tbl_dt-dynamic-import.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/tbl_dt-export.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/tbl_dt-export.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/tbl_dt-fetch-api.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/tbl_dt-fetch-api.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/tbl_dt-filters.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/tbl_dt-filters.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/tbl_dt-methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/tbl_dt-methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/tbl_dt-render-column-cells.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/tbl_dt-render-column-cells.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/tbl_dt-simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/tbl_dt-simple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/tbl_sizing.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/tbl_sizing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/tbl_styling.html" beforeDir="false" afterPath="$PROJECT_DIR$/table/tbl_styling.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/w_chart.html" beforeDir="false" afterPath="$PROJECT_DIR$/widget/w_chart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/w_data.html" beforeDir="false" afterPath="$PROJECT_DIR$/widget/w_data.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/w_statistics.html" beforeDir="false" afterPath="$PROJECT_DIR$/widget/w_statistics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/w_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/widget/w_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style-preset.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style-preset.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,24 +40,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.layout-horizontal.html.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/des1/Documents/GitHub/mis-elect/desgin&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.layout-horizontal.html.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/des1/Documents/GitHub/mis-elect",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\des1\Documents\GitHub\mis-elect\desgin" />
       <recent name="C:\Users\des1\Documents\GitHub\mis-elect" />
+      <recent name="C:\Users\des1\Documents\GitHub\mis-elect\desgin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\des1\Documents\GitHub\mis-elect" />
@@ -280,7 +95,7 @@
       <workItem from="1742390565072" duration="6187000" />
       <workItem from="1742467983705" duration="15483000" />
       <workItem from="1742537573857" duration="12250000" />
-      <workItem from="1742629440301" duration="1497000" />
+      <workItem from="1742629440301" duration="5791000" />
     </task>
     <servers />
   </component>
