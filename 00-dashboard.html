@@ -46,6 +46,8 @@
 </div>
 <!-- [ Pre-loader ] End -->
 <!-- [ Sidebar Menu ] start -->
+<!-- [ Sidebar Menu ] start -->
+<!-- [ Sidebar Menu ] start -->
 <nav class="pc-sidebar">
   <div class="navbar-wrapper">
     <div class="m-header">
@@ -288,20 +290,20 @@
       </ul>
     </div>
 
+
+
+
     <div class="card pc-user-card">
       <div class="card-body">
 
         <div class="d-flex align-items-center">
-          <div class="flex-shrink-0">
-            <img src="assets/images/user/avatar-1.jpg" alt="user-image" class="user-avtar wid-45 rounded-circle" />
-          </div>
+
           <div class="flex-grow-1 ms-3">
             <div class="dropdown">
               <a href="#" class="arrow-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="0,20">
                 <div class="d-flex align-items-center">
                   <div class="flex-grow-1 me-2">
-                    <h6 class="mb-0">Jonh Smith</h6>
-                    <small>Administrator</small>
+                    <h6 class="mb-0"> الخدمات</h6>
                   </div>
                   <div class="flex-shrink-0">
                     <div class="btn btn-icon btn-link-secondary avtar">
@@ -310,34 +312,8 @@
                   </div>
                 </div>
               </a>
-              <div class="dropdown-menu">
-                <ul>
-                  <li>
-                    <a class="pc-user-links">
-                      <i class="ph-duotone ph-user"></i>
-                      <span>My Account</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="pc-user-links">
-                      <i class="ph-duotone ph-gear"></i>
-                      <span>Settings</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="pc-user-links">
-                      <i class="ph-duotone ph-lock-key"></i>
-                      <span>Lock Screen</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="pc-user-links">
-                      <i class="ph-duotone ph-power"></i>
-                      <span>Logout</span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+
+
             </div>
           </div>
         </div>
@@ -346,7 +322,7 @@
   </div>
 </nav>
 <!-- [ Sidebar Menu ] end -->
- <!-- [ Header Topbar ] start -->
+<!-- [ Header Topbar ] start -->
 <header class="pc-header">
   <div class="header-wrapper"> <!-- [Mobile Media Block] start -->
     <div class="me-auto pc-mob-drp">
@@ -356,23 +332,17 @@
           <a href="#" class="pc-head-link ms-0" id="sidebar-hide">
             <i class="ti ti-menu-2"></i>
           </a>
+
         </li>
         <li class="pc-h-item pc-sidebar-popup">
           <a href="#" class="pc-head-link ms-0" id="mobile-collapse">
             <i class="ti ti-menu-2"></i>
-          </a>
-        </li>
-        <li class="dropdown pc-h-item d-inline-flex d-md-none">
 
-          <div class="dropdown-menu pc-h-dropdown drp-search">
-            <form class="px-3">
-              <div class="mb-0 d-flex align-items-center">
-                <input type="search" class="form-control border-0 shadow-none" placeholder="Search..." />
-                <button class="btn btn-light-secondary btn-search">Search</button>
-              </div>
-            </form>
-          </div>
+          </a>
+          <img src="assets/images/logo-dark.svg" alt="logo image" class="logo-lg" />
+
         </li>
+
 
       </ul>
     </div>
@@ -432,32 +402,33 @@
               </div>
             </div>
           </div>
-        </li>    <li class="dropdown pc-h-item d-none d-md-inline-flex">
-        <a
-                class="pc-head-link dropdown-toggle arrow-none me-0"
-                data-bs-toggle="dropdown"
-                href="#"
-                role="button"
-                aria-haspopup="false"
-                aria-expanded="false"
-        >
-          <i class="ph-duotone ph-sun-dim"></i>
-        </a>
-        <div class="dropdown-menu dropdown-menu-end pc-h-dropdown">
-          <a href="#!" class="dropdown-item" onclick="layout_change('dark')">
-            <i class="ph-duotone ph-moon"></i>
-            <span>داكن</span>
-          </a>
-          <a href="#!" class="dropdown-item" onclick="layout_change('light')">
+        </li>
+        <li class="dropdown pc-h-item d-none d-md-inline-flex">
+          <a
+                  class="pc-head-link dropdown-toggle arrow-none me-0"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="false"
+                  aria-expanded="false"
+          >
             <i class="ph-duotone ph-sun-dim"></i>
-            <span>فاتح</span>
           </a>
-          <a href="#!" class="dropdown-item" onclick="layout_change_default()">
-            <i class="ph-duotone ph-cpu"></i>
-            <span>تلقائي</span>
-          </a>
-        </div>
-      </li>
+          <div class="dropdown-menu dropdown-menu-end pc-h-dropdown">
+            <a href="#!" class="dropdown-item" onclick="layout_change('dark')">
+              <i class="ph-duotone ph-moon"></i>
+              <span>داكن</span>
+            </a>
+            <a href="#!" class="dropdown-item" onclick="layout_change('light')">
+              <i class="ph-duotone ph-sun-dim"></i>
+              <span>فاتح</span>
+            </a>
+            <a href="#!" class="dropdown-item" onclick="layout_change_default()">
+              <i class="ph-duotone ph-cpu"></i>
+              <span>تلقائي</span>
+            </a>
+          </div>
+        </li>
 
         <li class="dropdown pc-h-item">
           <a
@@ -641,7 +612,8 @@
 
 
 
-    <!-- [ Main Content ] start -->
+
+<!-- [ Main Content ] start -->
     <div class="pc-container">
       <div class="pc-content">
         <!-- [ breadcrumb ] start -->
@@ -1308,42 +1280,6 @@
         <!--
 
     <!-- [ Main Content ] end -->
- <!-- Required Js -->
-<script src="assets/js/plugins/popper.min.js"></script>
-<script src="assets/js/plugins/simplebar.min.js"></script>
-<script src="assets/js/plugins/bootstrap.min.js"></script>
-<script src="assets/js/plugins/i18next.min.js"></script>
-<script src="assets/js/plugins/i18nextHttpBackend.min.js"></script>
-<script src="assets/js/icon/custom-font.js"></script>
-<script src="assets/js/script.js"></script>
-<script src="assets/js/theme.js"></script>
-<script src="assets/js/multi-lang.js"></script>
-<script src="assets/js/plugins/feather.min.js"></script>
-
-   
-<script>
-  layout_change('light');
-</script>
-   
-<script>
-  layout_sidebar_change('light');
-</script>
-  
-<script>
-  change_box_container('false');
-</script>
- 
-<script>
-  layout_caption_change('true');
-</script>
-   
-<script>
-  layout_rtl_change('true');
-</script>
- 
-<script>
-  preset_change('preset-1');
-</script>
 
  <div class="offcanvas border-0 pct-offcanvas offcanvas-end" tabindex="-1" id="offcanvas_pc_layout">
   <div class="offcanvas-header justify-content-between">
@@ -1568,15 +1504,11 @@
 
 
 
-
 <!-- [Page Specific JS] start -->
 <!-- Apex Chart -->
 <script src="assets/js/plugins/apexcharts.min.js"></script>
 <script src="assets/js/widgets/customer-rate-graph.js"></script>
 <script src="assets/js/widgets/monthly-report-graph.js"></script>
-
-
-
 <script src="assets/js/widgets/performance-chart.js"></script>
 
 
