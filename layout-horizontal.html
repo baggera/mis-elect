@@ -11,10 +11,10 @@
 
 
     <!-- [Favicon] icon -->
-    <link rel="icon" href="../assets/images/favicon.svg" type="image/x-icon" />
+    <link rel="icon" href="assets/images/favicon.svg" type="image/x-icon" />
 
-  <link rel="stylesheet" href="../assets/css/plugins/dataTables.bootstrap5.min.css" />
-  <link rel="stylesheet" href="../assets/css/plugins/fixedColumns.bootstrap5.min.css" />
+  <link rel="stylesheet" href="assets/css/plugins/dataTables.bootstrap5.min.css" />
+  <link rel="stylesheet" href="assets/css/plugins/fixedColumns.bootstrap5.min.css" />
 
  <!-- [Google Font : Public Sans] icon -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,19 +22,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
 
   <!-- [phosphor Icons] https://phosphoricons.com/ -->
-<link rel="stylesheet" href="../assets/fonts/phosphor/duotone/style.css" />
+<link rel="stylesheet" href="assets/fonts/phosphor/duotone/style.css" />
 <!-- [Tabler Icons] https://tablericons.com -->
-<link rel="stylesheet" href="../assets/fonts/tabler-icons.min.css" />
+<link rel="stylesheet" href="assets/fonts/tabler-icons.min.css" />
 
 <!-- [Feather Icons] https://feathericons.com -->
-<link rel="stylesheet" href="../assets/fonts/feather.css" />
+<link rel="stylesheet" href="assets/fonts/feather.css" />
 <!-- [Font Awesome Icons] https://fontawesome.com/icons -->
-<link rel="stylesheet" href="../assets/fonts/fontawesome.css" />
+<link rel="stylesheet" href="assets/fonts/fontawesome.css" />
 <!-- [Material Icons] https://fonts.google.com/icons -->
-<link rel="stylesheet" href="../assets/fonts/material.css" />
+<link rel="stylesheet" href="assets/fonts/material.css" />
 <!-- [Template CSS Files] -->
-<link rel="stylesheet" href="../assets/css/style.css" id="main-style-link" />
-<link rel="stylesheet" href="../assets/css/style-preset.css" />
+<link rel="stylesheet" href="assets/css/style.css" id="main-style-link" />
+<link rel="stylesheet" href="assets/css/style-preset.css" />
 
   </head>
   <!-- [Head] end -->
@@ -51,9 +51,9 @@
 <nav class="pc-sidebar">
   <div class="navbar-wrapper">
     <div class="m-header">
-      <a href="../dashboard/index.html" class="b-brand text-primary">
+      <a href="00-dashboard.html" class="b-brand text-primary">
         <!-- ========   Change your logo from here   ============ -->
-        <img src="../assets/images/logo-dark.svg" alt="logo image" class="logo-lg" />
+        <img src="assets/images/logo-dark.svg" alt="logo image" class="logo-lg" />
         <span class="badge bg-primary rounded-pill ms-1 theme-version">2025</span>
       </a>
     </div>
@@ -61,76 +61,232 @@
 
     <div class="navbar-content">
       <ul class="pc-navbar">
-        <!-- 01 بطاقة ناخب -->
+        <!-- 02 بطاقة ناخب -->
         <li class="pc-item pc-caption">
           <label>01 بطاقة ناخب</label>
           <i class="ph-duotone ph-gauge"></i>
         </li>
-        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-users"></i></span><span class="pc-mtext">الناخبون</span></a></li>
-        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-clipboard-text"></i></span><span class="pc-mtext">المسوحات الإحصائية</span></a></li>
-        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-hand-heart"></i></span><span class="pc-mtext">خدمات الناخبين</span></a></li>
-        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-list-checks"></i></span><span class="pc-mtext">الاحتياجات</span></a></li>
-        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-upload"></i></span><span class="pc-mtext">استيراد</span></a></li>
-        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file-text"></i></span><span class="pc-mtext">تقارير</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="01-01-nakb.html"><span class="pc-micon"><i class="ph-duotone ph-users"></i></span><span class="pc-mtext">الناخبون</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="01-02-btakat-nakb.html"><span class="pc-micon"><i class="ph-duotone ph-users"></i></span><span class="pc-mtext">بطاقة ناخب</span></a></li>
+        <li class="pc-item pc-hasmenu">
+          <a href="#" class="pc-link"><span class="pc-micon"><i class="ph-duotone ph-clipboard-text"></i></span><span class="pc-mtext">المسوحات الإحصائية</span><span class="pc-arrow"><i class="ph-duotone ph-caret-down"></i></span></a>
+          <ul class="pc-submenu">
+            <li class="pc-item">
+              <a class="pc-link" href="01-03-01-ihtiajat.html">
+                <span class="pc-micon"><i class="ph-duotone ph-clipboard-text"></i></span>
+                <span class="pc-mtext">احتياجات انتخابية</span>
+              </a>
+            </li>
 
-        <!-- 02 بطاقة قلم الاقتراع والفرز -->
+            <li class="pc-item">
+              <a class="pc-link" href="01-03-02-rawabet.html">
+                <span class="pc-micon"><i class="ph-duotone ph-users"></i></span>
+                <span class="pc-mtext">روابط الاسر</span>
+              </a>
+            </li>
+            <li class="pc-item">
+              <a class="pc-link" href="01-03-03-mortakazat.html">
+                <span class="pc-micon"><i class="ph-duotone ph-buildings"></i></span>
+                <span class="pc-mtext">المرتكزات الانتخابية</span>
+              </a>
+            </li>
+            <li class="pc-item">
+              <a class="pc-link" href="01-03-04-morakibin.html">
+                <span class="pc-micon"><i class="ph-duotone ph-eye"></i></span>
+                <span class="pc-mtext">المراقبين الانتخابيين</span>
+              </a>
+            </li>
+            <li class="pc-item">
+              <a class="pc-link" href="01-03-05-tasnif.html">
+                <span class="pc-micon"><i class="ph-duotone ph-list-numbers"></i></span>
+                <span class="pc-mtext">التصنيف الانتخابي</span>
+              </a>
+            </li>
+            <li class="pc-item">
+              <a class="pc-link" href="01-03-06-marina.html">
+                <span class="pc-micon"><i class="ph-duotone ph-clipboard"></i></span>
+                <span class="pc-mtext">استمارة احصائية (مرنة)</span>
+              </a>
+            </li>
+          </ul>
+
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-upload"></i></span><span class="pc-mtext">استيراد الناخبين</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-map-pin"></i></span><span class="pc-mtext">خدمة مكان الاقتراع</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file-text"></i></span><span class="pc-mtext">التقارير</span></a></li>
+
+        <!-- 03 بطاقة محطة الاقتراع -->
         <li class="pc-item pc-caption">
-          <label>02 بطاقة قلم الاقتراع والفرز</label>
+          <label>02 بطاقة محطة الاقتراع</label>
           <i class="ph-duotone ph-clipboard-text"></i>
         </li>
-        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-map-pin"></i></span><span class="pc-mtext">الأقلام/المراكز/المواقع</span></a></li>
-        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-users-three"></i></span><span class="pc-mtext">المندوبون</span></a></li>
-        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-check-circle"></i></span><span class="pc-mtext">الاقتراع</span></a></li>
-        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-sort-ascending"></i></span><span class="pc-mtext">الفرز</span></a></li>
-        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-chart-bar"></i></span><span class="pc-mtext">النتائج</span></a></li>
-        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file-doc"></i></span><span class="pc-mtext">النتائج الرسمية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-gauge"></i></span><span class="pc-mtext">صفحة مؤشرات</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="02-02-marakz-iqtiraa-mahatat.html"><span class="pc-micon"><i class="ph-duotone ph-map-pin"></i></span><span class="pc-mtext">مراكز الاقتراع والمحطات</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="02-03-marakz-haikaliat-morakibin.html"><span class="pc-micon"><i class="ph-duotone ph-users-three"></i></span><span class="pc-mtext">هيكلية المراقبين</span></a></li>
+        <li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"><i class="ph-duotone ph-check-circle"></i></span><span class="pc-mtext">عملية الاقتراع والتدقيق الالكتروني</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-sort-ascending"></i></span><span class="pc-mtext">فرز النتائج</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file-doc"></i></span><span class="pc-mtext">التقارير</span></a></li>
 
-        <!-- 03 الهيكلية الانتخابية -->
+        <!-- 04 الهيكلية الانتخابية -->
         <li class="pc-item pc-caption">
           <label>03 الهيكلية الانتخابية</label>
           <i class="ph-duotone ph-tree-structure"></i>
         </li>
-        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-pencil-line"></i></span><span class="pc-mtext">رسم الهيكلية</span></a></li>
-        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-briefcase"></i></span><span class="pc-mtext">الوظائف والمهام</span></a></li>
-        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-buildings"></i></span><span class="pc-mtext">تسكين الهيكلية</span></a></li>
 
-        <!-- 04 الأمور المالية -->
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-tree-structure"></i></span><span class="pc-mtext">الخريطة التنظيمية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-target"></i></span><span class="pc-mtext">الاهداف  </span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file"></i></span><span class="pc-mtext"> السياسات </span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-target"></i></span><span class="pc-mtext">  الضوابط</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-pencil-line"></i></span><span class="pc-mtext">رسم الهيكل التنظيمي والمهام</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file-text"></i></span><span class="pc-mtext">استمارة عديد الماكنة الانتخابية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="03-07-taskin-adid-makina.html"><span class="pc-micon"><i class="ph-duotone ph-buildings"></i></span><span class="pc-mtext">تسكين عديد الماكنة الانتخابية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-gear"></i></span><span class="pc-mtext">اعدادات</span></a></li>
+
+        <!-- 05 الدورة الانتخابية والنتائج -->
         <li class="pc-item pc-caption">
-          <label>04 الأمور المالية</label>
+          <label>04 الدورة الانتخابية والنتائج</label>
+          <i class="ph-duotone ph-calendar"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="04-01-dawrat-itikabia.html"><span class="pc-micon"><i class="ph-duotone ph-calendar-check"></i></span><span class="pc-mtext">الدورات الانتخابية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-chart-bar"></i></span><span class="pc-mtext">النتائج والبيانات التفصيلية للدورة الأنتخابية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-download"></i></span><span class="pc-mtext">خدمة تصدير النتائج</span></a></li>
+
+        <!-- 06 الموازنات الانتخابية -->
+        <li class="pc-item pc-caption">
+          <label>05 الموازنات الانتخابية</label>
           <i class="ph-duotone ph-currency-circle-dollar"></i>
         </li>
-        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-coins"></i></span><span class="pc-mtext">إعداد الموازنات الانتخابية</span></a></li>
-        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file"></i></span><span class="pc-mtext">إقرار الموازنات</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-gauge"></i></span><span class="pc-mtext">صفحة المؤشرات</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="05-02-rawatb-ojour.html"><span class="pc-micon"><i class="ph-duotone ph-money"></i></span><span class="pc-mtext">الرواتب والاجور</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file"></i></span><span class="pc-mtext">الموازنات التشغيلية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-heart"></i></span><span class="pc-mtext">موازنة الخدمات (الصحية، التربوية، الاجتماعية،...)</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-trend-up"></i></span><span class="pc-mtext">الموازنات الانمائية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-toolbox"></i></span><span class="pc-mtext">موازنة التجهيزات</span></a></li>
         <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-wallet"></i></span><span class="pc-mtext">الصرف</span></a></li>
 
-        <!-- 05 اللوائح والمرشحين -->
+        <!-- 07 اللوائح والمرشحين -->
         <li class="pc-item pc-caption">
-          <label>05 اللوائح والمرشحين</label>
+          <label>06 اللوائح والمرشحين</label>
           <i class="ph-duotone ph-user-circle"></i>
         </li>
-        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-user-plus"></i></span><span class="pc-mtext">إضافة بطاقة مرشح</span></a></li>
-        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-activity"></i></span><span class="pc-mtext">نشاط المرشح</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-duotone ph-gauge"></i></span><span class="pc-mtext">صفحة المؤشرات  </span></a></li>
+        <li class="pc-item"><a class="pc-link" href="06-02-lawaih-rasmia.html"><span class="pc-micon"><i class="ph-duotone ph-file-text"></i></span><span class="pc-mtext">اللوائح الانتخابية الرسمية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="06-03-morashahin-rasmiin.html"><span class="pc-micon"><i class="ph-duotone ph-user-plus"></i></span><span class="pc-mtext">المرشحين الرسميين</span></a></li>
 
-        <!-- 06 النقل -->
+        <li class="pc-item pc-hasmenu">
+          <a href="#" class="pc-link">
+            <span class="pc-micon"><i class="ph-duotone ph-clipboard-text"></i></span>
+            <span class="pc-mtext">معايير اختيار مرشح</span>
+            <span class="pc-arrow"><i class="ph-duotone ph-caret-down"></i></span>
+          </a>
+          <ul class="pc-submenu">
+            <!-- مرشحين محتملين -->
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-user-circle-plus"></i></span>
+                <span class="pc-mtext">مرشحين محتملين</span>
+              </a>
+            </li>
+
+            <!-- بطاقة مرشح -->
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-cards"></i></span>
+                <span class="pc-mtext">بطاقة مرشح</span>
+              </a>
+            </li>
+
+            <!-- تقييم مرشح -->
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-star"></i></span>
+                <span class="pc-mtext">تقييم مرشح</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <!-- 08 نقل الناخبين -->
         <li class="pc-item pc-caption">
-          <label>06 النقل</label>
+          <label>07 نقل الناخبين</label>
           <i class="ph-duotone ph-truck"></i>
+
         </li>
         <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-ticket"></i></span><span class="pc-mtext">بطاقة نقل</span></a></li>
         <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-credit-card"></i></span><span class="pc-mtext">دفع نقل</span></a></li>
         <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-gas-pump"></i></span><span class="pc-mtext">محطات الوقود</span></a></li>
         <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-truck"></i></span><span class="pc-mtext">الآليات</span></a></li>
 
-        <!-- 07 تقييم النتائج -->
+
+
+        <!-- 09 الانشطة والخدمات -->
+
         <li class="pc-item pc-caption">
-          <label>07 تقييم النتائج</label>
+          <label>08 الأنشطة والخدمات</label>
+          <i class="ph-duotone ph-hand-heart"></i>
+        </li>
+        <li class="pc-item">
+          <a class="pc-link" href="#">
+            <span class="pc-micon"><i class="ph-duotone ph-calendar"></i></span>
+            <span class="pc-mtext">الأنشطة الانتخابية</span>
+          </a>
+        </li>
+        <li class="pc-item">
+          <a class="pc-link" href="#">
+            <span class="pc-micon"><i class="ph-duotone ph-hand-heart"></i></span>
+            <span class="pc-mtext">الخدمات الانتخابية</span>
+          </a>
+        </li>
+        <li class="pc-item pc-hasmenu">
+          <!-- رابط الجلسات مع القائمة المنسدلة -->
+          <a class="pc-link" href="#">
+            <span class="pc-micon"><i class="ph-duotone ph-users"></i></span>
+            <span class="pc-mtext">الجلسات</span>
+            <span class="pc-arrow"><i class="ph-duotone ph-caret-down"></i></span>
+          </a>
+          <!-- الروابط الفرعية -->
+          <ul class="pc-submenu">
+            <li class="pc-item">
+              <a class="pc-link" href="08-02-01-jalasat.html">
+                <span class="pc-micon"><i class="ph-duotone ph-clock-counter-clockwise"></i></span>
+                <span class="pc-mtext"> الجلسات</span>
+              </a>
+            </li>
+
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-check-square"></i></span>
+                <span class="pc-mtext">الحضور والغياب</span>
+              </a>
+            </li>
+            <li class="pc-item">
+              <a class="pc-link" href="08-02-03-mokarart.html">
+                <span class="pc-micon"><i class="ph-duotone ph-file-text"></i></span>
+                <span class="pc-mtext">المقررات</span>
+              </a>
+            </li>
+
+          </ul>
+        </li>
+        <li class="pc-item">
+          <a class="pc-link" href="#">
+            <span class="pc-micon"><i class="ph-duotone ph-gear"></i></span>
+            <span class="pc-mtext">إعدادات</span>
+          </a>
+        </li>
+
+
+        <!-- 10 النتائج -->
+        <li class="pc-item pc-caption">
+          <label>09 النتائج</label>
           <i class="ph-duotone ph-chart-bar"></i>
         </li>
-        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-chart-bar"></i></span><span class="pc-mtext">تقييم النتائج</span></a></li>
-        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-clipboard-text"></i></span><span class="pc-mtext">استمارة تقييم النتائج</span></a></li>
-        <li class="pc-item pc-caption">
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-chart-bar"></i></span><span class="pc-mtext">استيراد النتائج الرسمية </span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-flag"></i></span><span class="pc-mtext">النتيجة النهائية</span></a></li>
 
-        </li>
+        <!-- 11 الاعدادات -->
+
+
       </ul>
     </div>
 
@@ -139,7 +295,7 @@
 
         <div class="d-flex align-items-center">
           <div class="flex-shrink-0">
-            <img src="../assets/images/user/avatar-1.jpg" alt="user-image" class="user-avtar wid-45 rounded-circle" />
+            <img src="assets/images/user/avatar-1.jpg" alt="user-image" class="user-avtar wid-45 rounded-circle" />
           </div>
           <div class="flex-grow-1 ms-3">
             <div class="dropdown">
@@ -333,7 +489,7 @@
           <h5 class="m-0">Notifications</h5>
           <ul class="list-inline ms-auto mb-0">
             <li class="list-inline-item">
-              <a href="../application/mail.html" class="avtar avtar-s btn-link-hover-primary">
+              <a href="application/mail.html" class="avtar avtar-s btn-link-hover-primary">
                 <i class="ti ti-link f-18"></i>
               </a>
             </li>
@@ -345,7 +501,7 @@
               <p class="text-span">Today</p>
               <div class="d-flex">
                 <div class="flex-shrink-0">
-                  <img src="../assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar avtar avtar-s" />
+                  <img src="assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar avtar avtar-s" />
                 </div>
                 <div class="flex-grow-1 ms-3">
                   <div class="d-flex">
@@ -442,7 +598,7 @@
             <li class="list-group-item">
               <div class="d-flex">
                 <div class="flex-shrink-0">
-                  <img src="../assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar avtar avtar-s" />
+                  <img src="assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar avtar avtar-s" />
                 </div>
                 <div class="flex-grow-1 ms-3">
                   <div class="d-flex">
@@ -510,7 +666,7 @@
         data-bs-auto-close="outside"
         aria-expanded="false"
       >
-        <img src="../assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar" />
+        <img src="assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar" />
       </a>
       <div class="dropdown-menu dropdown-user-profile dropdown-menu-end pc-h-dropdown">
         <div class="dropdown-header d-flex align-items-center justify-content-between">
@@ -522,7 +678,7 @@
               <li class="list-group-item">
                 <div class="d-flex align-items-center">
                   <div class="flex-shrink-0">
-                    <img src="../assets/images/user/avatar-2.jpg" alt="user-image" class="wid-50 rounded-circle" />
+                    <img src="assets/images/user/avatar-2.jpg" alt="user-image" class="wid-50 rounded-circle" />
                   </div>
                   <div class="flex-grow-1 mx-3">
                     <h5 class="mb-0">Carson Darrin</h5>
@@ -544,9 +700,9 @@
                     <span>Recently mail</span>
                   </span>
                   <div class="user-group">
-                    <img src="../assets/images/user/avatar-1.jpg" alt="user-image" class="avtar" />
-                    <img src="../assets/images/user/avatar-2.jpg" alt="user-image" class="avtar" />
-                    <img src="../assets/images/user/avatar-3.jpg" alt="user-image" class="avtar" />
+                    <img src="assets/images/user/avatar-1.jpg" alt="user-image" class="avtar" />
+                    <img src="assets/images/user/avatar-2.jpg" alt="user-image" class="avtar" />
+                    <img src="assets/images/user/avatar-3.jpg" alt="user-image" class="avtar" />
                   </div>
                 </a>
                 <a href="#" class="dropdown-item">
@@ -666,7 +822,7 @@
                         <div class="d-sm-flex align-items-center justify-content-between">
                          <div>
                            <ul class="breadcrumb">
-                             <li class="breadcrumb-item"><a href="../dashboard/index.html">الرئيسية</a></li>
+                             <li class="breadcrumb-item"><a href="dashboard/index.html">الرئيسية</a></li>
                              <li class="breadcrumb-item"><a href="javascript: void(0)">بطاقة ناخب</a></li>
                              <li class="breadcrumb-item" aria-current="page"> الناخبون</li>
                            </ul>
@@ -1221,16 +1377,16 @@
     </div>
     <!-- [ Main Content ] end -->
  <!-- Required Js -->
-<script src="../assets/js/plugins/popper.min.js"></script>
-<script src="../assets/js/plugins/simplebar.min.js"></script>
-<script src="../assets/js/plugins/bootstrap.min.js"></script>
-<script src="../assets/js/plugins/i18next.min.js"></script>
-<script src="../assets/js/plugins/i18nextHttpBackend.min.js"></script>
-<script src="../assets/js/icon/custom-font.js"></script>
-<script src="../assets/js/script.js"></script>
-<script src="../assets/js/theme.js"></script>
-<script src="../assets/js/multi-lang.js"></script>
-<script src="../assets/js/plugins/feather.min.js"></script>
+<script src="assets/js/plugins/popper.min.js"></script>
+<script src="assets/js/plugins/simplebar.min.js"></script>
+<script src="assets/js/plugins/bootstrap.min.js"></script>
+<script src="assets/js/plugins/i18next.min.js"></script>
+<script src="assets/js/plugins/i18nextHttpBackend.min.js"></script>
+<script src="assets/js/icon/custom-font.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/theme.js"></script>
+<script src="assets/js/multi-lang.js"></script>
+<script src="assets/js/plugins/feather.min.js"></script>
 
    
 <script>
@@ -1436,10 +1592,10 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="../assets/js/plugins/dataTables.min.js"></script>
-    <script src="../assets/js/layout-horizontal.js"></script>
+    <script src="assets/js/plugins/dataTables.min.js"></script>
+    <script src="assets/js/layout-horizontal.js"></script>
 
-    <script src="../assets/js/plugins/dataTables.fixedColumns.min.js"></script>
+    <script src="assets/js/plugins/dataTables.fixedColumns.min.js"></script>
     <script>
       // [ left-right-fix
       var table = $('#left-right-fix').DataTable({
