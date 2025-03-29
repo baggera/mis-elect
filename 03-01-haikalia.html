@@ -137,7 +137,7 @@
         <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-target"></i></span><span class="pc-mtext">  الضوابط</span></a></li>
         <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-pencil-line"></i></span><span class="pc-mtext">رسم الهيكل التنظيمي والمهام</span></a></li>
         <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file-text"></i></span><span class="pc-mtext">استمارة عديد الماكنة الانتخابية</span></a></li>
-        <li class="pc-item"><a class="pc-link" href="03-07-taskin-adid-makina.html"><span class="pc-micon"><i class="ph-duotone ph-buildings"></i></span><span class="pc-mtext">تسكين عديد الماكنة الانتخابية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="03-07-taskin-adid-makina.html"><span class="pc-micon"><i class="ph-duotone ph-buildings"></i></span><span class="pc-mtext">الخريطة التنظيمية   </span></a></li>
         <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-gear"></i></span><span class="pc-mtext">اعدادات</span></a></li>
 
         <!-- 05 الدورة الانتخابية والنتائج -->
@@ -623,7 +623,7 @@
                     <div>
 
                       <h4>
-                       مرتكزات احصائية
+                       تسكين عديد الماكينة
 
                         <ul class="breadcrumb ms-5 ">
                           <li class="breadcrumb-item"><a href="javascript: void(0)">بطاقة ناخب</a></li>
@@ -641,12 +641,12 @@
 
 
 
-                      <a class="btn btn-tab" href="01-01-add.html">
+                      <a class="btn btn-tab" onclick="deleteNode()">
                         <span class="pc-micon"><i class="ph-duotone ph-eraser"></i></span>
                         <span class="pc-mtext">حذف  </span>
                       </a>
 
-                      <a class="btn active btn-tab" href="01-03-03-add.html">
+                      <a class="btn active btn-tab"  onclick="addNode()">
                         <span class="pc-micon"><i class="ph-duotone ph-plus-circle"></i></span>
                         <span class="pc-mtext">اضف  </span>
                       </a>
@@ -655,80 +655,88 @@
                     </div>
                   </div>
                 </div>
+<div class="row">
+  <div class="col-6">
 
-                    <div class="card border-0 table-card">
-
-
-
-
-                      <div class="card-body scroll-block">
-                        <div class="col-xxl-12 col-md-12 py-0 p-2">
-
-                          <table id="left-right-fix" class="table hover stripe row-border order-column">
-                            <thead>
-                            <tr>
-                              <th>#</th>
-                              <th>رقم الناخب</th>
-                              <th>رقم الدورة الانتخابية</th>
-                              <th>الاسم</th>
-                              <th>الاب</th>
-                              <th>اسم الجد</th>
-                              <th>تاريخ الولادة</th>
-                              <th>الجنس</th>
-                              <th>رقم الهاتف</th>
-                              <th>نوع الفعالية</th>
-                              <th>طبيعة الفعالية</th>
-                              <th>دائرة التأثير</th>
-                              <th>العشيرة المؤثر بها</th>
-                              <th>العائلات المؤثر بها</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                              <td><a href="#" class="editable" data-type="text" data-name="serial_number" data-title="#">1</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="voter_number" data-title="رقم الناخب">123456</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="election_cycle_number" data-title="رقم الدورة الانتخابية">1</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="first_name" data-title="الاسم">أحمد</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="father_name" data-title="الاب">محمد</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="grandfather_name" data-title="اسم الجد">علي</a></td>
-                              <td><a href="#" class="editable" data-type="date" data-name="birth_date" data-title="تاريخ الولادة">1990-01-01</a></td>
-                              <td><a href="#" class="editable" data-type="select" data-name="gender" data-title="الجنس" data-source='[{"value":"ذكر","text":"ذكر"},{"value":"أنثى","text":"أنثى"}]'>ذكر</a></td>
-                              <td><a href="#" class="editable" data-type="tel" data-name="phone_number" data-title="رقم الهاتف">0123456789</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="event_type" data-title="نوع الفعالية">اجتماع عام</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="event_nature" data-title="طبيعة الفعالية">سياسي</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="influence_circle" data-title="دائرة التأثير">المحافظة</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="influenced_clan" data-title="العشيرة المؤثر بها">عشيرة 1</a></td>
-                              <td><a href="#" class="editable" data-type="text" data-name="influenced_families" data-title="العائلات المؤثر بها">عائلة 1، عائلة 2</a></td>
-                            </tr>
-                            <!-- تكرار نفس البنية للصفوف الأخرى -->
-                            </tbody>
-                            <tfoot>
-                            <tr>
-                              <th>#</th>
-                              <th>رقم الناخب</th>
-                              <th>رقم الدورة الانتخابية</th>
-                              <th>الاسم</th>
-                              <th>الاب</th>
-                              <th>اسم الجد</th>
-                              <th>تاريخ الولادة</th>
-                              <th>الجنس</th>
-                              <th>رقم الهاتف</th>
-                              <th>نوع الفعالية</th>
-                              <th>طبيعة الفعالية</th>
-                              <th>دائرة التأثير</th>
-                              <th>العشيرة المؤثر بها</th>
-                              <th>العائلات المؤثر بها</th>
-                            </tr>
-                            </tfoot>
-                          </table>                        </div>
-
-
-                      </div>
-                    </div>
+    <div class="card border-0 table-card">
 
 
 
-          </div>
+
+    <div class="card-body scroll-block">
+      <div class="col-xxl-12 col-md-12 py-0 p-2">
+
+
+        <div class="p-2 h-75" id="tree-container"></div>
+
+    </div>
+
+
+
+  </div></div>
+  </div>
+  <div class="col-6">
+
+    <div class="card border-0 table-card">
+
+
+
+    <div class="card-body scroll-block">
+      <div class="col-xxl-12 col-md-12 py-0 p-2">
+
+        <table id="left-right-fix" class="table dt-responsive hover stripe row-border order-column">
+          <thead>
+          <tr>
+            <th># </th>
+            <th>التوصيف</th>
+            <th>الاختصاص</th>
+            <th>رقم الناخب</th>
+            <th>الاسم</th>
+            <th>الاب</th>
+            <th>اسم الجد</th>
+            <th>تاريخ الولادة</th>
+            <th>الجنس</th>
+            <th>رقم الهاتف</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td><a href="#" class="editable" data-type="text" data-name="serial_number" data-title="#">1</a></td>
+            <td><a href="#" class="editable" data-type="text" data-name="description" data-title="التوصيف">ناشط اجتماعي</a></td>
+            <td><a href="#" class="editable" data-type="text" data-name="specialization" data-title="الاختصاص">علم الاجتماع</a></td>
+            <td><a href="#" class="editable" data-type="text" data-name="voter_number" data-title="رقم الناخب">123456</a></td>
+            <td><a href="#" class="editable" data-type="text" data-name="first_name" data-title="الاسم">أحمد</a></td>
+            <td><a href="#" class="editable" data-type="text" data-name="father_name" data-title="الاب">محمد</a></td>
+            <td><a href="#" class="editable" data-type="text" data-name="grandfather_name" data-title="اسم الجد">علي</a></td>
+            <td><a href="#" class="editable" data-type="date" data-name="birth_date" data-title="تاريخ الولادة">1990-01-01</a></td>
+            <td><a href="#" class="editable" data-type="select" data-name="gender" data-title="الجنس" data-source='[{"value":"ذكر","text":"ذكر"},{"value":"أنثى","text":"أنثى"}]'>ذكر</a></td>
+            <td><a href="#" class="editable" data-type="tel" data-name="phone_number" data-title="رقم الهاتف">0123456789</a></td>
+          </tr>
+          <!-- تكرار نفس البنية للصفوف الأخرى -->
+          </tbody>
+          <tfoot>
+          <tr>
+            <th>#</th>
+            <th>التوصيف</th>
+            <th>الاختصاص</th>
+            <th>رقم الناخب</th>
+            <th>الاسم</th>
+            <th>الاب</th>
+            <th>اسم الجد</th>
+            <th>تاريخ الولادة</th>
+            <th>الجنس</th>
+            <th>رقم الهاتف</th>
+          </tr>
+          </tfoot>
+        </table>                      </div>
+    </div>
+
+
+
+  </div></div>
+
+</div>
+
         </div>
         <!-- [ breadcrumb ] end -->
 
@@ -741,6 +749,7 @@
     <!-- [ Main Content ] end -->
 
 
+</div>
 
 
 
@@ -782,7 +791,84 @@
     <script src="assets/js/layout-horizontal.js"></script>
     <script src="assets/js/plugins/custom.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.12/jstree.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.12/themes/default/style.min.css" />
 
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        $('#tree-container').jstree({
+          'core': {
+            'check_callback': true,
+            'data': [
+              { "id": "root", "parent": "#", "text": "الماكينة الانتخابية", "state": { "opened": true } }
+            ]
+          },
+          "plugins": [ "contextmenu", "dnd", "inline_editing" ],
+          "contextmenu": {
+            "items": function(node) {
+              return {
+                "rename": {
+                  "label": "إعادة تسمية",
+                  "action": function(obj) {
+                    var tree = $('#tree-container').jstree(true);
+                    tree.edit(node);
+                  }
+                },
+                "delete": {
+                  "label": "حذف",
+                  "action": function(obj) {
+                    var tree = $('#tree-container').jstree(true);
+                    if (node.id !== "root") {
+                      tree.delete_node(node);
+                    } else {
+                      alert("لا يمكن حذف الجذر.");
+                    }
+                  }
+                },
+                "add": {
+                  "label": "إضافة قسم جديد",
+                  "action": function(obj) {
+                    addNode();
+                  }
+                }
+              };
+            }
+          }
+        }).on("dblclick.jstree", function (e) {
+          var tree = $('#tree-container').jstree(true);
+          var node = tree.get_node(e.target);
+          tree.edit(node);
+        });
+      });
+
+      function addNode() {
+        var tree = $('#tree-container').jstree(true);
+        var selected = tree.get_selected();
+        if (!selected.length) {
+          selected = ['root'];
+        }
+        var newNodeId = "node_" + Math.random().toString(36).substr(2, 9);
+        tree.create_node(selected[0], { "id": newNodeId, "text": "قسم جديد" });
+      }
+
+      function deleteNode() {
+        var tree = $('#tree-container').jstree(true);
+        var selected = tree.get_selected();
+        if (selected.length && selected[0] !== "root") {
+          tree.delete_node(selected);
+        } else {
+          alert("لا يمكن حذف الجذر أو لم يتم تحديد أي قسم.");
+        }
+      }
+    </script>
+
+    <style>
+
+      #tree-container { margin: 20px; height: 66vh!important; width: 100%; font-size: 18px; }
+      .jstree-anchor  { font-size: 20px; }
+
+    </style>
   </body>
   <!-- [Body] end -->
 
