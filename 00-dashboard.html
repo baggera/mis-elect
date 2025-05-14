@@ -165,7 +165,8 @@
         <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-wallet"></i></span><span class="pc-mtext">الصرف</span></a></li>
 
         <!-- 07 اللوائح والمرشحين -->
-        <li class="pc-item pc-caption">
+        <li
+                class="pc-item pc-caption">
           <label>06 اللوائح والمرشحين</label>
           <i class="ph-duotone ph-user-circle"></i>
         </li>
@@ -614,166 +615,131 @@
 
 
 <!-- [ Main Content ] start -->
+
+
     <div class="pc-container">
-      <div class="pc-content">
+      <div class="pc-content  pt-0">
         <!-- [ breadcrumb ] start -->
+
         <div class="page-header">
           <div class="page-block">
             <div class="row align-items-center">
               <div class="col-md-12">
-                <ul class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="index.html">الرئيسية</a></li>
-                  <li class="breadcrumb-item"><a href="javascript: void(0)">لوحة التحكم</a></li>
-                  <li class="breadcrumb-item" aria-current="page">لوحة الانتخابات</li>
-                </ul>
-              </div>
-              <div class="col-md-12">
                 <div class="page-header-title">
-                  <h2 class="mb-0">لوحة الانتخابات العراقية</h2>
+                  <h2 class="mb-0">الانتخابات العراقية 2025</h2>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
+
         <!-- [ breadcrumb ] end -->
 
-        <div class="row">
+        <div class="row p-0">
 
           <!-- بطاقة عدد الناخبين -->
-          <div class="col-xxl-3 col-md-6">
+
+
+
+          <div class="col-md-6 col-xxl-8">
+
             <div class="card">
-              <div class="card-body">
-                <div class="d-flex align-items-center">
-                  <div class="flex-grow-1 me-3">
-                    <p class="mb-1 fw-medium text-muted">عدد الناخبين</p>
-                    <h4 class="mb-1">15,000+</h4>
-                    <p class="mb-0 text-sm">حتى تاريخ 2023/10/01</p>
-                  </div>
-                  <div class="flex-shrink-0">
-                    <div class="avtar avtar-l bg-light-primary rounded-circle">
-                      <i class="ph-duotone ph-users f-28"></i> <!-- أيقونة الناخبين -->
-                    </div>
+
+              <div class="card-body p-3">
+                <form>
+                  <div class="row">
+                  <div class="col-2">
+                  <!-- بحث حسب المحافظة -->
+                  <div class="">
+                    <select class="form-select" id="province">
+                      <option selected value="">اختر المحافظة...</option>
+                      <option value="baghdad">بغداد</option>
+                      <option value="basra">البصرة</option>
+                      <option value="najaf">النجف</option>
+                      <option value="karbala">كربلاء</option>
+                      <option value="erbil">أربيل</option>
+                      <option value="sulaymaniyah">السليمانية</option>
+                      <option value="dohuk">دهوك</option>
+                      <option value="mosul">الموصل</option>
+                      <option value="anbar">الأنبار</option>
+                      <option value="dialah">ديالى</option>
+                      <option value="kirkuk">كركوك</option>
+                      <option value="wasit">واسط</option>
+                      <option value="maysan">ميسان</option>
+                      <option value="thiqar">ذي قار</option>
+                      <option value="qadisiya">القادسية</option>
+                      <option value="babylon">بابل</option>
+                      <option value="muthanna">المثنى</option>
+                      <option value="salahuddin">صلاح الدين</option>
+                    </select>
                   </div>
                 </div>
+                  <div class="col-2">
+                  <!-- بحث حسب القضاء -->
+                  <div class="">
+                    <select class="form-select" id="district" disabled>
+                      <option selected value="">اختر القضاء...</option>
+                      <!-- سيتم تعبئة هذه القائمة عبر الجافاسكربت حسب المحافظة المختارة -->
+                    </select>
+                  </div>
+                </div>
+
+                  <div class="col-2">
+                  <!-- بحث حسب الناحية -->
+                  <div class="">
+                    <select class="form-select" id="subdistrict" disabled>
+                      <option selected value="">اختر الناحية...</option>
+                      <!-- سيتم تعبئة هذه القائمة عبر الجافاسكربت حسب القضاء المختار -->
+                    </select>
+                  </div>
+                </div>
+                  <div class="col-2">
+                  <!-- بحث حسب الناحية -->
+                  <div class="">
+                    <select class="form-select" id="subdistrict" disabled>
+                      <option selected value="">اختر الناحية...</option>
+                      <!-- سيتم تعبئة هذه القائمة عبر الجافاسكربت حسب القضاء المختار -->
+                    </select>
+                  </div>
+                </div>
+                  <div class="col-2">
+                  <!-- بحث حسب المحطة -->
+                  <div class="">
+                    <select class="form-select" id="station" disabled>
+                      <option selected value="">اختر المحطة...</option>
+                      <!-- سيتم تعبئة هذه القائمة عبر الجافاسكربت حسب الناحية المختارة -->
+                    </select>
+                  </div>
+                </div>
+                  <div class="col-2">
+                  <!-- زر البحث -->
+                  <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-primary">
+                      <i class="fas fa-search me-2"></i> بحث
+                    </button>
+                  </div>
+                </div>
+                  </div>
+                </form>
+
+
               </div>
             </div>
           </div>
-
-          <!-- بطاقة عدد المرشحين -->
-          <div class="col-xxl-3 col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <div class="d-flex align-items-center">
-                  <div class="flex-grow-1 me-3">
-                    <p class="mb-1 fw-medium text-muted">عدد المرشحين</p>
-                    <h4 class="mb-1">250</h4>
-                    <p class="mb-0 text-sm">حتى تاريخ 2023/10/01</p>
-                  </div>
-                  <div class="flex-shrink-0">
-                    <div class="avtar avtar-l bg-light-success rounded-circle">
-                      <i class="ph-duotone ph-user-circle-plus f-28"></i> <!-- أيقونة المرشحين -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- بطاقة نسبة المشاركة -->
-          <div class="col-xxl-3 col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <div class="d-flex align-items-center">
-                  <div class="flex-grow-1 me-3">
-                    <p class="mb-1 fw-medium text-muted">نسبة المشاركة</p>
-                    <h4 class="mb-1">65%</h4>
-                    <p class="mb-0 text-sm">حتى تاريخ 2023/10/01</p>
-                  </div>
-                  <div class="flex-shrink-0">
-                    <div class="avtar avtar-l bg-light-warning rounded-circle">
-                      <i class="ph-duotone ph-chart-bar f-28"></i> <!-- أيقونة الإحصائيات -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- بطاقة عدد المراكز الانتخابية -->
-          <div class="col-xxl-3 col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <div class="d-flex align-items-center">
-                  <div class="flex-grow-1 me-3">
-                    <p class="mb-1 fw-medium text-muted">عدد المراكز الانتخابية</p>
-                    <h4 class="mb-1">1,200</h4>
-                    <p class="mb-0 text-sm">حتى تاريخ 2023/10/01</p>
-                  </div>
-                  <div class="flex-shrink-0">
-                    <div class="avtar avtar-l bg-light-danger rounded-circle">
-                      <i class="ph-duotone ph-buildings f-28"></i> <!-- أيقونة المراكز الانتخابية -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-          <div class="col-lg-6">
-            <div class="card">
-              <div class="card-header">
-                <div class="d-flex align-items-center justify-content-between">
-                  <h5 class="mb-0">المشاركة</h5>
-                  <input type="date" class="form-control form-control-sm w-auto border-0 shadow-none2" />
-                </div>
-              </div>
-              <div class="card-body">
-                <div class="d-flex align-items-center mb-1">
-                  <h3 class="mb-0">255,1555 <small class="text-muted">/+202</small></h3>
-                  <span class="badge bg-light-success ms-2">36%</span>
-                </div>
-                <p> حسب الوقت</p>
-                <div id="customer-rate-graph"></div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-lg-6">
-            <div class="card">
-              <div class="card-header">
-                <div class="d-flex align-items-center justify-content-between">
-                  <h5 class="mb-0"> اللوائح</h5>
-                  <select class="form-select form-select-sm w-auto border-0 shadow-none">
-                    <option>Today</option>
-                    <option selected=""> منذ ساعتين</option>
-                    <option>منذ 24 ساعة</option>
-                  </select>
-                </div>
-              </div>
-              <div class="card-body">
-                <p class="mb-0">الاصوات</p>
-                <h4>255,555 صوت</h4>
-                <div id="monthly-report-graph"></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-xxl-4">
+          <div class="col-md-6 col-xxl-2">
             <div class="card statistics-card-1">
-              <div class="card-body">
+              <div class="card-body p-2">
                 <img src="assets/images/widget/img-status-2.svg" alt="img" class="img-fluid img-bg" />
                 <div class="d-flex align-items-center">
                   <div class="avtar bg-brand-color-1 text-white me-3">
                     <i class="ph-duotone ph-users f-26"></i>
                   </div>
                   <div>
-                    <p class="text-muted mb-0">إجمالي الناخبين</p>
+                    <p class="text-muted mb-0">الناخبون </p>
                     <div class="d-flex align-items-end">
-                      <h2 class="mb-0 f-w-500">2.3M</h2>
-                      <span class="badge bg-light-success ms-2"><i class="ti ti-chevrons-up"></i> 12%</span>
+                      <h2 class="mb-0 f-w-500">3.967.510</h2>
+                      <span class="badge bg-secondary ms-2"></i> ناخب</span>
                     </div>
 
 
@@ -784,38 +750,19 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-xxl-4">
+          <div class="col-md-6 col-xxl-2">
             <div class="card statistics-card-1">
-              <div class="card-body">
-                <img src="assets/images/widget/img-status-1.svg" alt="img" class="img-fluid img-bg" />
-                <div class="d-flex align-items-center">
-                  <div class="avtar bg-brand-color-2 text-white me-3">
-                    <i class="ph-duotone ph-check-circle f-26"></i>
-                  </div>
-                  <div>
-                    <p class="text-muted mb-0">الناخبون الذين أدلوا بأصواتهم</p>
-                    <div class="d-flex align-items-end">
-                      <h2 class="mb-0 f-w-500">1.8M</h2>
-                      <span class="badge bg-light-danger ms-2"><i class="ti ti-chevrons-down"></i> 5%</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-xxl-4">
-            <div class="card statistics-card-1">
-              <div class="card-body">
+              <div class="card-body p-2">
                 <img src="assets/images/widget/img-status-3.svg" alt="img" class="img-fluid img-bg" />
                 <div class="d-flex align-items-center">
                   <div class="avtar bg-brand-color-3 text-white me-3">
                     <i class="ph-duotone ph-users-four f-26"></i>
                   </div>
                   <div>
-                    <p class="text-muted mb-0">عدد المرشحين</p>
+                    <p class="text-muted mb-0">المقترعون </p>
                     <div class="d-flex align-items-end">
-                      <h2 class="mb-0 f-w-500">5,678</h2>
-                      <span class="badge bg-light-success ms-2"><i class="ti ti-chevrons-up"></i> 8%</span>
+                      <h2 class="mb-0 f-w-500">966,253</h2>
+                      <span class="badge bg-primary ms-2">25% </span>
                     </div>
                   </div>
                 </div>
@@ -823,431 +770,286 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-xl-4">
-            <div class="card">
-              <div class="card-body">
-                <div class="d-flex align-items-center justify-content-between">
-                  <h5>توزرع الاصوات</h5>
-                  <i class="ph-duotone ph-arrow-square-out f-20 ms-1" data-bs-toggle="tooltip" data-bs-title="Your team performance"></i>
-                </div>
-                <select class="form-select form-select-sm w-auto border-0 shadow-none">
-                  <option>اليوم</option>
-                  <option selected=""> منذ 8 ساعات</option>
-                  <option>منذ 12 ساعة</option>
-                </select>
-                <div id="performance-chart"></div>
-                <div class="text-center">
 
-                  <div class="d-inline-flex align-items-center m-1">
-                    <p class="mb-0"><i class="ph-duotone ph-circle text-primary f-12"></i> الكرامة </p>
-                    <span class="badge bg-light-secondary ms-1">56</span>
-                  </div>
-                  <div class="d-inline-flex align-items-center m-1">
-                    <p class="mb-0"><i class="ph-duotone ph-circle text-secondary f-12"></i> الوفاق </p>
-                    <span class="badge bg-light-danger ms-1">34</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+</div>
 
-
-          <!-- التقويم الانتخابي -->
-          <div class="col-lg-4 col-md-12">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="mb-2">التقويم الانتخابي</h5>
-                <p>2023/10/10 <span class="badge text-bg-primary">اليوم</span></p>
-                <div class="card overflow-hidden mb-2">
-                  <div class="card-body px-3 py-2 border-start border-4 border-success">
-                    <h6>بدء التصويت</h6>
-                    <p class="mb-0">08:00</p>
-                  </div>
-                </div>
-                <div class="card overflow-hidden mb-2">
-                  <div class="card-body px-3 py-2 border-start border-4 border-warning">
-                    <h6>إغلاق الصناديق</h6>
-                    <p class="mb-0">18:00</p>
-                  </div>
-                </div>
-                <div class="card overflow-hidden mb-2">
-                  <div class="card-body px-3 py-2 border-start border-4 border-primary">
-                    <h6>فرز الأصوات</h6>
-                    <p class="mb-0">19:00</p>
-                  </div>
-                </div>
-                <div class="card overflow-hidden mb-0">
-                  <div class="card-body px-3 py-2 border-start border-4 border-danger">
-                    <h6>إعلان النتائج</h6>
-                    <p class="mb-0">22:00</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-          <!-- الإشعارات -->
-          <div class="col-lg-4 col-md-12">
-            <div class="card">
-              <div class="card-body">
-                <div class="d-flex align-items-center justify-content-between mb-3">
-                  <h5 class="mb-0">الإشعارات</h5>
-                  <div class="dropdown">
-                    <a class="avtar avtar-s btn-link-secondary dropdown-toggle arrow-none" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <i class="ti ti-dots-vertical f-18"></i>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-end">
-                      <a class="dropdown-item" href="#">اليوم</a>
-                      <a class="dropdown-item" href="#">أسبوعي</a>
-                      <a class="dropdown-item" href="#">شهري</a>
-                    </div>
-                  </div>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item px-0 py-2">
-                    <div class="d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                        <img src="../assets/images/user/avatar-1.jpg" alt="img" class="wid-40 rounded-circle" />
-                      </div>
-                      <div class="flex-grow-1 mx-3">
-                        <h6 class="mb-0">تم تسجيل 100 ناخب جديد</h6>
-                      </div>
-                      <div class="flex-shrink-0">
-                        <p class="mb-0 text-muted">اليوم | 9:00 ص</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item px-0 py-2">
-                    <div class="d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                        <img src="../assets/images/user/avatar-2.jpg" alt="img" class="wid-40 rounded-circle" />
-                      </div>
-                      <div class="flex-grow-1 mx-3">
-                        <h6 class="mb-0">تم إضافة 5 مرشحين جدد</h6>
-                      </div>
-                      <div class="flex-shrink-0">
-                        <p class="mb-0 text-muted">أمس | 6:30 م</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item px-0 py-2">
-                    <div class="d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                        <img src="../assets/images/user/avatar-2.jpg" alt="img" class="wid-40 rounded-circle" />
-                      </div>
-                      <div class="flex-grow-1 mx-3">
-                        <h6 class="mb-0">تم إضافة 5 مرشحين جدد</h6>
-                      </div>
-                      <div class="flex-shrink-0">
-                        <p class="mb-0 text-muted">أمس | 6:30 م</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item px-0 py-2">
-                    <div class="d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                        <img src="../assets/images/user/avatar-2.jpg" alt="img" class="wid-40 rounded-circle" />
-                      </div>
-                      <div class="flex-grow-1 mx-3">
-                        <h6 class="mb-0">تم إضافة 5 مرشحين جدد</h6>
-                      </div>
-                      <div class="flex-shrink-0">
-                        <p class="mb-0 text-muted">أمس | 6:30 م</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item px-0 py-2">
-                    <div class="d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                        <img src="../assets/images/user/avatar-2.jpg" alt="img" class="wid-40 rounded-circle" />
-                      </div>
-                      <div class="flex-grow-1 mx-3">
-                        <h6 class="mb-0">تم إضافة 5 مرشحين جدد</h6>
-                      </div>
-                      <div class="flex-shrink-0">
-                        <p class="mb-0 text-muted">أمس | 6:30 م</p>
-                      </div>
-                    </div>
-                  </li>
-                  <!-- يمكن إضافة المزيد من الإشعارات -->
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <!-- [ Main Content ] start -->
         <div class="row">
           <!-- [ Row 1 ] start -->
 
           <!-- [ Row 1 ] end -->
 
           <!-- [ Row 2 ] start -->
-          <div class="col-md-6">
+          <div class="col-md-3">
             <div class="card table-card">
-              <div class="card-header">
-                <h3>أعلى المرشحين</h3>
+              <div class="card-header py-3">
+                <h4>مراكز التسجيل  </h4>
               </div>
-              <div class="card-body py-3 px-0">
+              <div class="card-body px-0 ">
                 <div class="table-responsive affiliate-table">
                   <table class="table table-hover table-borderless mb-0">
                     <tbody>
+                    <tr class="bg-primary">
+                      <th class="text-light">اسم المركز</th>
+                      <th class="text-light"> الناخبين</th>
+                      <th class="text-light"> المقترعين</th>
+                      <th class="text-light">نسبة </th>
+                    </tr>
+
                     <tr>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <img src="assets/images/user/avatar-2.jpg" alt="" class="img-fluid wid-30 rounded-1" />
-                          <h6 class="mb-0 ms-2">أحمد حسن</h6>
-                        </div>
-                      </td>
+                      <td>مركز بغداد - الرصافة</td>
+                      <td>12,458</td>
+                      <td>8,741</td>
+                      <td>70.2%</td>
+                    </tr>
+
+                    <tr>
+                      <td>مركز البصرة - وسط المدينة</td>
+                      <td>9,752</td>
+                      <td>6,832</td>
+                      <td>70.1%</td>
+                    </tr>
+
+                    <tr>
+                      <td>مركز النجف - الحيدرية</td>
+                      <td>7,845</td>
+                      <td>5,491</td>
+                      <td>70.0%</td>
+                    </tr>
+
+                    <tr>
+                      <td>مركز كربلاء - مركز المحافظة</td>
+                      <td>6,932</td>
+                      <td>5,202</td>
+                      <td>75.0%</td>
+                    </tr>
+
+                    <tr>
+                      <td>مركز أربيل - عينكاوة</td>
+                      <td>5,678</td>
+                      <td>4,546</td>
+                      <td>80.1%</td>
+                    </tr>
+
+                    <tr>
+                      <td>مركز السليمانية - مركز المدينة</td>
+                      <td>4,985</td>
+                      <td>3,987</td>
+                      <td>80.0%</td>
+                    </tr>
+
+
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+              </div>
+          <div class="col-md-3">
+            <div class="card table-card">
+              <div class="card-header py-3 bg-primary">
+                <h4 class="mb-0 text-white">نسبة الاقتراع حسب المحافظة    </h4>
+              </div>
+              <div class="card-body px-0">
+                <div class="table-responsive">
+                  <table class="table table-hover mb-0">
+                    <thead class="bg-light-primary">
+                    <tr>
+                      <th class="text-center">#</th>
+                      <th>اسم المحافظة</th>
+                      <th class="text-center"> الناخبين</th>
+                      <th class="text-center"> المقترعين</th>
+                      <th class="text-center">نسبة </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td class="text-center">1</td>
                       <td>بغداد</td>
-                      <td class="text-end f-w-600">12,345 صوت</td>
-                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 15%</td>
+                      <td class="text-center">3,245,871</td>
+                      <td class="text-center">2,115,642</td>
+                      <td class="text-center">
+                        <span class="badge bg-success bg-opacity-10 text-success">65.2%</span>
+                      </td>
+
                     </tr>
                     <tr>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <img src="assets/images/user/avatar-1.jpg" alt="" class="img-fluid wid-30 rounded-1" />
-                          <h6 class="mb-0 ms-2">فاطمة علي</h6>
-                        </div>
-                      </td>
+                      <td class="text-center">2</td>
                       <td>البصرة</td>
-                      <td class="text-end f-w-600">10,987 صوت</td>
-                      <td><i class="ti ti-arrow-down text-danger f-18 align-text-bottom"></i> 3%</td>
+                      <td class="text-center">1,856,324</td>
+                      <td class="text-center">1,302,587</td>
+                      <td class="text-center">
+                        <span class="badge bg-success bg-opacity-10 text-success">70.1%</span>
+                      </td>
+
                     </tr>
                     <tr>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <img src="assets/images/user/avatar-3.jpg" alt="" class="img-fluid wid-30 rounded-1" />
-                          <h6 class="mb-0 ms-2">محمد كاظم</h6>
-                        </div>
-                      </td>
+                      <td class="text-center">3</td>
                       <td>النجف</td>
-                      <td class="text-end f-w-600">9,876 صوت</td>
-                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 10%</td>
+                      <td class="text-center">1,245,786</td>
+                      <td class="text-center">934,339</td>
+                      <td class="text-center">
+                        <span class="badge bg-warning bg-opacity-10 text-warning">75.0%</span>
+                      </td>
+
                     </tr>
                     <tr>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <img src="assets/images/user/avatar-4.html" alt="" class="img-fluid wid-30 rounded-1" />
-                          <h6 class="mb-0 ms-2">زينب عبدالله</h6>
-                        </div>
-                      </td>
+                      <td class="text-center">4</td>
                       <td>كربلاء</td>
-                      <td class="text-end f-w-600">8,765 صوت</td>
-                      <td><i class="ti ti-arrow-down text-danger f-18 align-text-bottom"></i> 2%</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <img src="assets/images/user/avatar-5.html" alt="" class="img-fluid wid-30 rounded-1" />
-                          <h6 class="mb-0 ms-2">حسين محمود</h6>
-                        </div>
+                      <td class="text-center">1,087,654</td>
+                      <td class="text-center">870,123</td>
+                      <td class="text-center">
+                        <span class="badge bg-warning bg-opacity-10 text-warning">80.0%</span>
                       </td>
-                      <td>الموصل</td>
-                      <td class="text-end f-w-600">7,654 صوت</td>
-                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 7%</td>
-                    </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="card table-card">
-              <div class="card-header">
-                <h3>أعلى المحافظات مشاركة</h3>
-              </div>
-              <div class="card-body py-3 px-0">
-                <div class="table-responsive">
-                  <table class="table table-hover table-borderless mb-0">
-                    <tbody>
-                    <tr>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <img src="../assets/images/map/baghdad.png" alt="" class="img-fluid wid-30 rounded-1" />
-                          <h6 class="mb-0 ms-2">بغداد</h6>
-                        </div>
-                      </td>
-                      <td class="text-end f-w-600">85%</td>
-                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 12%</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <img src="../assets/images/map/basra.png" alt="" class="img-fluid wid-30 rounded-1" />
-                          <h6 class="mb-0 ms-2">البصرة</h6>
-                        </div>
-                      </td>
-                      <td class="text-end f-w-600">78%</td>
-                      <td><i class="ti ti-arrow-down text-danger f-18 align-text-bottom"></i> 5%</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <img src="../assets/images/map/najaf.png" alt="" class="img-fluid wid-30 rounded-1" />
-                          <h6 class="mb-0 ms-2">النجف</h6>
-                        </div>
-                      </td>
-                      <td class="text-end f-w-600">72%</td>
-                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 8%</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <img src="../assets/images/map/kerbala.png" alt="" class="img-fluid wid-30 rounded-1" />
-                          <h6 class="mb-0 ms-2">كربلاء</h6>
-                        </div>
-                      </td>
-                      <td class="text-end f-w-600">68%</td>
-                      <td><i class="ti ti-arrow-down text-danger f-18 align-text-bottom"></i> 3%</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <img src="../assets/images/map/mosul.png" alt="" class="img-fluid wid-30 rounded-1" />
-                          <h6 class="mb-0 ms-2">الموصل</h6>
-                        </div>
-                      </td>
-                      <td class="text-end f-w-600">65%</td>
-                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 6%</td>
-                    </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- [ Row 2 ] end -->
 
-          <!-- [ Row 3 ] start -->
-          <div class="col-md-4">
-            <div class="card table-card">
-              <div class="card-header">
-                <h3>الوائح المتنافسة</h3>
+                    </tr>
+                    <tr>
+                      <td class="text-center">5</td>
+                      <td>أربيل</td>
+                      <td class="text-center">1,543,210</td>
+                      <td class="text-center">1,234,568</td>
+                      <td class="text-center">
+                        <span class="badge bg-danger bg-opacity-10 text-danger">80.0%</span>
+                      </td>
+
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
-              <div class="card-body py-3 px-0">
-                <div class="table-responsive">
+
+            </div>
+       </div>
+          <div class="col-md-3">
+            <div class="card table-card">
+              <div class="card-header py-3 ">
+                <h4>نسبة الاقتراع حسب المحطة </h4>
+              </div>
+              <div class="card-body  px-0">
+                <div class="table-responsive affiliate-table">
                   <table class="table table-hover table-borderless mb-0">
                     <tbody>
+                    <tr  class="bg-primary ">
+                      <th class="text-light">الاسم</th>
+                      <th class="text-light">الناخبون</th>
+                      <th class="text-light">المقترعون</th>
+                      <th class="text-light">النسبة</th>
+                    </tr>
+
                     <tr>
                       <td>
-                        <div class="d-flex align-items-center">
-                          <img src="../assets/images/parties/party1.png" alt="" class="img-fluid wid-30 rounded-1" />
-                          <h6 class="mb-0 ms-2">ائتلاف النصر</h6>
-                        </div>
+                        محمد علوية
                       </td>
-                      <td class="text-end f-w-600">45%</td>
-                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 10%</td>
+                      <td>987.124545</td>
+                      <td>152.124545</td>
+                      <td>25.5%</td>
+
                     </tr>
                     <tr>
                       <td>
-                        <div class="d-flex align-items-center">
-                          <img src="../assets/images/parties/party2.png" alt="" class="img-fluid wid-30 rounded-1" />
-                          <h6 class="mb-0 ms-2">تحالف الفتح</h6>
-                        </div>
+                        محمد علوية
                       </td>
-                      <td class="text-end f-w-600">35%</td>
-                      <td><i class="ti ti-arrow-down text-danger f-18 align-text-bottom"></i> 5%</td>
+                      <td>987.124545</td>
+                      <td>152.124545</td>
+                      <td>25.5%</td>
+
                     </tr>
                     <tr>
                       <td>
-                        <div class="d-flex align-items-center">
-                          <img src="../assets/images/parties/party3.png" alt="" class="img-fluid wid-30 rounded-1" />
-                          <h6 class="mb-0 ms-2">ائتلاف دولة القانون</h6>
-                        </div>
+                        محمد علوية
                       </td>
-                      <td class="text-end f-w-600">30%</td>
-                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 7%</td>
+                      <td>987.124545</td>
+                      <td>152.124545</td>
+                      <td>25.5%</td>
+
                     </tr>
                     <tr>
                       <td>
-                        <div class="d-flex align-items-center">
-                          <img src="../assets/images/parties/party4.png" alt="" class="img-fluid wid-30 rounded-1" />
-                          <h6 class="mb-0 ms-2">تحالف سائرون</h6>
-                        </div>
+                        محمد علوية
                       </td>
-                      <td class="text-end f-w-600">25%</td>
-                      <td><i class="ti ti-arrow-down text-danger f-18 align-text-bottom"></i> 3%</td>
+                      <td>987.124545</td>
+                      <td>152.124545</td>
+                      <td>25.5%</td>
+
                     </tr>
                     <tr>
                       <td>
-                        <div class="d-flex align-items-center">
-                          <img src="../assets/images/parties/party5.png" alt="" class="img-fluid wid-30 rounded-1" />
-                          <h6 class="mb-0 ms-2">التحالف الكردستاني</h6>
-                        </div>
+                        محمد علوية
                       </td>
-                      <td class="text-end f-w-600">20%</td>
-                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 4%</td>
+                      <td>987.124545</td>
+                      <td>152.124545</td>
+                      <td>25.5%</td>
+
                     </tr>
+
                     </tbody>
                   </table>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="card table-card">
-              <div class="card-header">
-                <h3>التوزيع الطائفي</h3>
+              <div class="card-header py-3">
+                <h4>نسبة الاقتراع حسب الناحية </h4>
               </div>
-              <div class="card-body py-3 px-0">
-                <div class="table-responsive">
+              <div class="card-body  px-0">
+                <div class="table-responsive affiliate-table">
                   <table class="table table-hover table-borderless mb-0">
                     <tbody>
+                    <tr  class="bg-primary ">
+                      <th class="text-light">الاسم</th>
+                      <th class="text-light">الناخبون</th>
+                      <th class="text-light">المقترعون</th>
+                      <th class="text-light">النسبة</th>
+                    </tr>
+
                     <tr>
                       <td>
-                        <div class="d-flex align-items-center">
-                          <img src="../assets/images/sects/shia.png" alt="" class="img-fluid wid-30 rounded-1" />
-                          <h6 class="mb-0 ms-2">الشيعة</h6>
-                        </div>
+                        محمد علوية
                       </td>
-                      <td class="text-end f-w-600">60%</td>
-                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 12%</td>
+                      <td>987.124545</td>
+                      <td>152.124545</td>
+                      <td>25.5%</td>
+
                     </tr>
                     <tr>
                       <td>
-                        <div class="d-flex align-items-center">
-                          <img src="../assets/images/sects/sunni.png" alt="" class="img-fluid wid-30 rounded-1" />
-                          <h6 class="mb-0 ms-2">السنة</h6>
-                        </div>
+                        محمد علوية
                       </td>
-                      <td class="text-end f-w-600">30%</td>
-                      <td><i class="ti ti-arrow-down text-danger f-18 align-text-bottom"></i> 5%</td>
+                      <td>987.124545</td>
+                      <td>152.124545</td>
+                      <td>25.5%</td>
+
                     </tr>
                     <tr>
                       <td>
-                        <div class="d-flex align-items-center">
-                          <img src="../assets/images/sects/christian.png" alt="" class="img-fluid wid-30 rounded-1" />
-                          <h6 class="mb-0 ms-2">المسيحيون</h6>
-                        </div>
+                        محمد علوية
                       </td>
-                      <td class="text-end f-w-600">5%</td>
-                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 2%</td>
+                      <td>987.124545</td>
+                      <td>152.124545</td>
+                      <td>25.5%</td>
+
                     </tr>
                     <tr>
                       <td>
-                        <div class="d-flex align-items-center">
-                          <img src="../assets/images/sects/yazidi.png" alt="" class="img-fluid wid-30 rounded-1" />
-                          <h6 class="mb-0 ms-2">الإيزيديون</h6>
-                        </div>
+                        محمد علوية
                       </td>
-                      <td class="text-end f-w-600">3%</td>
-                      <td><i class="ti ti-arrow-down text-danger f-18 align-text-bottom"></i> 1%</td>
+                      <td>987.124545</td>
+                      <td>152.124545</td>
+                      <td>25.5%</td>
+
                     </tr>
                     <tr>
                       <td>
-                        <div class="d-flex align-items-center">
-                          <img src="../assets/images/sects/sabian.png" alt="" class="img-fluid wid-30 rounded-1" />
-                          <h6 class="mb-0 ms-2">الصابئة</h6>
-                        </div>
+                        محمد علوية
                       </td>
-                      <td class="text-end f-w-600">2%</td>
-                      <td><i class="ti ti-arrow-up text-success f-18 align-text-bottom"></i> 0.5%</td>
+                      <td>987.124545</td>
+                      <td>152.124545</td>
+                      <td>25.5%</td>
+
                     </tr>
+
                     </tbody>
                   </table>
                 </div>
@@ -1255,210 +1057,396 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+
+        </div>
+        <div class="row p-0">
+          <!-- التقويم الانتخابي -->
+          <div class="col-lg-4 col-md-12">
             <div class="card">
-              <div class="card-header">
-                <div class="d-flex align-items-center justify-content-between">
-                  <h5 class="mb-0"> النسب</h5>
-                  <select class="form-select form-select-sm w-auto border-0 shadow-none">
-                    <option>اليوم</option>
-                    <option selected="">24 ساعة</option>
-                    <option>يومين</option>
-                  </select>
+              <div class="card-body" >
+                <h5 class="mb-3">الجدول الزمني للانتخابات البرلمانية 2025</h5>
+<div class="scroll-card">
+                <!-- مرحلة تسجيل التحالفات -->
+                <div class="card overflow-hidden mb-2">
+                  <div class="card-body px-3 py-2 border-start border-4 border-success">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                        <h6 class="mb-1">تسجيل التحالفات والأحزاب</h6>
+                        <p class="mb-0 text-muted small">15 أبريل - 14 مايو 2025</p>
+                      </div>
+                      <span class="badge bg-success">منتهية</span>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="card-body">
-                <p class="mb-0">الاصوات</p>
-                <h4>555.1255.4 صوت</h4>
-                <div id="monthly-report-graph" class="">
-                  <div id="apexcharts0vwb5vyug" class="apexcharts-canvas apexcharts0vwb5vyug apexcharts-theme-" style="width: 100%; height: auto;"><svg id="SvgjsSvg1110" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" class="apexcharts-svg" xmlns:data="ApexChartsNS" transform="translate(0, 0)"><foreignObject x="0" y="0" width="709" height="250"><div xmlns="http://www.w3.org/1999/xhtml" style="position: relative; height: 100%; width: 100%;"><div class="apexcharts-legend" style="max-height: 125px;"></div></div></foreignObject><g id="SvgjsG1123" class="apexcharts-datalabels-group" transform="translate(0, 0) scale(1)"></g><g id="SvgjsG1124" class="apexcharts-datalabels-group" transform="translate(0, 0) scale(1)"></g><g id="SvgjsG1241" class="apexcharts-yaxis" rel="0" transform="translate(15.359375, 0)"><g id="SvgjsG1242" class="apexcharts-yaxis-texts-g"><text id="SvgjsText1244" font-family="Helvetica, Arial, sans-serif" x="20" y="33.666666666666664" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#373d3f" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1245">120</tspan><title>Election Management System</title>
-              </div>
-            </div>
-          </div>
-          <!-- [ Row 3 ] end -->
-        </div>
-        <!--
 
-    <!-- [ Main Content ] end -->
+                <!-- مرحلة استلام قوائم المرشحين -->
+                <div class="card overflow-hidden mb-2">
+                  <div class="card-body px-3 py-2 border-start border-4 border-info">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                        <h6 class="mb-1">استلام قوائم المرشحين</h6>
+                        <p class="mb-0 text-muted small">15 أبريل - 15 مايو 2025</p>
+                      </div>
+                      <span class="badge bg-success">منتهية</span>
+                    </div>
+                  </div>
+                </div>
 
- <div class="offcanvas border-0 pct-offcanvas offcanvas-end" tabindex="-1" id="offcanvas_pc_layout">
-  <div class="offcanvas-header justify-content-between">
-    <h5 class="offcanvas-title">Settings</h5>
-    <button type="button" class="btn btn-icon btn-link-danger" data-bs-dismiss="offcanvas" aria-label="Close"
-      ><i class="ti ti-x"></i
-    ></button>
-  </div>
-  <div class="pct-body customizer-body">
-    <div class="offcanvas-body py-0">
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">
-          <div class="pc-dark">
-            <h6 class="mb-1">Theme Mode</h6>
-            <p class="text-muted text-sm">Choose light or dark mode or Auto</p>
-            <div class="row theme-color theme-layout">
-              <div class="col-4">
-                <div class="d-grid">
-                  <button class="preset-btn btn active" data-value="true" onclick="layout_change('light');">
-                    <span class="btn-label">Light</span>
-                    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
-                  </button>
+                <!-- مرحلة تقديم الشكاوى -->
+                <div class="card overflow-hidden mb-2">
+                  <div class="card-body px-3 py-2 border-start border-4 border-warning">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                        <h6 class="mb-1">فترة تقديم الشكاوى</h6>
+                        <p class="mb-0 text-muted small">16 مايو - 13 يونيو 2025</p>
+                      </div>
+                      <span class="badge bg-success">منتهية</span>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="col-4">
-                <div class="d-grid">
-                  <button class="preset-btn btn" data-value="false" onclick="layout_change('dark');">
-                    <span class="btn-label">Dark</span>
-                    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
-                  </button>
+
+                <!-- مرحلة القرعة -->
+                <div class="card overflow-hidden mb-2">
+                  <div class="card-body px-3 py-2 border-start border-4 border-primary">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                        <h6 class="mb-1">قرعة تسلسلات المرشحين</h6>
+                        <p class="mb-0 text-muted small">1 يوليو 2025</p>
+                      </div>
+                      <span class="badge bg-warning text-dark">قادمة</span>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="col-4">
-                <div class="d-grid">
-                  <button
-                    class="preset-btn btn"
-                    data-value="default"
-                    onclick="layout_change_default();"
-                    data-bs-toggle="tooltip"
-                    title="Automatically sets the theme based on user's operating system's color scheme."
-                  >
-                    <span class="btn-label">Default</span>
-                    <span class="pc-lay-icon d-flex align-items-center justify-content-center">
-                      <i class="ph-duotone ph-cpu"></i>
-                    </span>
-                  </button>
+
+                <!-- مرحلة الحملات الانتخابية -->
+                <div class="card overflow-hidden mb-2">
+                  <div class="card-body px-3 py-2 border-start border-4 border-danger">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                        <h6 class="mb-1">الحملات الانتخابية</h6>
+                        <p class="mb-0 text-muted small">9 أكتوبر - 7 نوفمبر 2025</p>
+                      </div>
+                      <span class="badge bg-secondary">لم تبدأ</span>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="list-group-item pc-sidebar-color">
-          <h6 class="mb-1">Sidebar Theme</h6>
-          <p class="text-muted text-sm">Choose Sidebar Theme</p>
-          <div class="row theme-color theme-sidebar-color">
-            <div class="col-6">
-              <div class="d-grid">
-                <button class="preset-btn btn" data-value="true" onclick="layout_sidebar_change('dark');">
-                  <span class="btn-label">Dark</span>
-                  <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
-                </button>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="d-grid">
-                <button class="preset-btn btn active" data-value="false" onclick="layout_sidebar_change('light');">
-                  <span class="btn-label">Light</span>
-                  <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="list-group-item">
-          <h6 class="mb-1">Accent color</h6>
-          <p class="text-muted text-sm">Choose your primary theme color</p>
-          <div class="theme-color preset-color">
-            <a href="#!" class="active" data-value="preset-1"><i class="ti ti-check"></i></a>
-            <a href="#!" data-value="preset-2"><i class="ti ti-check"></i></a>
-            <a href="#!" data-value="preset-3"><i class="ti ti-check"></i></a>
-            <a href="#!" data-value="preset-4"><i class="ti ti-check"></i></a>
-            <a href="#!" data-value="preset-5"><i class="ti ti-check"></i></a>
-            <a href="#!" data-value="preset-6"><i class="ti ti-check"></i></a>
-            <a href="#!" data-value="preset-7"><i class="ti ti-check"></i></a>
-            <a href="#!" data-value="preset-8"><i class="ti ti-check"></i></a>
-            <a href="#!" data-value="preset-9"><i class="ti ti-check"></i></a>
-            <a href="#!" data-value="preset-10"><i class="ti ti-check"></i></a>
-          </div>
-        </li>
-        <li class="list-group-item">
-          <h6 class="mb-1">Sidebar Caption</h6>
-          <p class="text-muted text-sm">Sidebar Caption Hide/Show</p>
-          <div class="row theme-color theme-nav-caption">
-            <div class="col-6">
-              <div class="d-grid">
-                <button class="preset-btn btn active" data-value="true" onclick="layout_caption_change('true');">
-                  <span class="btn-label">Caption Show</span>
-                  <span class="pc-lay-icon"
-                    ><span></span><span></span><span><span></span><span></span></span><span></span
-                  ></span>
-                </button>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="d-grid">
-                <button class="preset-btn btn" data-value="false" onclick="layout_caption_change('false');">
-                  <span class="btn-label">Caption Hide</span>
-                  <span class="pc-lay-icon"
-                    ><span></span><span></span><span><span></span><span></span></span><span></span
-                  ></span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="list-group-item">
-          <div class="pc-rtl">
-            <h6 class="mb-1">Theme Layout</h6>
-            <p class="text-muted text-sm">LTR/RTL</p>
-            <div class="row theme-color theme-direction">
-              <div class="col-6">
-                <div class="d-grid">
-                  <button class="preset-btn btn active" data-value="false" onclick="layout_rtl_change('false');">
-                    <span class="btn-label">LTR</span>
-                    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
-                  </button>
+
+                <!-- يوم الاقتراع الخاص -->
+                <div class="card overflow-hidden mb-2">
+                  <div class="card-body px-3 py-2 border-start border-4 border-dark">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                        <h6 class="mb-1">يوم الاقتراع الخاص</h6>
+                        <p class="mb-0 text-muted small">8 نوفمبر 2025</p>
+                      </div>
+                      <span class="badge bg-secondary">لم يبدأ</span>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="col-6">
-                <div class="d-grid">
-                  <button class="preset-btn btn" data-value="true" onclick="layout_rtl_change('true');">
-                    <span class="btn-label">RTL</span>
-                    <span class="pc-lay-icon"><span></span><span></span><span></span><span></span></span>
-                  </button>
+
+                <!-- يوم الاقتراع العام -->
+                <div class="card overflow-hidden mb-2">
+                  <div class="card-body px-3 py-2 border-start border-4 border-primary">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                        <h6 class="mb-1">يوم الاقتراع العام</h6>
+                        <p class="mb-0 text-muted small">9 نوفمبر 2025</p>
+                      </div>
+                      <span class="badge bg-primary">اليوم الحالي</span>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="list-group-item pc-box-width">
-          <div class="pc-container-width">
-            <h6 class="mb-1">Layout Width</h6>
-            <p class="text-muted text-sm">Choose Full or Container Layout</p>
-            <div class="row theme-color theme-container">
-              <div class="col-6">
-                <div class="d-grid">
-                  <button class="preset-btn btn active" data-value="false" onclick="change_box_container('false')">
-                    <span class="btn-label">Full Width</span>
-                    <span class="pc-lay-icon"
-                      ><span></span><span></span><span></span><span><span></span></span
-                    ></span>
-                  </button>
+
+                <!-- إعلان النتائج -->
+                <div class="card overflow-hidden mb-0">
+                  <div class="card-body px-3 py-2 border-start border-4 border-success">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                        <h6 class="mb-1">إعلان النتائج الأولية</h6>
+                        <p class="mb-0 text-muted small">12 نوفمبر 2025</p>
+                      </div>
+                      <span class="badge bg-secondary">لم يبدأ</span>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="col-6">
-                <div class="d-grid">
-                  <button class="preset-btn btn" data-value="true" onclick="change_box_container('true')">
-                    <span class="btn-label">Fixed Width</span>
-                    <span class="pc-lay-icon"
-                      ><span></span><span></span><span></span><span><span></span></span
-                    ></span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="list-group-item">
-          <div class="d-grid">
-            <button class="btn btn-light-danger" id="layoutreset">Reset Layout</button>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
+
 </div>
-
+              </div>
+            </div>
           </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="card ">
+              <div class="card-body">
+                <div class="d-flex align-items-center justify-content-between mb-3">
+                  <h5 class="mb-0">الإشعارات</h5>
+
+                </div>
+                <div class="scroll-card">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item px-0 py-2">
+                      <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                          <img src="../assets/images/user/avatar-1.jpg" alt="تنبيه" class="wid-40 rounded-circle" />
+                        </div>
+                        <div class="flex-grow-1 mx-3">
+                          <h6 class="mb-0">تم فتح باب الترشح للانتخابات المحلية حتى 15 يونيو</h6>
+                        </div>
+                        <div class="flex-shrink-0">
+                          <p class="mb-0 text-muted">اليوم | 8:30 ص</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item px-0 py-2">
+                      <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                          <img src="../assets/images/user/avatar-2.jpg" alt="تنبيه" class="wid-40 rounded-circle" />
+                        </div>
+                        <div class="flex-grow-1 mx-3">
+                          <h6 class="mb-0">انتهاء فترة التسجيل الناخبين في محافظة نينوى</h6>
+                        </div>
+                        <div class="flex-shrink-0">
+                          <p class="mb-0 text-muted">اليوم | 10:15 ص</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item px-0 py-2">
+                      <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                          <img src="../assets/images/user/avatar-3.jpg" alt="إشعار" class="wid-40 rounded-circle" />
+                        </div>
+                        <div class="flex-grow-1 mx-3">
+                          <h6 class="mb-0">تم تمديد ساعات العمل في مراكز التسجيل ببغداد</h6>
+                        </div>
+                        <div class="flex-shrink-0">
+                          <p class="mb-0 text-muted">أمس | 4:45 م</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item px-0 py-2">
+                      <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                          <img src="../assets/images/user/avatar-4.jpg" alt="تحذير" class="wid-40 rounded-circle" />
+                        </div>
+                        <div class="flex-grow-1 mx-3">
+                          <h6 class="mb-0">تحذير: عقوبات رادعة لمحاولات تزوير البطاقات الانتخابية</h6>
+                        </div>
+                        <div class="flex-shrink-0">
+                          <p class="mb-0 text-muted">أمس | 2:30 م</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item px-0 py-2">
+                      <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                          <img src="../assets/images/user/avatar-5.jpg" alt="إعلان" class="wid-40 rounded-circle" />
+                        </div>
+                        <div class="flex-grow-1 mx-3">
+                          <h6 class="mb-0">بدء حملة توعية للناخبين في المحافظات الجنوبية</h6>
+                        </div>
+                        <div class="flex-shrink-0">
+                          <p class="mb-0 text-muted">قبل يومين | 11:00 ص</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item px-0 py-2">
+                      <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                          <img src="../assets/images/user/avatar-6.jpg" alt="إشعار" class="wid-40 rounded-circle" />
+                        </div>
+                        <div class="flex-grow-1 mx-3">
+                          <h6 class="mb-0">إطلاق المنصة الإلكترونية للاستعلام عن مراكز الاقتراع</h6>
+                        </div>
+                        <div class="flex-shrink-0">
+                          <p class="mb-0 text-muted">قبل يومين | 9:20 ص</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item px-0 py-2">
+                      <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                          <img src="../assets/images/user/avatar-7.jpg" alt="تنبيه" class="wid-40 rounded-circle" />
+                        </div>
+                        <div class="flex-grow-1 mx-3">
+                          <h6 class="mb-0">تأكيد: الانتخابات ستجرى في موعدها المحدد</h6>
+                        </div>
+                        <div class="flex-shrink-0">
+                          <p class="mb-0 text-muted">قبل 3 أيام | 3:15 م</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item px-0 py-2">
+                      <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                          <img src="../assets/images/user/avatar-8.jpg" alt="إعلان" class="wid-40 rounded-circle" />
+                        </div>
+                        <div class="flex-grow-1 mx-3">
+                          <h6 class="mb-0">ورشة عمل لتدريب المشرفين على العملية الانتخابية</h6>
+                        </div>
+                        <div class="flex-shrink-0">
+                          <p class="mb-0 text-muted">قبل 4 أيام | 1:00 م</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item px-0 py-2">
+                      <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                          <img src="../assets/images/user/avatar-9.jpg" alt="تنبيه" class="wid-40 rounded-circle" />
+                        </div>
+                        <div class="flex-grow-1 mx-3">
+                          <h6 class="mb-0">إجراءات أمنية مشددة حول مراكز الاقتراع</h6>
+                        </div>
+                        <div class="flex-shrink-0">
+                          <p class="mb-0 text-muted">قبل 5 أيام | 10:45 ص</p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex align-items-center justify-content-between mb-3">
+                  <h5 class="mb-0">مراكز التسجيل</h5>
+
+                </div>
+                <div class="scroll-card">
+                  <ul class="list-group list-group-flush h-25">
+                    <li class="list-group-item px-0 py-2">
+                      <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                          <img src="../assets/images/user/avatar-1.jpg" alt="img" class="wid-40 rounded-circle" />
+                        </div>
+                        <div class="flex-grow-1 mx-3">
+                          <h6 class="mb-0">تم تسجيل 84 ناخب جديد في مركز بغداد/الكرخ</h6>
+                        </div>
+                        <div class="flex-shrink-0">
+                          <p class="mb-0 text-muted">اليوم | 10:30 ص</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item px-0 py-2">
+                      <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                          <img src="../assets/images/user/avatar-1.jpg" alt="img" class="wid-40 rounded-circle" />
+                        </div>
+                        <div class="flex-grow-1 mx-3">
+                          <h6 class="mb-0">تم تسجيل 127 ناخب جديد في مركز البصرة</h6>
+                        </div>
+                        <div class="flex-shrink-0">
+                          <p class="mb-0 text-muted">اليوم | 9:45 ص</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item px-0 py-2">
+                      <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                          <img src="../assets/images/user/avatar-1.jpg" alt="img" class="wid-40 rounded-circle" />
+                        </div>
+                        <div class="flex-grow-1 mx-3">
+                          <h6 class="mb-0">تم تسجيل 63 ناخب جديد في مركز أربيل</h6>
+                        </div>
+                        <div class="flex-shrink-0">
+                          <p class="mb-0 text-muted">اليوم | 9:15 ص</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item px-0 py-2">
+                      <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                          <img src="../assets/images/user/avatar-1.jpg" alt="img" class="wid-40 rounded-circle" />
+                        </div>
+                        <div class="flex-grow-1 mx-3">
+                          <h6 class="mb-0">تم تسجيل 112 ناخب جديد في مركز النجف</h6>
+                        </div>
+                        <div class="flex-shrink-0">
+                          <p class="mb-0 text-muted">اليوم | 8:30 ص</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item px-0 py-2">
+                      <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                          <img src="../assets/images/user/avatar-1.jpg" alt="img" class="wid-40 rounded-circle" />
+                        </div>
+                        <div class="flex-grow-1 mx-3">
+                          <h6 class="mb-0">تم تسجيل 95 ناخب جديد في مركز الموصل</h6>
+                        </div>
+                        <div class="flex-shrink-0">
+                          <p class="mb-0 text-muted">أمس | 4:20 م</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item px-0 py-2">
+                      <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                          <img src="../assets/images/user/avatar-2.jpg" alt="img" class="wid-40 rounded-circle" />
+                        </div>
+                        <div class="flex-grow-1 mx-3">
+                          <h6 class="mb-0">تم تحديث بيانات 3 مراكز تسجيل في ذي قار</h6>
+                        </div>
+                        <div class="flex-shrink-0">
+                          <p class="mb-0 text-muted">أمس | 3:45 م</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item px-0 py-2">
+                      <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                          <img src="../assets/images/user/avatar-2.jpg" alt="img" class="wid-40 rounded-circle" />
+                        </div>
+                        <div class="flex-grow-1 mx-3">
+                          <h6 class="mb-0">تم افتتاح مركز تسجيل جديد في كربلاء</h6>
+                        </div>
+                        <div class="flex-shrink-0">
+                          <p class="mb-0 text-muted">أمس | 2:15 م</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item px-0 py-2">
+                      <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                          <img src="../assets/images/user/avatar-2.jpg" alt="img" class="wid-40 rounded-circle" />
+                        </div>
+                        <div class="flex-grow-1 mx-3">
+                          <h6 class="mb-0">تم تدقيق 245 ملف ناخب في بغداد/الرصافة</h6>
+                        </div>
+                        <div class="flex-shrink-0">
+                          <p class="mb-0 text-muted">أمس | 11:30 ص</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item px-0 py-2">
+                      <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                          <img src="../assets/images/user/avatar-2.jpg" alt="img" class="wid-40 rounded-circle" />
+                        </div>
+                        <div class="flex-grow-1 mx-3">
+                          <h6 class="mb-0">تم تمديد فترة التسجيل في صلاح الدين</h6>
+                        </div>
+                        <div class="flex-shrink-0">
+                          <p class="mb-0 text-muted">قبل يومين | 5:00 م</p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- الإشعارات -->
+
+
+
+
         </div>
+
+
+        <!-- [ Main Content ] start -->
+
       </div>
     </div>
 

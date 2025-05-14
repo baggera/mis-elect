@@ -5337,3 +5337,9 @@ h2 {
 [data-pc-theme=dark].layout-nested .pc-submenu-list-wrapper {
   background: var(--pc-sidebar-background);
 }
+
+
+.scroll-card{
+  height: 25vh!important;
+  overflow-y: scroll;
+}

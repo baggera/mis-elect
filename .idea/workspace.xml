@@ -5,38 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e064dde-1082-47c9-be6b-10e0693431d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/03-01-haikalia.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-01-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-01-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-01-nakb.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-01-nakb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-02-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-02-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-02-btakat-nakb.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-02-btakat-nakb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-03-01-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-03-01-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-03-01-ihtiajat.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-03-01-ihtiajat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-03-02-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-03-02-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-03-02-rawabet.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-03-02-rawabet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-03-03-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-03-03-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-03-03-mortakazat.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-03-03-mortakazat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-03-04-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-03-04-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-03-04-morakibin.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-03-04-morakibin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-03-05-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-03-05-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-03-05-tasnif.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-03-05-tasnif.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-03-06-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-03-06-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-03-06-marina.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-03-06-marina.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-02-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-02-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-02-marakz-iqtiraa-mahatat.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-02-marakz-iqtiraa-mahatat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-03-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-03-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-03-marakz-haikaliat-morakibin.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-03-marakz-haikaliat-morakibin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-07-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-07-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-07-taskin-adid-makina.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-07-taskin-adid-makina.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-01-dawrat-itikabia.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-01-dawrat-itikabia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-02-rawatb-ojour.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-02-rawatb-ojour.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-02-lawaih-rasmia.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-02-lawaih-rasmia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-03-morashahin-rasmiin.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-03-morashahin-rasmiin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-01-kadamat-intikabia.html" beforeDir="false" afterPath="$PROJECT_DIR$/08-01-kadamat-intikabia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-02-01-jalasat.html" beforeDir="false" afterPath="$PROJECT_DIR$/08-02-01-jalasat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-02-03-mokarart.html" beforeDir="false" afterPath="$PROJECT_DIR$/08-02-03-mokarart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/plugins/custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/plugins/custom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00-dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/00-dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style-preset.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style-preset.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +43,7 @@
     &quot;JavaScript Debug.layout-horizontal.html.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/des1/Documents/GitHub/mis-elect&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/des1/Desktop/scoutsapp/scoutsappmobile/themes.pixelstrap.com/fuzzy&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -129,6 +100,9 @@
       <workItem from="1742971458190" duration="2309000" />
       <workItem from="1742999658820" duration="2203000" />
       <workItem from="1743150450103" duration="640000" />
+      <workItem from="1743675422984" duration="961000" />
+      <workItem from="1744098393404" duration="247000" />
+      <workItem from="1747227604804" duration="10189000" />
     </task>
     <servers />
   </component>
