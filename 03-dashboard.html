@@ -1,0 +1,1259 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <title>Election Management System</title>
+  <!-- [Meta] -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="Election Management System"/>
+
+
+  <!-- [Favicon] icon -->
+  <link rel="icon" href="assets/images/favicon.svg" type="image/x-icon" />
+
+  <link rel="stylesheet" href="assets/css/plugins/dataTables.bootstrap5.min.css" />
+  <link rel="stylesheet" href="assets/css/plugins/fixedColumns.bootstrap5.min.css" />
+
+  <!-- [Google Font : Public Sans] icon -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+
+  <!-- [phosphor Icons] https://phosphoricons.com/ -->
+  <link rel="stylesheet" href="assets/fonts/phosphor/duotone/style.css" />
+  <!-- [Tabler Icons] https://tablericons.com -->
+  <link rel="stylesheet" href="assets/fonts/tabler-icons.min.css" />
+
+  <!-- [Feather Icons] https://feathericons.com -->
+  <!-- [Font Awesome Icons] https://fontawesome.com/icons -->
+  <link rel="stylesheet" href="assets/fonts/fontawesome.css" />
+  <!-- [Material Icons] https://fonts.google.com/icons -->
+  <!-- [Template CSS Files] -->
+  <link rel="stylesheet" href="assets/css/style.css" id="main-style-link" />
+  <link rel="stylesheet" href="assets/css/style-preset.css" />
+
+</head>
+<!-- [Head] end -->
+<!-- [Body] Start -->
+<body >
+<!-- [ Pre-loader ] start -->
+<div class="loader-bg">
+  <div class="loader-track">
+    <div class="loader-fill"></div>
+  </div>
+</div>
+<!-- [ Pre-loader ] End -->
+<!-- [ Sidebar Menu ] start -->
+<!-- [ Sidebar Menu ] start -->
+<!-- [ Sidebar Menu ] start -->
+<nav class="pc-sidebar">
+  <div class="navbar-wrapper">
+    <div class="m-header">
+      <a href="00-dashboard.html" class="b-brand text-primary">
+        <!-- ========   Change your logo from here   ============ -->
+        <img src="assets/images/logo-dark.svg" alt="logo image" class="logo-lg" />
+        <span class="badge bg-primary rounded-pill ms-1 theme-version">2025</span>
+      </a>
+    </div>
+
+
+    <div class="navbar-content">
+      <ul class="pc-navbar">
+        <!-- 02 بطاقة ناخب -->
+        <li class="pc-item pc-caption">
+          <label>01 بطاقة ناخب</label>
+          <i class="ph-duotone ph-gauge"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="01-01-nakb.html"><span class="pc-micon"><i class="ph-duotone ph-users"></i></span><span class="pc-mtext">الناخبون</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="01-02-btakat-nakb.html"><span class="pc-micon"><i class="ph-duotone ph-users"></i></span><span class="pc-mtext">بطاقة ناخب</span></a></li>
+        <li class="pc-item pc-hasmenu">
+          <a href="#" class="pc-link"><span class="pc-micon"><i class="ph-duotone ph-clipboard-text"></i></span><span class="pc-mtext">المسوحات الإحصائية</span><span class="pc-arrow"><i class="ph-duotone ph-caret-down"></i></span></a>
+          <ul class="pc-submenu">
+            <li class="pc-item">
+              <a class="pc-link" href="01-03-01-ihtiajat.html">
+                <span class="pc-micon"><i class="ph-duotone ph-clipboard-text"></i></span>
+                <span class="pc-mtext">احتياجات انتخابية</span>
+              </a>
+            </li>
+
+            <li class="pc-item">
+              <a class="pc-link" href="01-03-02-rawabet.html">
+                <span class="pc-micon"><i class="ph-duotone ph-users"></i></span>
+                <span class="pc-mtext">روابط الاسر</span>
+              </a>
+            </li>
+            <li class="pc-item">
+              <a class="pc-link" href="01-03-03-mortakazat.html">
+                <span class="pc-micon"><i class="ph-duotone ph-buildings"></i></span>
+                <span class="pc-mtext">المرتكزات الانتخابية</span>
+              </a>
+            </li>
+            <li class="pc-item">
+              <a class="pc-link" href="01-03-04-morakibin.html">
+                <span class="pc-micon"><i class="ph-duotone ph-eye"></i></span>
+                <span class="pc-mtext">المراقبين الانتخابيين</span>
+              </a>
+            </li>
+            <li class="pc-item">
+              <a class="pc-link" href="01-03-05-tasnif.html">
+                <span class="pc-micon"><i class="ph-duotone ph-list-numbers"></i></span>
+                <span class="pc-mtext">التصنيف الانتخابي</span>
+              </a>
+            </li>
+            <li class="pc-item">
+              <a class="pc-link" href="01-03-06-marina.html">
+                <span class="pc-micon"><i class="ph-duotone ph-clipboard"></i></span>
+                <span class="pc-mtext">استمارة احصائية (مرنة)</span>
+              </a>
+            </li>
+          </ul>
+
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-upload"></i></span><span class="pc-mtext">استيراد الناخبين</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-map-pin"></i></span><span class="pc-mtext">خدمة مكان الاقتراع</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file-text"></i></span><span class="pc-mtext">التقارير</span></a></li>
+
+        <!-- 03 بطاقة محطة الاقتراع -->
+        <li class="pc-item pc-caption">
+          <label>02 بطاقة محطة الاقتراع</label>
+          <i class="ph-duotone ph-clipboard-text"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-gauge"></i></span><span class="pc-mtext">صفحة مؤشرات</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="02-02-marakz-iqtiraa-mahatat.html"><span class="pc-micon"><i class="ph-duotone ph-map-pin"></i></span><span class="pc-mtext">مراكز الاقتراع والمحطات</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="02-03-marakz-haikaliat-morakibin.html"><span class="pc-micon"><i class="ph-duotone ph-users-three"></i></span><span class="pc-mtext">هيكلية المراقبين</span></a></li>
+        <li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"><i class="ph-duotone ph-check-circle"></i></span><span class="pc-mtext">عملية الاقتراع والتدقيق الالكتروني</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-sort-ascending"></i></span><span class="pc-mtext">فرز النتائج</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file-doc"></i></span><span class="pc-mtext">التقارير</span></a></li>
+
+        <!-- 04 الهيكلية الانتخابية -->
+        <li class="pc-item pc-caption">
+          <label>03 الهيكلية الانتخابية</label>
+          <i class="ph-duotone ph-tree-structure"></i>
+        </li>
+
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-tree-structure"></i></span><span class="pc-mtext">الخريطة التنظيمية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-target"></i></span><span class="pc-mtext">الاهداف  </span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file"></i></span><span class="pc-mtext"> السياسات </span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-target"></i></span><span class="pc-mtext">  الضوابط</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-pencil-line"></i></span><span class="pc-mtext">رسم الهيكل التنظيمي والمهام</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file-text"></i></span><span class="pc-mtext">استمارة عديد الماكنة الانتخابية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="03-07-taskin-adid-makina.html"><span class="pc-micon"><i class="ph-duotone ph-buildings"></i></span><span class="pc-mtext">تسكين عديد الماكنة الانتخابية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-gear"></i></span><span class="pc-mtext">اعدادات</span></a></li>
+
+        <!-- 05 الدورة الانتخابية والنتائج -->
+        <li class="pc-item pc-caption">
+          <label>04 الدورة الانتخابية والنتائج</label>
+          <i class="ph-duotone ph-calendar"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="04-01-dawrat-itikabia.html"><span class="pc-micon"><i class="ph-duotone ph-calendar-check"></i></span><span class="pc-mtext">الدورات الانتخابية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-chart-bar"></i></span><span class="pc-mtext">النتائج والبيانات التفصيلية للدورة الأنتخابية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-download"></i></span><span class="pc-mtext">خدمة تصدير النتائج</span></a></li>
+
+        <!-- 06 الموازنات الانتخابية -->
+        <li class="pc-item pc-caption">
+          <label>05 الموازنات الانتخابية</label>
+          <i class="ph-duotone ph-currency-circle-dollar"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-gauge"></i></span><span class="pc-mtext">صفحة المؤشرات</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="05-02-rawatb-ojour.html"><span class="pc-micon"><i class="ph-duotone ph-money"></i></span><span class="pc-mtext">الرواتب والاجور</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-file"></i></span><span class="pc-mtext">الموازنات التشغيلية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-heart"></i></span><span class="pc-mtext">موازنة الخدمات (الصحية، التربوية، الاجتماعية،...)</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-trend-up"></i></span><span class="pc-mtext">الموازنات الانمائية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-toolbox"></i></span><span class="pc-mtext">موازنة التجهيزات</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-wallet"></i></span><span class="pc-mtext">الصرف</span></a></li>
+
+        <!-- 07 اللوائح والمرشحين -->
+        <li
+                class="pc-item pc-caption">
+          <label>06 اللوائح والمرشحين</label>
+          <i class="ph-duotone ph-user-circle"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-duotone ph-gauge"></i></span><span class="pc-mtext">صفحة المؤشرات  </span></a></li>
+        <li class="pc-item"><a class="pc-link" href="06-02-lawaih-rasmia.html"><span class="pc-micon"><i class="ph-duotone ph-file-text"></i></span><span class="pc-mtext">اللوائح الانتخابية الرسمية</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="06-03-morashahin-rasmiin.html"><span class="pc-micon"><i class="ph-duotone ph-user-plus"></i></span><span class="pc-mtext">المرشحين الرسميين</span></a></li>
+
+        <li class="pc-item pc-hasmenu">
+          <a href="#" class="pc-link">
+            <span class="pc-micon"><i class="ph-duotone ph-clipboard-text"></i></span>
+            <span class="pc-mtext">معايير اختيار مرشح</span>
+            <span class="pc-arrow"><i class="ph-duotone ph-caret-down"></i></span>
+          </a>
+          <ul class="pc-submenu">
+            <!-- مرشحين محتملين -->
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-user-circle-plus"></i></span>
+                <span class="pc-mtext">مرشحين محتملين</span>
+              </a>
+            </li>
+
+            <!-- بطاقة مرشح -->
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-cards"></i></span>
+                <span class="pc-mtext">بطاقة مرشح</span>
+              </a>
+            </li>
+
+            <!-- تقييم مرشح -->
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-star"></i></span>
+                <span class="pc-mtext">تقييم مرشح</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <!-- 08 نقل الناخبين -->
+        <li class="pc-item pc-caption">
+          <label>07 نقل الناخبين</label>
+          <i class="ph-duotone ph-truck"></i>
+
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-ticket"></i></span><span class="pc-mtext">بطاقة نقل</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-credit-card"></i></span><span class="pc-mtext">دفع نقل</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-gas-pump"></i></span><span class="pc-mtext">محطات الوقود</span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-truck"></i></span><span class="pc-mtext">الآليات</span></a></li>
+
+
+
+        <!-- 09 الانشطة والخدمات -->
+
+        <li class="pc-item pc-caption">
+          <label>08 الأنشطة والخدمات</label>
+          <i class="ph-duotone ph-hand-heart"></i>
+        </li>
+        <li class="pc-item">
+          <a class="pc-link" href="#">
+            <span class="pc-micon"><i class="ph-duotone ph-calendar"></i></span>
+            <span class="pc-mtext">الأنشطة الانتخابية</span>
+          </a>
+        </li>
+        <li class="pc-item">
+          <a class="pc-link" href="#">
+            <span class="pc-micon"><i class="ph-duotone ph-hand-heart"></i></span>
+            <span class="pc-mtext">الخدمات الانتخابية</span>
+          </a>
+        </li>
+        <li class="pc-item pc-hasmenu">
+          <!-- رابط الجلسات مع القائمة المنسدلة -->
+          <a class="pc-link" href="#">
+            <span class="pc-micon"><i class="ph-duotone ph-users"></i></span>
+            <span class="pc-mtext">الجلسات</span>
+            <span class="pc-arrow"><i class="ph-duotone ph-caret-down"></i></span>
+          </a>
+          <!-- الروابط الفرعية -->
+          <ul class="pc-submenu">
+            <li class="pc-item">
+              <a class="pc-link" href="08-02-01-jalasat.html">
+                <span class="pc-micon"><i class="ph-duotone ph-clock-counter-clockwise"></i></span>
+                <span class="pc-mtext"> الجلسات</span>
+              </a>
+            </li>
+
+            <li class="pc-item">
+              <a class="pc-link" href="#">
+                <span class="pc-micon"><i class="ph-duotone ph-check-square"></i></span>
+                <span class="pc-mtext">الحضور والغياب</span>
+              </a>
+            </li>
+            <li class="pc-item">
+              <a class="pc-link" href="08-02-03-mokarart.html">
+                <span class="pc-micon"><i class="ph-duotone ph-file-text"></i></span>
+                <span class="pc-mtext">المقررات</span>
+              </a>
+            </li>
+
+          </ul>
+        </li>
+        <li class="pc-item">
+          <a class="pc-link" href="#">
+            <span class="pc-micon"><i class="ph-duotone ph-gear"></i></span>
+            <span class="pc-mtext">إعدادات</span>
+          </a>
+        </li>
+
+
+        <!-- 10 النتائج -->
+        <li class="pc-item pc-caption">
+          <label>09 النتائج</label>
+          <i class="ph-duotone ph-chart-bar"></i>
+        </li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-chart-bar"></i></span><span class="pc-mtext">استيراد النتائج الرسمية </span></a></li>
+        <li class="pc-item"><a class="pc-link" href="#"><span class="pc-micon"><i class="ph-duotone ph-flag"></i></span><span class="pc-mtext">النتيجة النهائية</span></a></li>
+
+        <!-- 11 الاعدادات -->
+
+
+      </ul>
+    </div>
+
+
+
+
+    <div class="card pc-user-card">
+      <div class="card-body">
+
+        <div class="d-flex align-items-center">
+
+          <div class="flex-grow-1 ms-3">
+            <div class="dropdown">
+              <a href="#" class="arrow-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="0,20">
+                <div class="d-flex align-items-center">
+                  <div class="flex-grow-1 me-2">
+                    <h6 class="mb-0"> الخدمات</h6>
+                  </div>
+                  <div class="flex-shrink-0">
+                    <div class="btn btn-icon btn-link-secondary avtar">
+                      <i class="ph-duotone ph-windows-logo"></i>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- [ Sidebar Menu ] end -->
+<!-- [ Header Topbar ] start -->
+<header class="pc-header">
+  <div class="header-wrapper"> <!-- [Mobile Media Block] start -->
+    <div class="me-auto pc-mob-drp">
+      <ul class="list-unstyled">
+        <!-- ======= Menu collapse Icon ===== -->
+        <li class="pc-h-item pc-sidebar-collapse">
+          <a href="#" class="pc-head-link ms-0" id="sidebar-hide">
+            <i class="ti ti-menu-2"></i>
+          </a>
+
+        </li>
+        <li class="pc-h-item pc-sidebar-popup">
+          <a href="#" class="pc-head-link ms-0" id="mobile-collapse">
+            <i class="ti ti-menu-2"></i>
+
+          </a>
+          <img src="assets/images/logo-dark.svg" alt="logo image" class="logo-lg" />
+
+        </li>
+
+
+      </ul>
+    </div>
+    <!-- [Mobile Media Block end] -->
+    <div class="ms-auto">
+      <ul class="list-unstyled">
+        <li class="dropdown pc-h-item d-none d-md-inline-flex">
+          <a
+                  class="pc-head-link dropdown-toggle arrow-none me-0"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="false"
+                  aria-expanded="false"
+          >
+            <i class="ph-duotone ph-circles-four"></i>
+          </a>
+          <div class="dropdown-menu dropdown-qta dropdown-menu-end pc-h-dropdown">
+            <div class="overflow-hidden">
+              <div class="qta-links m-n1">
+                <a href="#!" class="dropdown-item">
+                  <i class="ph-duotone ph-shopping-cart"></i>
+                  <span>إدارة التبرعات</span>
+                </a>
+                <a href="#!" class="dropdown-item">
+                  <i class="ph-duotone ph-lifebuoy"></i>
+                  <span>دعم الناخبين</span>
+                </a>
+                <a href="#!" class="dropdown-item">
+                  <i class="ph-duotone ph-scroll"></i>
+                  <span>إصدار الفواتير</span>
+                </a>
+                <a href="#!" class="dropdown-item">
+                  <i class="ph-duotone ph-books"></i>
+                  <span>ورش العمل الانتخابية</span>
+                </a>
+                <a href="#!" class="dropdown-item">
+                  <i class="ph-duotone ph-envelope-open"></i>
+                  <span>الرسائل البريدية</span>
+                </a>
+                <a href="#!" class="dropdown-item">
+                  <i class="ph-duotone ph-identification-badge"></i>
+                  <span>عضوية الفريق</span>
+                </a>
+                <a href="#!" class="dropdown-item">
+                  <i class="ph-duotone ph-chats-circle"></i>
+                  <span>غرفة النقاش</span>
+                </a>
+                <a href="#!" class="dropdown-item">
+                  <i class="ph-duotone ph-currency-circle-dollar"></i>
+                  <span>خطط الحملة</span>
+                </a>
+                <a href="#!" class="dropdown-item">
+                  <i class="ph-duotone ph-user-circle"></i>
+                  <span>إدارة المرشحين</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="dropdown pc-h-item d-none d-md-inline-flex">
+          <a
+                  class="pc-head-link dropdown-toggle arrow-none me-0"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="false"
+                  aria-expanded="false"
+          >
+            <i class="ph-duotone ph-sun-dim"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-end pc-h-dropdown">
+            <a href="#!" class="dropdown-item" onclick="layout_change('dark')">
+              <i class="ph-duotone ph-moon"></i>
+              <span>داكن</span>
+            </a>
+            <a href="#!" class="dropdown-item" onclick="layout_change('light')">
+              <i class="ph-duotone ph-sun-dim"></i>
+              <span>فاتح</span>
+            </a>
+            <a href="#!" class="dropdown-item" onclick="layout_change_default()">
+              <i class="ph-duotone ph-cpu"></i>
+              <span>تلقائي</span>
+            </a>
+          </div>
+        </li>
+
+        <li class="dropdown pc-h-item">
+          <a
+                  class="pc-head-link dropdown-toggle arrow-none me-0"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="false"
+                  aria-expanded="false"
+          >
+            <i class="ph-duotone ph-bell"></i>
+            <span class="badge bg-primary pc-h-badge">3</span>
+          </a>
+          <div class="dropdown-menu dropdown-notification dropdown-menu-end pc-h-dropdown">
+            <div class="dropdown-header d-flex align-items-center justify-content-between">
+              <h5 class="m-0">الإشعارات</h5>
+              <ul class="list-inline ms-auto mb-0">
+                <li class="list-inline-item">
+                  <a href="application/mail.html" class="avtar avtar-s btn-link-hover-primary">
+                    <i class="ti ti-link f-18"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="dropdown-body text-wrap header-notification-scroll position-relative" style="max-height: calc(100vh - 235px)">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <div class="d-flex">
+                    <div class="flex-shrink-0">
+                      <div class="avtar avtar-s bg-light-primary">
+                        <i class="ph-duotone ph-chats-teardrop f-18"></i>
+                      </div>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <div class="d-flex">
+                        <div class="flex-grow-1 me-3 position-relative">
+                          <h6 class="mb-0 text-truncate">رسالة من فريق الحملة</h6>
+                        </div>
+                        <div class="flex-shrink-0">
+                          <span class="text-sm">منذ ساعة</span>
+                        </div>
+                      </div>
+                      <p class="position-relative mt-1 mb-2"
+                      ><br /><span class="text-truncate"
+                      >يرجى مشاركة الرسائل التحفيزية على وسائل التواصل الاجتماعي لدعم المرشح.</span
+                      ></p
+                      >
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="d-flex">
+                    <div class="flex-shrink-0">
+                      <div class="avtar avtar-s bg-light-success">
+                        <i class="ph-duotone ph-shield-checkered f-18"></i>
+                      </div>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <div class="d-flex">
+                        <div class="flex-grow-1 me-3 position-relative">
+                          <h6 class="mb-0 text-truncate">تأكيد تسجيل الناخبين</h6>
+                        </div>
+                        <div class="flex-shrink-0">
+                          <span class="text-sm">منذ 5 ساعات</span>
+                        </div>
+                      </div>
+                      <p class="position-relative mt-1 mb-2"
+                      >تم تأكيد تسجيل جميع الناخبين في القوائم الانتخابية. شكرًا لجهودكم!</p
+                      >
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="dropdown-footer">
+              <div class="row g-3">
+                <div class="col-6">
+                  <div class="d-grid"><button class="btn btn-primary">أرشفة الكل</button></div>
+                </div>
+                <div class="col-6">
+                  <div class="d-grid"><button class="btn btn-outline-secondary">تعليم الكل كمقروء</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="dropdown pc-h-item header-user-profile">
+          <a
+                  class="pc-head-link dropdown-toggle arrow-none me-0"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="false"
+                  data-bs-auto-close="outside"
+                  aria-expanded="false"
+          >
+            <img src="assets/images/user/avatar-2.jpg" alt="صورة المستخدم" class="user-avtar" />
+          </a>
+          <div class="dropdown-menu dropdown-user-profile dropdown-menu-end pc-h-dropdown">
+            <div class="dropdown-header d-flex align-items-center justify-content-between">
+              <h5 class="m-0">الملف الشخصي</h5>
+            </div>
+            <div class="dropdown-body">
+              <div class="profile-notification-scroll position-relative" style="max-height: calc(100vh - 225px)">
+                <ul class="list-group list-group-flush w-100">
+                  <li class="list-group-item">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <img src="assets/images/user/avatar-2.jpg" alt="صورة المستخدم" class="wid-50 rounded-circle" />
+                      </div>
+                      <div class="flex-grow-1 mx-3">
+                        <h5 class="mb-0"> سمير علوية</h5>
+                        <a class="link-primary" href="mailto:carson.darrin@company.io">00961-0125250</a>
+                      </div>
+                      <span class="badge bg-primary">مشرف عام</span>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="#" class="dropdown-item">
+              <span class="d-flex align-items-center">
+                <i class="ph-duotone ph-key"></i>
+                <span>تغيير كلمة المرور</span>
+              </span>
+                    </a>
+                    <a href="#" class="dropdown-item">
+              <span class="d-flex align-items-center">
+                <i class="ph-duotone ph-envelope-simple"></i>
+                <span>الرسائل الأخيرة</span>
+              </span>
+                      <div class="user-group">
+                        <img src="assets/images/user/avatar-1.jpg" alt="صورة المستخدم" class="avtar" />
+                        <img src="assets/images/user/avatar-2.jpg" alt="صورة المستخدم" class="avtar" />
+                        <img src="assets/images/user/avatar-3.jpg" alt="صورة المستخدم" class="avtar" />
+                      </div>
+                    </a>
+                    <a href="#" class="dropdown-item">
+              <span class="d-flex align-items-center">
+                <i class="ph-duotone ph-calendar-blank"></i>
+                <span>جدولة الاجتماعات</span>
+              </span>
+                    </a>
+                  </li>
+
+
+                  <li class="list-group-item">
+                    <a href="#" class="dropdown-item">
+              <span class="d-flex align-items-center">
+                <i class="ph-duotone ph-user-circle"></i>
+                <span>تعديل الملف الشخصي</span>
+              </span>
+                    </a>
+
+
+                    <a href="#" class="dropdown-item">
+              <span class="d-flex align-items-center">
+                <i class="ph-duotone ph-gear-six"></i>
+                <span>الإعدادات</span>
+              </span>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+
+                    <a href="#" class="dropdown-item">
+              <span class="d-flex align-items-center">
+                <i class="ph-duotone ph-power"></i>
+                <span>تسجيل الخروج</span>
+              </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+<!-- [ Header ] end -->
+
+
+
+
+<!-- [ Main Content ] start -->
+
+
+    <div class="pc-container">
+      <div class="pc-content  pt-0">
+        <!-- [ breadcrumb ] start -->
+
+        <div class="page-header">
+          <div class="page-block">
+            <div class="row align-items-center">
+              <div class="col-md-12">
+                <div class="page-header-title">
+                  <h2 class="mb-0">الانتخابات العراقية 2025 - نتائج الفرز</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- [ breadcrumb ] end -->
+
+        <div class="row p-0">
+
+          <!-- بطاقة عدد الناخبين -->
+
+
+
+          <!-- عدد الناخبون -->
+          <div class="col-md-6 col-xxl-2">
+            <div class="card statistics-card-1">
+              <div class="card-body p-2">
+                <img src="assets/images/widget/img-status-2.svg" alt="img" class="img-fluid img-bg" />
+                <div class="d-flex align-items-center">
+                  <div class="avtar bg-brand-color-1 text-white me-3">
+                    <i class="ph-duotone ph-user-circle f-26"></i> <!-- أيقونة شخص بدلاً من مجموعة -->
+                  </div>
+                  <div>
+                    <p class="text-muted mb-0">عدد الناخبون </p>
+                    <div class="d-flex align-items-end">
+                      <h2 class="mb-0 f-w-500">3.967.510</h2>
+                      <span class="badge bg-secondary ms-2"></i> ناخب</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- عدد المرشحين -->
+          <div class="col-md-6 col-xxl-2">
+            <div class="card statistics-card-1">
+              <div class="card-body p-2">
+                <img src="assets/images/widget/img-status-3.svg" alt="img" class="img-fluid img-bg" />
+                <div class="d-flex align-items-center">
+                  <div class="avtar bg-brand-color-3 text-white me-3">
+                    <i class="ph-duotone ph-user-square f-26"></i> <!-- أيقونة مرشح -->
+                  </div>
+                  <div>
+                    <p class="text-muted mb-0">عدد المقترعون </p>
+                    <div class="d-flex align-items-end">
+                      <h2 class="mb-0 f-w-500">96,253</h2>
+                      <span class="badge bg-primary ms-2">25% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- عدد المستهدفين -->
+          <div class="col-md-6 col-xxl-2">
+            <div class="card statistics-card-1">
+              <div class="card-body p-2">
+                <img src="assets/images/widget/img-status-2.svg" alt="img" class="img-fluid img-bg" />
+                <div class="d-flex align-items-center">
+                  <div class="avtar bg-brand-color-1 text-white me-3">
+                    <i class="ph-duotone ph-target f-26"></i> <!-- أيقونة هدف -->
+                  </div>
+                  <div>
+                    <p class="text-muted mb-0"> الاوراق البيضاء </p>
+                    <div class="d-flex align-items-end">
+                      <h2 class="mb-0 f-w-500">967.510</h2>
+                      <span class="badge bg-secondary ms-2"></i> ناخب</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- عدد المراقبين -->
+          <div class="col-md-6 col-xxl-2">
+            <div class="card statistics-card-1">
+              <div class="card-body p-2">
+                <img src="assets/images/widget/img-status-3.svg" alt="img" class="img-fluid img-bg opacity-25" />
+                <div class="d-flex align-items-center">
+                  <div class="avtar bg-brand-color-3 text-white me-3">
+                    <i class="ph-duotone ph-eye f-26"></i> <!-- أيقونة مراقب -->
+                  </div>
+                  <div>
+                    <p class="text-muted mb-0">الااوراق الملغاة  </p>
+                    <div class="d-flex align-items-end">
+                      <h2 class="mb-0 f-w-500">15,253</h2>
+                      <span class="badge bg-primary ms-2">صوت </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- عدد الفاعليات -->
+          <div class="col-md-6 col-xxl-2">
+            <div class="card statistics-card-1">
+              <div class="card-body p-2">
+                <img src="assets/images/widget/img-status-3.svg" alt="img" class="img-fluid img-bg opacity-25" />
+                <div class="d-flex align-items-center">
+                  <div class="avtar bg-brand-color-3 text-white me-3">
+                    <i class="ph-duotone ph-handshake f-26"></i> <!-- أيقونة فعالية -->
+                  </div>
+                  <div>
+                    <p class="text-muted mb-0">عدد الاقلام </p>
+                    <div class="d-flex align-items-end">
+                      <h2 class="mb-0 f-w-500">253</h2>
+                      <span class="badge bg-primary ms-2">صوت</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xxl-2">
+            <div class="card statistics-card-1">
+              <div class="card-body p-2">
+                <img src="assets/images/widget/img-status-3.svg" alt="img" class="img-fluid img-bg opacity-25" />
+                <div class="d-flex align-items-center">
+                  <div class="avtar bg-brand-color-1 text-white me-3">
+                    <i class="ph-duotone ph-megaphone f-26"></i> <!-- أيقونة فعالية -->
+                  </div>
+                  <div>
+                    <p class="text-muted mb-0">الاقلام المفرزة </p>
+                    <div class="d-flex align-items-end">
+                      <h2 class="mb-0 f-w-500">15,253</h2>
+                      <span class="badge bg-primary ms-2">صوت</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xxl-8">
+
+            <div class="card">
+
+              <div class="card-body p-3">
+                <form>
+                  <div class="row">
+                    <div class="col-2">
+                      <!-- بحث حسب المحافظة -->
+                      <div class="">
+                        <select class="form-select" id="province">
+                          <option selected value="">اختر المحافظة...</option>
+                          <option value="baghdad">بغداد</option>
+                          <option value="basra">البصرة</option>
+                          <option value="najaf">النجف</option>
+                          <option value="karbala">كربلاء</option>
+                          <option value="erbil">أربيل</option>
+                          <option value="sulaymaniyah">السليمانية</option>
+                          <option value="dohuk">دهوك</option>
+                          <option value="mosul">الموصل</option>
+                          <option value="anbar">الأنبار</option>
+                          <option value="dialah">ديالى</option>
+                          <option value="kirkuk">كركوك</option>
+                          <option value="wasit">واسط</option>
+                          <option value="maysan">ميسان</option>
+                          <option value="thiqar">ذي قار</option>
+                          <option value="qadisiya">القادسية</option>
+                          <option value="babylon">بابل</option>
+                          <option value="muthanna">المثنى</option>
+                          <option value="salahuddin">صلاح الدين</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-2">
+                      <!-- بحث حسب القضاء -->
+                      <div class="">
+                        <select class="form-select" id="district" disabled>
+                          <option selected value="">اختر القضاء...</option>
+                          <!-- سيتم تعبئة هذه القائمة عبر الجافاسكربت حسب المحافظة المختارة -->
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="col-2">
+                      <!-- بحث حسب الناحية -->
+                      <div class="">
+                        <select class="form-select" id="subdistrict" disabled>
+                          <option selected value="">اختر مركز الاقتراع...</option>
+                          <!-- سيتم تعبئة هذه القائمة عبر الجافاسكربت حسب القضاء المختار -->
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-2">
+                      <!-- بحث حسب الناحية -->
+                      <div class="">
+                        <select class="form-select" id="subdistrict" disabled>
+                          <option selected value="">اختر الناحية...</option>
+                          <!-- سيتم تعبئة هذه القائمة عبر الجافاسكربت حسب القضاء المختار -->
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-2">
+                      <!-- بحث حسب المحطة -->
+                      <div class="">
+                        <select class="form-select" id="station" disabled>
+                          <option selected value="">اختر المحطة...</option>
+                          <!-- سيتم تعبئة هذه القائمة عبر الجافاسكربت حسب الناحية المختارة -->
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-2">
+                      <!-- زر البحث -->
+                      <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary">
+                          <i class="fas fa-search me-2"></i> بحث
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+
+
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- عدد الانشطة -->
+          <div class="col-md-6 col-xxl-2">
+            <div class="card statistics-card-1">
+              <div class="card-body p-2">
+                <img src="assets/images/widget/img-status-3.svg" alt="img" class="img-fluid img-bg opacity-25" />
+                <div class="d-flex align-items-center">
+                  <div class="avtar bg-brand-color-1 text-white me-3">
+                    <i class="ph-duotone ph-calendar-check f-26"></i> <!-- أيقونة نشاط -->
+                  </div>
+                  <div>
+                    <p class="text-muted mb-0">الاصوات الغير مفرزة  </p>
+                    <div class="d-flex align-items-end">
+                      <h2 class="mb-0 f-w-500">3,253</h2>
+                      <span class="badge bg-primary ms-2">صوت </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- عدد الخدمات -->
+          <div class="col-md-6 col-xxl-2">
+            <div class="card statistics-card-1">
+              <div class="card-body p-2">
+                <img src="assets/images/widget/img-status-3.svg" alt="img" class="opacity-25 img-fluid img-bg" />
+                <div class="d-flex align-items-center">
+                  <div class="avtar bg-brand-color-2 text-white me-3">
+                    <i class="ph-duotone ph-hand-heart f-26"></i> <!-- أيقونة خدمة -->
+                  </div>
+                  <div>
+                    <p class="text-muted mb-0">الاصوات المتبقية  </p>
+                    <div class="d-flex align-items-end">
+                      <h2 class="mb-0 f-w-500">89,253</h2>
+                      <span class="badge bg-primary ms-2">صوت </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+</div>
+
+        <div class="row">
+          <!-- [ Row 1 ] start -->
+
+          <!-- [ Row 1 ] end -->
+
+          <!-- [ Row 2 ] start -->
+          <div class="col-md-4">
+            <div class="card table-card">
+              <div class="card-header py-3 bg-primary">
+                <h4 class="mb-0 text-white">اقلام مفرزة رسمياً    </h4>
+              </div>
+              <div class="card-body px-0">
+                <div class="table-responsive">
+                  <table class="table table-hover mb-0">
+                    <thead class="bg-light-primary">
+                    <tr>
+                      <th class="text-center">#</th>
+                      <th>اسم المحافظة</th>
+                      <th class="text-center"> الفائزين</th>
+                      <th class="text-center"> الخاسرين</th>
+                      <th class="text-center">نسبة </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td class="text-center">1</td>
+                      <td>بغداد</td>
+                      <td class="text-center">3,245,871</td>
+                      <td class="text-center">2,115,642</td>
+                      <td class="text-center">
+                        <span class="badge bg-success bg-opacity-10 text-success">65.2%</span>
+                      </td>
+
+                    </tr>
+                    <tr>
+                      <td class="text-center">2</td>
+                      <td>البصرة</td>
+                      <td class="text-center">1,856,324</td>
+                      <td class="text-center">1,302,587</td>
+                      <td class="text-center">
+                        <span class="badge bg-success bg-opacity-10 text-success">70.1%</span>
+                      </td>
+
+                    </tr>
+                    <tr>
+                      <td class="text-center">2</td>
+                      <td>البصرة</td>
+                      <td class="text-center">1,856,324</td>
+                      <td class="text-center">1,302,587</td>
+                      <td class="text-center">
+                        <span class="badge bg-success bg-opacity-10 text-success">70.1%</span>
+                      </td>
+
+                    </tr>
+                    <tr>
+                      <td class="text-center">3</td>
+                      <td>النجف</td>
+                      <td class="text-center">1,245,786</td>
+                      <td class="text-center">934,339</td>
+                      <td class="text-center">
+                        <span class="badge bg-warning bg-opacity-10 text-warning">75.0%</span>
+                      </td>
+
+                    </tr>
+                    <tr>
+                      <td class="text-center">3</td>
+                      <td>النجف</td>
+                      <td class="text-center">1,245,786</td>
+                      <td class="text-center">934,339</td>
+                      <td class="text-center">
+                        <span class="badge bg-warning bg-opacity-10 text-warning">75.0%</span>
+                      </td>
+
+                    </tr>
+                    <tr>
+                      <td class="text-center">4</td>
+                      <td>كربلاء</td>
+                      <td class="text-center">1,087,654</td>
+                      <td class="text-center">870,123</td>
+                      <td class="text-center">
+                        <span class="badge bg-warning bg-opacity-10 text-warning">80.0%</span>
+                      </td>
+
+                    </tr>
+                    <tr>
+                      <td class="text-center">5</td>
+                      <td>أربيل</td>
+                      <td class="text-center">1,543,210</td>
+                      <td class="text-center">1,234,568</td>
+                      <td class="text-center">
+                        <span class="badge bg-danger bg-opacity-10 text-danger">80.0%</span>
+                      </td>
+
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+            </div>
+       </div>
+          <div class="col-md-4">
+            <div class="card table-card">
+              <div class="card-header py-3 bg-secondary">
+                <h4 class="mb-0 text-white">الحاصل الانتخابي    </h4>
+              </div>
+              <div class="card-body px-0">
+                <div class="table-responsive">
+                  <table class="table table-hover mb-0">
+                    <thead class="bg-light-primary">
+                    <tr>
+                      <th class="text-center">#</th>
+                      <th>اسم المحافظة</th>
+                      <th class="text-center"> الفائزين</th>
+                      <th class="text-center"> الخاسرين</th>
+                      <th class="text-center">نسبة </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td class="text-center">1</td>
+                      <td>الكرخ - بغداد</td>
+                      <td class="text-center">3,245,871</td>
+                      <td class="text-center">2,115,642</td>
+                      <td class="text-center">
+                        <span class="badge bg-success bg-opacity-10 text-success">65.2%</span>
+                      </td>
+
+                    </tr>
+                    <tr>
+                      <td class="text-center">2</td>
+                      <td>تلعفر - نينوى</td>
+                      <td class="text-center">1,856,324</td>
+                      <td class="text-center">1,302,587</td>
+                      <td class="text-center">
+                        <span class="badge bg-success bg-opacity-10 text-success">70.1%</span>
+                      </td>
+
+                    </tr>
+                    <tr>
+                      <td class="text-center">2</td>
+                      <td>تلعفر - نينوى</td>
+                      <td class="text-center">1,856,324</td>
+                      <td class="text-center">1,302,587</td>
+                      <td class="text-center">
+                        <span class="badge bg-success bg-opacity-10 text-success">70.1%</span>
+                      </td>
+
+                    </tr>
+                    <tr>
+                      <td class="text-center">2</td>
+                      <td>تلعفر - نينوى</td>
+                      <td class="text-center">1,856,324</td>
+                      <td class="text-center">1,302,587</td>
+                      <td class="text-center">
+                        <span class="badge bg-success bg-opacity-10 text-success">70.1%</span>
+                      </td>
+
+                    </tr>
+                    <tr>
+                      <td class="text-center">3</td>
+                      <td>الكوفة - النجف</td>
+                      <td class="text-center">1,245,786</td>
+                      <td class="text-center">934,339</td>
+                      <td class="text-center">
+                        <span class="badge bg-warning bg-opacity-10 text-warning">75.0%</span>
+                      </td>
+
+                    </tr>
+                    <tr>
+                      <td class="text-center">4</td>
+                      <td>كربلاء- الرصافة</td>
+                      <td class="text-center">1,087,654</td>
+                      <td class="text-center">870,123</td>
+                      <td class="text-center">
+                        <span class="badge bg-warning bg-opacity-10 text-warning">80.0%</span>
+                      </td>
+
+                    </tr>
+                    <tr>
+                      <td class="text-center">5</td>
+                      <td>الحلة - أربيل</td>
+                      <td class="text-center">1,543,210</td>
+                      <td class="text-center">1,234,568</td>
+                      <td class="text-center">
+                        <span class="badge bg-danger bg-opacity-10 text-danger">80.0%</span>
+                      </td>
+
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+            </div>
+       </div>
+          <div class="col-md-4">
+            <div class="card table-card">
+              <div class="card-header py-3 bg-success">
+                <h4 class="mb-0 text-white">المقاعد    </h4>
+              </div>
+              <div class="card-body px-0">
+                <div class="table-responsive">
+                  <table class="table table-hover mb-0">
+                    <thead class="bg-light-primary">
+                    <tr>
+                      <th class="text-center">#</th>
+                      <th>اسم المحطة</th>
+                      <th class="text-center">الفائزين</th>
+                      <th class="text-center">الخاسرين</th>
+                      <th class="text-center">النسبة</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td class="text-center">1</td>
+                      <td> الرصافة - المدرسة الجعفرية</td>
+                      <td class="text-center">1,245</td>
+                      <td class="text-center">1,012</td>
+                      <td class="text-center">
+                        <span class="badge bg-success bg-opacity-10 text-success">81.3%</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="text-center">1</td>
+                      <td> الرصافة - المدرسة الجعفرية</td>
+                      <td class="text-center">1,245</td>
+                      <td class="text-center">1,012</td>
+                      <td class="text-center">
+                        <span class="badge bg-success bg-opacity-10 text-success">81.3%</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="text-center">1</td>
+                      <td> الرصافة - المدرسة الجعفرية</td>
+                      <td class="text-center">1,245</td>
+                      <td class="text-center">1,012</td>
+                      <td class="text-center">
+                        <span class="badge bg-success bg-opacity-10 text-success">81.3%</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="text-center">2</td>
+                      <td> الكرخ - ثانوية الحرية</td>
+                      <td class="text-center">1,876</td>
+                      <td class="text-center">1,402</td>
+                      <td class="text-center">
+                        <span class="badge bg-success bg-opacity-10 text-success">74.7%</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="text-center">3</td>
+                      <td> البصرة - مركز المدينة الثقافي</td>
+                      <td class="text-center">2,154</td>
+                      <td class="text-center">1,589</td>
+                      <td class="text-center">
+                        <span class="badge bg-warning bg-opacity-10 text-warning">73.8%</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="text-center">4</td>
+                      <td> النجف - قاعة الإمام علي</td>
+                      <td class="text-center">1,987</td>
+                      <td class="text-center">1,723</td>
+                      <td class="text-center">
+                        <span class="badge bg-warning bg-opacity-10 text-warning">86.7%</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="text-center">5</td>
+                      <td> كربلاء - قاعة العباس</td>
+                      <td class="text-center">2,432</td>
+                      <td class="text-center">2,189</td>
+                      <td class="text-center">
+                        <span class="badge bg-danger bg-opacity-10 text-danger">90.0%</span>
+                      </td>
+                    </tr>
+
+
+
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+            </div>
+       </div>
+
+
+
+        </div>
+
+
+        <!-- [ Main Content ] start -->
+
+      </div>
+    </div>
+
+
+<!-- Required Js -->
+
+<!-- تحميل jQuery أولاً -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+
+<!-- تحميل مكتبة PoshyTip -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/poshytip/1.2/tip-yellow/tip-yellow.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/poshytip/1.2/jquery.poshytip.min.js"></script>
+
+<!-- تحميل مكتبة X-editable -->
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/jquery-editable/css/jquery-editable.css" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/jquery-editable/js/jquery-editable-poshytip.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+
+
+
+<!-- تحميل مكتبات Bootstrap و Popper.js -->
+<script src="assets/js/plugins/popper.min.js"></script>
+<script src="assets/js/plugins/bootstrap.min.js"></script>
+
+<!-- تحميل مكتبات DataTables -->
+<script src="assets/js/plugins/dataTables.min.js"></script>
+<script src="assets/js/plugins/dataTables.fixedColumns.min.js"></script>
+
+<!-- تحميل باقي المكتبات -->
+<script src="assets/js/plugins/simplebar.min.js"></script>
+<script src="assets/js/icon/custom-font.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/theme.js"></script>
+<script src="assets/js/plugins/feather.min.js"></script>
+<script src="assets/js/layout-horizontal.js"></script>
+<script src="assets/js/plugins/custom.min.js"></script>
+
+
+
+
+<!-- [Page Specific JS] start -->
+<!-- Apex Chart -->
+<script src="assets/js/plugins/apexcharts.min.js"></script>
+<script src="assets/js/widgets/customer-rate-graph.js"></script>
+<script src="assets/js/widgets/monthly-report-graph.js"></script>
+<script src="assets/js/widgets/performance-chart.js"></script>
+
+
+
+</body>
+<!-- [Body] end -->
+
+</html>
